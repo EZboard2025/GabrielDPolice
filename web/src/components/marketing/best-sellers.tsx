@@ -1,11 +1,9 @@
-import { mockProducts } from '@/lib/products-mock'
 import { ProductGrid } from '@/components/product/product-grid'
+import { getFeaturedProducts } from '@/lib/products'
 import { SectionHeading } from './section-heading'
 
 export function BestSellers() {
-  const featured = mockProducts
-    .filter((p) => p.badges?.includes('mais-vendido') || p.badges?.includes('lancamento'))
-    .slice(0, 5)
+  const featured = getFeaturedProducts(5)
 
   return (
     <section className="container-wide py-12">

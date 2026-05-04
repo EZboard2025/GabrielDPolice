@@ -1,14 +1,14 @@
 import Link from 'next/link'
 import { Heart, ShoppingBag, User } from 'lucide-react'
-import { DPoliceWordmark } from './dpolice-wordmark'
+import { DPoliceLogo } from './dpolice-logo'
 import { HeaderSearch } from './header-search'
 
 export function HeaderMain() {
   return (
     <div className="bg-background">
-      <div className="container-wide flex h-20 items-center gap-6">
+      <div className="container-wide flex h-24 items-center gap-6">
         <Link href="/" aria-label="D Police — Página inicial" className="shrink-0">
-          <DPoliceWordmark className="h-7 w-auto" />
+          <DPoliceLogo className="h-20 w-auto md:h-24" priority />
         </Link>
 
         <div className="hidden flex-1 md:block">

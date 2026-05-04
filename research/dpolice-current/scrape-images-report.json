@@ -1,0 +1,1447 @@
+{
+  "started_at": "2026-05-04T22:26:51.374Z",
+  "finished_at": "2026-05-04T22:28:56.959Z",
+  "unique_slugs": 112,
+  "ok": [
+    {
+      "slug": "camisa-de-malha-de-edfisica-infantil-masculina",
+      "cover_local": "/products/camisa-de-malha-de-edfisica-infantil-masculina.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/uniforme-de-ed.fIsica-infantil-masculina_2026-01-05_17-36-10_0_309.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/uniforme-de-ed.fIsica-infantil-masculina_2026-01-05_17-36-10_0_309_min.png",
+          "local": "/products/camisa-de-malha-de-edfisica-infantil-masculina-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/uniforme-de-ed.fIsica-infantil-masculina_2026-01-05_17-36-10_0_40_min.png",
+          "local": "/products/camisa-de-malha-de-edfisica-infantil-masculina-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/uniforme-de-ed.fIsica-infantil-masculina_2026-01-05_17-36-10_0_40.png",
+          "local": "/products/camisa-de-malha-de-edfisica-infantil-masculina-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "blusa-de-frio-ed-fisica-masculino-e-feminino",
+      "cover_local": "/products/blusa-de-frio-ed-fisica-masculino-e-feminino.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/blusa-de-frio-ed.-fisica_2026-01-13_20-12-06_0_118.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/blusa-de-frio-ed.-fisica_2026-01-13_20-12-06_0_118_min.png",
+          "local": "/products/blusa-de-frio-ed-fisica-masculino-e-feminino-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/blusa-de-frio-ed.-fisica_2026-01-13_20-12-05_0_38_min.png",
+          "local": "/products/blusa-de-frio-ed-fisica-masculino-e-feminino-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/blusa-de-frio-ed.-fisica_2026-01-13_20-12-05_0_334_min.png",
+          "local": "/products/blusa-de-frio-ed-fisica-masculino-e-feminino-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "calca-de-transito-masculina-e-feminina-intanfil",
+      "cover_local": "/products/calca-de-transito-masculina-e-feminina-intanfil.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/calCa-de-transito-masculina-e-feminina_2026-01-13_20-30-56_0_402.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/calCa-de-transito-masculina-e-feminina_2026-01-13_20-30-56_0_402_min.png",
+          "local": "/products/calca-de-transito-masculina-e-feminina-intanfil-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/calCa-de-transito-masculina-e-feminina_2026-01-13_20-30-56_0_398_min.png",
+          "local": "/products/calca-de-transito-masculina-e-feminina-intanfil-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/calCa-de-transito-masculina-e-feminina_2026-01-13_20-30-55_0_151_min.png",
+          "local": "/products/calca-de-transito-masculina-e-feminina-intanfil-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "camisa-de-malha-de-edfisica-infantil-feminino",
+      "cover_local": "/products/camisa-de-malha-de-edfisica-infantil-feminino.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/uniforme-de-ed.fIsica-infantil-feminino_2026-01-05_18-42-14_0_501.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/uniforme-de-ed.fIsica-infantil-feminino_2026-01-05_18-42-14_0_501_min.png",
+          "local": "/products/camisa-de-malha-de-edfisica-infantil-feminino-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/uniforme-de-ed.fIsica-infantil-feminino_2026-01-05_18-42-14_0_540_min.png",
+          "local": "/products/camisa-de-malha-de-edfisica-infantil-feminino-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/uniforme-de-ed.fIsica-infantil-feminino_2026-01-05_18-42-14_0_103_min.png",
+          "local": "/products/camisa-de-malha-de-edfisica-infantil-feminino-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "camisa-social-de-transito-ctpm-masculino",
+      "cover_local": "/products/camisa-social-de-transito-ctpm-masculino.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/camisa-social-de-transito-ctpm-masculino_2026-01-05_17-06-24_0_499.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/camisa-social-de-transito-ctpm-masculino_2026-01-05_17-06-24_0_499_min.png",
+          "local": "/products/camisa-social-de-transito-ctpm-masculino-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/camisa-social-de-transito-ctpm-masculino_2026-01-05_17-06-23_0_80_min.png",
+          "local": "/products/camisa-social-de-transito-ctpm-masculino-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/camisa-social-de-transito-ctpm-masculino_2026-01-05_17-06-23_0_516_min.png",
+          "local": "/products/camisa-social-de-transito-ctpm-masculino-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "jaqueta-de-transito-infantil-masc-fem",
+      "cover_local": "/products/jaqueta-de-transito-infantil-masc-fem.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/jaqueta-de-transito-infantil_2026-01-13_20-20-37_0_373.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/jaqueta-de-transito-infantil_2026-01-13_20-20-37_0_373_min.png",
+          "local": "/products/jaqueta-de-transito-infantil-masc-fem-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/jaqueta-de-transito-infantil_2026-01-13_20-20-37_0_26_min.png",
+          "local": "/products/jaqueta-de-transito-infantil-masc-fem-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/jaqueta-de-transito-infantil_2026-01-13_20-20-37_0_75_min.png",
+          "local": "/products/jaqueta-de-transito-infantil-masc-fem-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "bone-digitalizado",
+      "cover_local": "/products/bone-digitalizado.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/bone-digitalizado_2023-01-13_21-17-45_0_131.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/bone-digitalizado_2023-01-13_21-17-45_0_131_min.png",
+          "local": "/products/bone-digitalizado-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/bone-digitalizado_2023-01-13_21-17-45_0_469_min.png",
+          "local": "/products/bone-digitalizado-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/bone-digitalizado_2023-01-13_21-17-45_0_469.png",
+          "local": "/products/bone-digitalizado-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "camisa-social-de-transito-ctpm-feminina",
+      "cover_local": "/products/camisa-social-de-transito-ctpm-feminina.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/camisa-social-de-transito-ctpm-feminina_2026-01-05_16-49-49_0_174.png",
+      "gallery": []
+    },
+    {
+      "slug": "calca-tatica-cinza-policia-penal",
+      "cover_local": "/products/calca-tatica-cinza-policia-penal.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/calCa-tAtica-cinza-polIcia-penal_2022-12-24_12-29-09_4_30.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/calCa-tAtica-cinza-polIcia-penal_2022-12-24_12-29-09_4_30_min.png",
+          "local": "/products/calca-tatica-cinza-policia-penal-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/calCa-tAtica-cinza-polIcia-penal_2022-12-24_12-29-09_4_24_min.png",
+          "local": "/products/calca-tatica-cinza-policia-penal-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/calCa-tAtica-cinza-polIcia-penal_2022-12-24_12-29-09_4_24.png",
+          "local": "/products/calca-tatica-cinza-policia-penal-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "camisa-branca",
+      "cover_local": "/products/camisa-branca.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/camisa-branca_2022-12-26_15-20-46_1_210.png",
+      "gallery": []
+    },
+    {
+      "slug": "calca-digitalizada-policia-penal",
+      "cover_local": "/products/calca-digitalizada-policia-penal.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/calCa-digitalizada-sistema-prisional_2022-12-13_13-46-32_1_115.png",
+      "gallery": []
+    },
+    {
+      "slug": "calcao-cbmmg",
+      "cover_local": "/products/calcao-cbmmg.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/calCAo-cbmmg_2025-05-06_18-14-33_1_300.png",
+      "gallery": []
+    },
+    {
+      "slug": "camisa-policia-penal-preta",
+      "cover_local": "/products/camisa-policia-penal-preta.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/camiseta-policia-penal-preta_2022-12-22_16-46-01_6_440.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/camiseta-policia-penal-preta_2022-12-22_16-46-01_6_440_min.png",
+          "local": "/products/camisa-policia-penal-preta-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/camiseta-policia-penal-preta_2022-12-22_16-46-02_6_397_min.png",
+          "local": "/products/camisa-policia-penal-preta-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/camiseta-policia-penal-preta_2022-12-22_16-46-02_6_101_min.png",
+          "local": "/products/camisa-policia-penal-preta-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "camisa-manga-longa-policia-penal-mg",
+      "cover_local": "/products/camisa-manga-longa-policia-penal-mg.jpeg",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/camiseta-maga-longa-policia-penal-mg_2024-06-06_15-49-22_0_152.jpeg",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/camiseta-maga-longa-policia-penal-mg_2024-06-06_15-49-22_0_152_min.jpeg",
+          "local": "/products/camisa-manga-longa-policia-penal-mg-2.jpeg"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/camiseta-maga-longa-policia-penal-mg_2024-06-06_15-49-22_0_245_min.jpeg",
+          "local": "/products/camisa-manga-longa-policia-penal-mg-3.jpeg"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/camiseta-maga-longa-policia-penal-mg_2024-06-06_15-49-22_0_245.jpeg",
+          "local": "/products/camisa-manga-longa-policia-penal-mg-4.jpeg"
+        }
+      ]
+    },
+    {
+      "slug": "camiseta-bege-policia-penal",
+      "cover_local": "/products/camiseta-bege-policia-penal.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/camiseta-bege-sistema-prisional_2023-01-13_21-53-38_0_97.png",
+      "gallery": []
+    },
+    {
+      "slug": "conjunto-agasalho-pmmg",
+      "cover_local": "/products/conjunto-agasalho-pmmg.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/conjunto-agasalho-de-educaCAo-fIsica-pmmg_2022-12-26_15-31-18_2_335.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/conjunto-agasalho-de-educaCAo-fIsica-pmmg_2022-12-26_15-31-18_2_335_min.png",
+          "local": "/products/conjunto-agasalho-pmmg-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/conjunto-agasalho-de-educaCAo-fIsica-pmmg_2022-12-26_15-31-18_2_362_min.png",
+          "local": "/products/conjunto-agasalho-pmmg-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/conjunto-agasalho-de-educaCAo-fIsica-pmmg_2025-08-06_18-44-37_2_318_min.jpeg",
+          "local": "/products/conjunto-agasalho-pmmg-4.jpeg"
+        }
+      ]
+    },
+    {
+      "slug": "conjunto-c1-pmmg",
+      "cover_local": "/products/conjunto-c1-pmmg.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/conjunto-c1-pmmg_2022-12-26_15-12-44_0_194.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/conjunto-c1-pmmg_2022-12-26_15-12-44_0_194_min.png",
+          "local": "/products/conjunto-c1-pmmg-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/conjunto-c1-pmmg_2022-12-26_15-12-44_0_342_min.png",
+          "local": "/products/conjunto-c1-pmmg-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/conjunto-c1-pmmg_2022-12-26_15-12-44_0_342.png",
+          "local": "/products/conjunto-c1-pmmg-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "short-azul-sgt-e-cad-pmmg",
+      "cover_local": "/products/short-azul-sgt-e-cad-pmmg.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/calCAo-azul-pmmg_2022-12-26_14-34-30_4_329.png",
+      "gallery": []
+    },
+    {
+      "slug": "fiel-retratil-policia-militar",
+      "cover_local": "/products/fiel-retratil-policia-militar.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/fiel-retrAtil-polIcia-militar_2023-01-02_14-28-22_2_421.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/fiel-retrAtil-polIcia-militar_2023-01-02_14-28-22_2_421_min.png",
+          "local": "/products/fiel-retratil-policia-militar-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/fiel-retrAtil-polIcia-militar_2023-01-02_14-28-22_2_420_min.png",
+          "local": "/products/fiel-retratil-policia-militar-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/fiel-retrAtil-polIcia-militar_2023-01-02_14-28-22_2_420.png",
+          "local": "/products/fiel-retratil-policia-militar-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "bone-policia-penal-mg",
+      "cover_local": "/products/bone-policia-penal-mg.jpeg",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/bone-policia-penal-mg_2024-06-06_16-15-00_0_424.jpeg",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/bone-policia-penal-mg_2024-06-06_16-15-00_0_424_min.jpeg",
+          "local": "/products/bone-policia-penal-mg-2.jpeg"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/bone-policia-penal-mg_2024-06-06_16-15-00_0_71_min.jpeg",
+          "local": "/products/bone-policia-penal-mg-3.jpeg"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/bone-policia-penal-mg_2024-06-06_16-15-00_0_71.jpeg",
+          "local": "/products/bone-policia-penal-mg-4.jpeg"
+        }
+      ]
+    },
+    {
+      "slug": "fiel-retratil-policia-penal",
+      "cover_local": "/products/fiel-retratil-policia-penal.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/fiel-retrAtil-polIcia-penal_2023-01-13_23-08-50_0_60.png",
+      "gallery": []
+    },
+    {
+      "slug": "carteira-porta-nota-dourada-policia-penal",
+      "cover_local": "/products/carteira-porta-nota-dourada-policia-penal.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/carteira-porta-nota-dourada-policia-penal_2024-04-03_11-05-24_0_333.png",
+      "gallery": []
+    },
+    {
+      "slug": "carteira-porta-nota-policia-penal",
+      "cover_local": "/products/carteira-porta-nota-policia-penal.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/carteira-porta-nota-policia-penal_2022-12-13_11-34-35_1_68.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/carteira-porta-nota-policia-penal_2022-12-13_11-34-35_1_68_min.png",
+          "local": "/products/carteira-porta-nota-policia-penal-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/carteira-porta-nota-policia-penal_2022-12-13_11-34-35_1_481_min.png",
+          "local": "/products/carteira-porta-nota-policia-penal-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/carteira-porta-nota-policia-penal_2022-12-13_11-34-35_1_470_min.png",
+          "local": "/products/carteira-porta-nota-policia-penal-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "capa-de-colete-fox-boy",
+      "cover_local": "/products/capa-de-colete-fox-boy.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/capa-de-colete-fox-boy_2023-01-02_10-18-58_2_510.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/capa-de-colete-fox-boy_2023-01-02_10-18-58_2_510_min.png",
+          "local": "/products/capa-de-colete-fox-boy-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/capa-de-colete-fox-boy_2023-01-02_10-18-58_2_414_min.png",
+          "local": "/products/capa-de-colete-fox-boy-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/capa-de-colete-fox-boy_2023-01-02_10-18-58_2_414.png",
+          "local": "/products/capa-de-colete-fox-boy-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "conjunto-policia-penal-digitalizado",
+      "cover_local": "/products/conjunto-policia-penal-digitalizado.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/conjunto-sistema-prisional-digitalizado_2022-12-13_13-25-29_2_552.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/conjunto-sistema-prisional-digitalizado_2022-12-13_13-25-29_2_552_min.png",
+          "local": "/products/conjunto-policia-penal-digitalizado-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/conjunto-sistema-prisional-digitalizado_2022-12-13_13-25-29_2_240_min.png",
+          "local": "/products/conjunto-policia-penal-digitalizado-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/conjunto-sistema-prisional-digitalizado_2022-12-13_13-25-29_2_473_min.png",
+          "local": "/products/conjunto-policia-penal-digitalizado-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "gandola-combate-policia-penal-mg",
+      "cover_local": "/products/gandola-combate-policia-penal-mg.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/combatshirt-policia-penal-mg_2022-12-22_16-37-57_0_104.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/combatshirt-policia-penal-mg_2022-12-22_16-37-57_0_104_min.png",
+          "local": "/products/gandola-combate-policia-penal-mg-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/gandola-combate-polIcia-penal-mg_2024-07-22_12-38-01_4_491_min.png",
+          "local": "/products/gandola-combate-policia-penal-mg-3.png"
+        }
+      ]
+    },
+    {
+      "slug": "porta-tonfa-belica",
+      "cover_local": "/products/porta-tonfa-belica.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-tonfa-bElica_2023-01-13_22-38-23_2_137.png",
+      "gallery": []
+    },
+    {
+      "slug": "porta-tonfa-belica-2",
+      "cover_local": "/products/porta-tonfa-belica-2.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-tonfa-bElica-2_2023-01-13_22-42-35_1_474.png",
+      "gallery": []
+    },
+    {
+      "slug": "porta-treco-15x15",
+      "cover_local": "/products/porta-treco-15x15.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-treco-15x15_2022-12-26_17-34-55_0_286.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-treco-15x15_2022-12-26_17-34-55_0_286_min.png",
+          "local": "/products/porta-treco-15x15-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-treco-15x15_2022-12-26_17-34-55_0_411_min.png",
+          "local": "/products/porta-treco-15x15-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-treco-15x15_2022-12-26_17-34-55_0_411.png",
+          "local": "/products/porta-treco-15x15-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "cinto-tatico-cia-militar",
+      "cover_local": "/products/cinto-tatico-cia-militar.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/cinto-tAtico-cia-militar_2022-12-12_13-21-07_0_306.png",
+      "gallery": []
+    },
+    {
+      "slug": "gandola-digitalizada-policia-penal",
+      "cover_local": "/products/gandola-digitalizada-policia-penal.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/gandola-digitalizada-polIcia-penal_2022-12-13_14-03-38_1_414.png",
+      "gallery": []
+    },
+    {
+      "slug": "porta-tonfa",
+      "cover_local": "/products/porta-tonfa.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-tonfa_2023-01-13_22-33-28_2_271.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-tonfa_2023-01-13_22-33-28_2_271_min.png",
+          "local": "/products/porta-tonfa-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-tonfa_2023-01-13_22-33-28_2_14_min.png",
+          "local": "/products/porta-tonfa-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-tonfa_2023-01-13_22-33-28_2_14.png",
+          "local": "/products/porta-tonfa-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "tonfa",
+      "cover_local": "/products/tonfa.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/tonfa_2023-01-13_22-28-05_3_289.png",
+      "gallery": []
+    },
+    {
+      "slug": "divisa-bombeiro-militar-2-sargento",
+      "cover_local": "/products/divisa-bombeiro-militar-2-sargento.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/divisa-cbmmg-2-sargento_2023-01-02_13-32-05_1_150.png",
+      "gallery": []
+    },
+    {
+      "slug": "divisa-bombeiro-militar-3-sargento",
+      "cover_local": "/products/divisa-bombeiro-militar-3-sargento.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/divisa-cbmmg-3-sargento_2023-01-02_13-47-39_1_466.png",
+      "gallery": []
+    },
+    {
+      "slug": "divisa-bombeiro-militar-cabo",
+      "cover_local": "/products/divisa-bombeiro-militar-cabo.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/divisa-cbmmg-cabo_2023-01-02_13-12-15_0_308.png",
+      "gallery": []
+    },
+    {
+      "slug": "divisa-bombeiro-militar-soldado",
+      "cover_local": "/products/divisa-bombeiro-militar-soldado.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/divisa-cbmmg-soldado_2023-01-02_13-18-01_1_198.png",
+      "gallery": []
+    },
+    {
+      "slug": "capa-de-colete-cea-militar",
+      "cover_local": "/products/capa-de-colete-cea-militar.jpg",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/capa-de-colete-invictus_2019-07-22_13-38-09_1.jpg",
+      "gallery": []
+    },
+    {
+      "slug": "gorro-bombeiro-militar",
+      "cover_local": "/products/gorro-bombeiro-militar.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/gorro-bombeiro-militar_2022-12-30_11-03-21_0_381.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/gorro-bombeiro-militar_2022-12-30_11-03-21_0_381_min.png",
+          "local": "/products/gorro-bombeiro-militar-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/gorro-bombeiro-militar_2022-12-30_11-03-21_0_185_min.png",
+          "local": "/products/gorro-bombeiro-militar-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/gorro-bombeiro-militar_2022-12-30_11-03-21_0_185.png",
+          "local": "/products/gorro-bombeiro-militar-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "divisa-cinza-bombeiro-militar",
+      "cover_local": "/products/divisa-cinza-bombeiro-militar.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/divisa-cbmmg-cinza-cabo_2023-01-02_13-56-34_0_205.png",
+      "gallery": []
+    },
+    {
+      "slug": "divisa-policia-militar-soldado",
+      "cover_local": "/products/divisa-policia-militar-soldado.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/divisa-pmmg_2023-01-02_14-19-25_0_493.png",
+      "gallery": []
+    },
+    {
+      "slug": "conjunto-4a-cbmmg-completo",
+      "cover_local": "/products/conjunto-4a-cbmmg-completo.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/conjunto-4a-cbmmg-completo_2023-01-02_12-57-38_0_220.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/conjunto-4a-cbmmg-completo_2023-01-02_12-57-38_0_220_min.png",
+          "local": "/products/conjunto-4a-cbmmg-completo-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/conjunto-4a-cbmmg-completo_2023-01-02_12-57-38_0_156_min.png",
+          "local": "/products/conjunto-4a-cbmmg-completo-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/conjunto-4a-cbmmg-completo_2023-01-02_12-57-38_0_156.png",
+          "local": "/products/conjunto-4a-cbmmg-completo-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "gandola-vermelha-bombeiro-civil",
+      "cover_local": "/products/gandola-vermelha-bombeiro-civil.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/gandola-vermelha-bombeiro-civil_2025-05-12_18-16-00_0_452.png",
+      "gallery": []
+    },
+    {
+      "slug": "platina-pmmg-cho-cfo-e-aspirante",
+      "cover_local": "/products/platina-pmmg-cho-cfo-e-aspirante.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/platina-pmmg-cho-cfo-e-aspirante_2023-01-02_15-36-34_0_20.png",
+      "gallery": []
+    },
+    {
+      "slug": "passadeira-pmmg",
+      "cover_local": "/products/passadeira-pmmg.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/passadeira-pmmg_2023-01-02_14-49-11_0_131.png",
+      "gallery": []
+    },
+    {
+      "slug": "passadeira-pmmg-cho-cfo-e-aspirante",
+      "cover_local": "/products/passadeira-pmmg-cho-cfo-e-aspirante.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/passadeira-pmmg-cho-cfo-e-aspirante_2023-01-02_15-02-09_4_423.png",
+      "gallery": []
+    },
+    {
+      "slug": "bone-branco",
+      "cover_local": "/products/bone-branco.jpeg",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/bone-branco_2025-08-07_11-04-52_0_477.jpeg",
+      "gallery": []
+    },
+    {
+      "slug": "bone-caqui",
+      "cover_local": "/products/bone-caqui.jpeg",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/bonE-cAqui_2025-08-07_11-08-07_0_341.jpeg",
+      "gallery": []
+    },
+    {
+      "slug": "calca-jeans-com-elastano",
+      "cover_local": "/products/calca-jeans-com-elastano.jpeg",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/calCa-jeans-com-elastano_2025-08-07_10-57-02_0_512.jpeg",
+      "gallery": []
+    },
+    {
+      "slug": "camisa-branca-bordada-com-ribana",
+      "cover_local": "/products/camisa-branca-bordada-com-ribana.jpeg",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/camisa-branca-bordada-com-ribana_2025-08-07_10-47-24_0_80.jpeg",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/camisa-branca-bordada-com-ribana_2025-08-07_10-47-24_0_80_min.jpeg",
+          "local": "/products/camisa-branca-bordada-com-ribana-2.jpeg"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/camisa-branca-bordada-com-ribana_2025-08-07_10-47-32_0_474_min.jpeg",
+          "local": "/products/camisa-branca-bordada-com-ribana-3.jpeg"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/camisa-branca-bordada-com-ribana_2025-08-07_10-47-49_2_196_min.jpeg",
+          "local": "/products/camisa-branca-bordada-com-ribana-4.jpeg"
+        }
+      ]
+    },
+    {
+      "slug": "cinto-nylon-pmmg",
+      "cover_local": "/products/cinto-nylon-pmmg.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/cinto-nylon-pmmg_2022-12-12_12-55-17_2_65.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/cinto-nylon-pmmg_2022-12-12_12-55-17_2_65_min.png",
+          "local": "/products/cinto-nylon-pmmg-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/cinto-nylon-pmmg_2022-12-12_12-55-17_2_458_min.png",
+          "local": "/products/cinto-nylon-pmmg-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/cinto-nylon-pmmg_2022-12-12_12-55-17_2_458.png",
+          "local": "/products/cinto-nylon-pmmg-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "cinturao-completo",
+      "cover_local": "/products/cinturao-completo.jpeg",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/cinturAo-completo_2025-08-07_11-16-42_0_340.jpeg",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/cinturAo-completo_2025-08-07_11-16-42_0_340_min.jpeg",
+          "local": "/products/cinturao-completo-2.jpeg"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/cinturAo-completo_2025-08-08_14-20-16_1_531_min.jpeg",
+          "local": "/products/cinturao-completo-3.jpeg"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/cinturAo-completo_2025-08-08_14-20-16_1_531.jpeg",
+          "local": "/products/cinturao-completo-4.jpeg"
+        }
+      ]
+    },
+    {
+      "slug": "kit-meia-branca-selene",
+      "cover_local": "/products/kit-meia-branca-selene.jpeg",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/kit-meia-branca-selene_2025-08-08_14-25-59_0_115.jpeg",
+      "gallery": []
+    },
+    {
+      "slug": "florao-cadete",
+      "cover_local": "/products/florao-cadete.gif",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/florAo-cadete_2025-03-01_11-21-17_0_437.gif",
+      "gallery": []
+    },
+    {
+      "slug": "meiao-selene-futebol",
+      "cover_local": "/products/meiao-selene-futebol.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/meiao-selene-futebol_2023-01-13_23-17-12_0_513.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/meiao-selene-futebol_2023-01-13_23-17-12_0_513_min.png",
+          "local": "/products/meiao-selene-futebol-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/meiao-selene-futebol_2023-01-13_23-17-12_0_456_min.png",
+          "local": "/products/meiao-selene-futebol-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/meiao-selene-futebol_2023-01-13_23-17-12_0_456.png",
+          "local": "/products/meiao-selene-futebol-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "short-azul-sd-pm",
+      "cover_local": "/products/short-azul-sd-pm.jpeg",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/bone-branco_2025-08-07_11-04-52_0_477_min.jpeg",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/bonE-cAqui_2025-08-07_11-08-07_0_341_min.jpeg",
+          "local": "/products/short-azul-sd-pm-2.jpeg"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/calCa-jeans-com-elastano_2025-08-07_10-57-02_0_512_min.jpeg",
+          "local": "/products/short-azul-sd-pm-3.jpeg"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/camisa-branca_2022-12-26_15-20-46_1_210_min.png",
+          "local": "/products/short-azul-sd-pm-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "cantil",
+      "cover_local": "/products/cantil.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/cantil-de-campanha_2023-01-13_22-52-23_1_149.png",
+      "gallery": []
+    },
+    {
+      "slug": "sunga-azul",
+      "cover_local": "/products/sunga-azul.jpeg",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/bone-branco_2025-08-07_11-04-52_0_477_min.jpeg",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/bonE-cAqui_2025-08-07_11-08-07_0_341_min.jpeg",
+          "local": "/products/sunga-azul-2.jpeg"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/calCa-jeans-com-elastano_2025-08-07_10-57-02_0_512_min.jpeg",
+          "local": "/products/sunga-azul-3.jpeg"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/camisa-branca_2022-12-26_15-20-46_1_210_min.png",
+          "local": "/products/sunga-azul-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "tensor-azul",
+      "cover_local": "/products/tensor-azul.jpeg",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/bone-branco_2025-08-07_11-04-52_0_477_min.jpeg",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/bonE-cAqui_2025-08-07_11-08-07_0_341_min.jpeg",
+          "local": "/products/tensor-azul-2.jpeg"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/calCa-jeans-com-elastano_2025-08-07_10-57-02_0_512_min.jpeg",
+          "local": "/products/tensor-azul-3.jpeg"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/camisa-branca_2022-12-26_15-20-46_1_210_min.png",
+          "local": "/products/tensor-azul-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "boina-lyon",
+      "cover_local": "/products/boina-lyon.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/boina-lyon_2022-12-26_14-12-07_4_59.png",
+      "gallery": []
+    },
+    {
+      "slug": "algema-de-corrente",
+      "cover_local": "/products/algema-de-corrente.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/algema-de-corrente_2022-12-12_13-27-43_2_177.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/algema-de-corrente_2022-12-12_13-27-43_2_177_min.png",
+          "local": "/products/algema-de-corrente-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/algema-de-corrente_2022-12-12_13-27-43_2_172_min.png",
+          "local": "/products/algema-de-corrente-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/algema-de-corrente_2022-12-12_13-27-43_2_172.png",
+          "local": "/products/algema-de-corrente-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "chave-de-algema",
+      "cover_local": "/products/chave-de-algema.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/chave-de-algema-universal_2023-01-13_22-08-14_0_108.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/chave-de-algema-universal_2023-01-13_22-08-14_0_108_min.png",
+          "local": "/products/chave-de-algema-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/chave-de-algema-universal_2023-01-13_22-08-14_0_376_min.png",
+          "local": "/products/chave-de-algema-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/chave-de-algema-universal_2023-01-13_22-08-14_0_376.png",
+          "local": "/products/chave-de-algema-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "cinto-de-guarnicao-pmmg",
+      "cover_local": "/products/cinto-de-guarnicao-pmmg.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/cinto-de-guarniCAo-pmmg_2022-12-12_10-34-18_3_540.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/cinto-de-guarniCAo-pmmg_2022-12-12_10-34-18_3_540_min.png",
+          "local": "/products/cinto-de-guarnicao-pmmg-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/cinto-de-guarniCAo-pmmg_2022-12-12_10-38-19_4_61_min.png",
+          "local": "/products/cinto-de-guarnicao-pmmg-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/cinto-de-guarniCAo-pmmg_2022-12-12_10-42-09_3_39_min.png",
+          "local": "/products/cinto-de-guarnicao-pmmg-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "organizador-de-armario",
+      "cover_local": "/products/organizador-de-armario.jpeg",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/bone-branco_2025-08-07_11-04-52_0_477_min.jpeg",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/bonE-cAqui_2025-08-07_11-08-07_0_341_min.jpeg",
+          "local": "/products/organizador-de-armario-2.jpeg"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/calCa-jeans-com-elastano_2025-08-07_10-57-02_0_512_min.jpeg",
+          "local": "/products/organizador-de-armario-3.jpeg"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/camisa-branca_2022-12-26_15-20-46_1_210_min.png",
+          "local": "/products/organizador-de-armario-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "cinto-nylon-cbmg",
+      "cover_local": "/products/cinto-nylon-cbmg.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/cinto-nylon-cbmg_2022-12-12_10-52-34_2_476.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/cinto-nylon-cbmg_2022-12-12_10-52-34_2_476_min.png",
+          "local": "/products/cinto-nylon-cbmg-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/cinto-nylon-cbmg_2022-12-12_10-52-34_2_51_min.png",
+          "local": "/products/cinto-nylon-cbmg-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/cinto-nylon-cbmg_2022-12-12_10-52-34_2_153_min.png",
+          "local": "/products/cinto-nylon-cbmg-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "cinto-de-nylon",
+      "cover_local": "/products/cinto-de-nylon.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/cinto-de-nylon_2023-01-13_22-01-48_0_73.png",
+      "gallery": []
+    },
+    {
+      "slug": "cinto-tatico",
+      "cover_local": "/products/cinto-tatico.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/cinto-tAtico_2022-12-12_13-12-41_3_348.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/cinto-tAtico_2022-12-12_13-12-41_3_348_min.png",
+          "local": "/products/cinto-tatico-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/cinto-tAtico_2022-12-12_13-12-41_3_126_min.png",
+          "local": "/products/cinto-tatico-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/cinto-tAtico_2022-12-12_13-12-41_3_126.png",
+          "local": "/products/cinto-tatico-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "cinto-nylon-cia-militar",
+      "cover_local": "/products/cinto-nylon-cia-militar.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/cinto-nylon-cia-militar_2022-12-12_11-18-09_0_113.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/cinto-nylon-cia-militar_2022-12-12_11-18-09_0_113_min.png",
+          "local": "/products/cinto-nylon-cia-militar-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/cinto-nylon-cia-militar_2022-12-12_11-18-09_0_551_min.png",
+          "local": "/products/cinto-nylon-cia-militar-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/cinto-nylon-cia-militar_2022-12-12_11-18-09_0_551.png",
+          "local": "/products/cinto-nylon-cia-militar-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "mini-coldre-modular",
+      "cover_local": "/products/mini-coldre-modular.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/mini-coldre-modular_2022-12-26_16-22-58_0_21.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/mini-coldre-modular_2022-12-26_16-22-58_0_21_min.png",
+          "local": "/products/mini-coldre-modular-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/mini-coldre-modular_2022-12-26_16-22-58_0_157_min.png",
+          "local": "/products/mini-coldre-modular-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/mini-coldre-modular_2022-12-26_16-22-58_0_157.png",
+          "local": "/products/mini-coldre-modular-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "porta-algema",
+      "cover_local": "/products/porta-algema.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-algema_2022-12-12_13-30-43_1_37.png",
+      "gallery": []
+    },
+    {
+      "slug": "porta-algema-belica",
+      "cover_local": "/products/porta-algema-belica.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-algema-belica_2022-12-12_13-36-49_2_387.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-algema-belica_2022-12-12_13-36-49_2_387_min.png",
+          "local": "/products/porta-algema-belica-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-algema-belica_2022-12-12_13-36-49_2_440_min.png",
+          "local": "/products/porta-algema-belica-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-algema-belica_2022-12-12_13-36-49_2_440.png",
+          "local": "/products/porta-algema-belica-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "porta-carregador-belica",
+      "cover_local": "/products/porta-carregador-belica.jpg",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-carregador-bElica_2019-08-14_13-56-04_0.jpg",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-carregador-bElica_2019-08-14_13-56-04_0_min.jpg",
+          "local": "/products/porta-carregador-belica-2.jpg"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-carregador-bElica_2019-08-14_13-56-58_1_min.jpg",
+          "local": "/products/porta-carregador-belica-3.jpg"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-carregador-bElica_2019-08-14_13-57-23_2_min.jpg",
+          "local": "/products/porta-carregador-belica-4.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "porta-carregador-de-fuzil",
+      "cover_local": "/products/porta-carregador-de-fuzil.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-carregador-de-fuzil_2022-12-26_16-56-47_0_458.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-carregador-de-fuzil_2022-12-26_16-56-47_0_458_min.png",
+          "local": "/products/porta-carregador-de-fuzil-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-carregador-de-fuzil_2022-12-26_16-56-47_0_411_min.png",
+          "local": "/products/porta-carregador-de-fuzil-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-carregador-de-fuzil_2022-12-26_16-56-47_0_411.png",
+          "local": "/products/porta-carregador-de-fuzil-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "porta-carregador-duplo",
+      "cover_local": "/products/porta-carregador-duplo.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-carregador-duplo_2022-12-26_17-14-08_0_342.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-carregador-duplo_2022-12-26_17-14-08_0_342_min.png",
+          "local": "/products/porta-carregador-duplo-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-carregador-duplo_2022-12-26_17-14-08_0_498_min.png",
+          "local": "/products/porta-carregador-duplo-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-carregador-duplo_2022-12-26_17-14-08_0_498.png",
+          "local": "/products/porta-carregador-duplo-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "porta-carregador-duplo-pt",
+      "cover_local": "/products/porta-carregador-duplo-pt.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-carregador-duplo-pt_2022-12-26_16-49-34_0_5.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-carregador-duplo-pt_2022-12-26_16-49-34_0_5_min.png",
+          "local": "/products/porta-carregador-duplo-pt-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-carregador-duplo-pt_2022-12-26_16-49-34_0_479_min.png",
+          "local": "/products/porta-carregador-duplo-pt-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-carregador-duplo-pt_2022-12-26_16-49-34_0_479.png",
+          "local": "/products/porta-carregador-duplo-pt-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "porta-ht-modular",
+      "cover_local": "/products/porta-ht-modular.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-ht-modular_2022-12-26_17-09-31_0_440.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-ht-modular_2022-12-26_17-09-31_0_440_min.png",
+          "local": "/products/porta-ht-modular-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-ht-modular_2022-12-26_17-09-31_0_551_min.png",
+          "local": "/products/porta-ht-modular-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-ht-modular_2022-12-26_17-09-31_0_551.png",
+          "local": "/products/porta-ht-modular-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "porta-refil-modular",
+      "cover_local": "/products/porta-refil-modular.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-refil-modular_2022-12-26_16-39-20_0_319.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-refil-modular_2022-12-26_16-39-20_0_319_min.png",
+          "local": "/products/porta-refil-modular-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-refil-modular_2022-12-26_16-39-20_0_80_min.png",
+          "local": "/products/porta-refil-modular-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-refil-modular_2022-12-26_16-39-20_0_80.png",
+          "local": "/products/porta-refil-modular-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "porta-smartphone",
+      "cover_local": "/products/porta-smartphone.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-smartphone_2022-12-26_17-33-09_0_223.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-smartphone_2022-12-26_17-33-09_0_223_min.png",
+          "local": "/products/porta-smartphone-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-smartphone_2022-12-26_17-33-09_0_463_min.png",
+          "local": "/products/porta-smartphone-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/porta-smartphone_2022-12-26_17-33-09_0_463.png",
+          "local": "/products/porta-smartphone-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "quepe-marron-pmmg",
+      "cover_local": "/products/quepe-marron-pmmg.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/quepe-pmmg_2022-12-30_12-46-36_3_481.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/quepe-pmmg_2022-12-30_12-46-36_3_481_min.png",
+          "local": "/products/quepe-marron-pmmg-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/quepe-pmmg_2022-12-30_12-46-37_3_409_min.png",
+          "local": "/products/quepe-marron-pmmg-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/quepe-pmmg_2022-12-30_12-46-37_3_424_min.png",
+          "local": "/products/quepe-marron-pmmg-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "boina-defense",
+      "cover_local": "/products/boina-defense.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/boina-dEfense_2022-12-26_14-02-49_4_52.png",
+      "gallery": []
+    },
+    {
+      "slug": "chapeu-de-pescador-policia-penal",
+      "cover_local": "/products/chapeu-de-pescador-policia-penal.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/chapeu-de-pescador-fox-boy_2022-12-30_11-17-47_2_521.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/chapeu-de-pescador-fox-boy_2022-12-30_11-17-47_2_521_min.png",
+          "local": "/products/chapeu-de-pescador-policia-penal-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/chapeu-de-pescador-fox-boy_2022-12-30_11-17-47_2_55_min.png",
+          "local": "/products/chapeu-de-pescador-policia-penal-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/chapeu-de-pescador-fox-boy_2022-12-30_11-17-47_2_55.png",
+          "local": "/products/chapeu-de-pescador-policia-penal-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "mochila-defender-echolife",
+      "cover_local": "/products/mochila-defender-echolife.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/mochila-defender-echolife_2023-01-03_11-32-37_0_113.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/mochila-defender-echolife_2023-01-03_11-32-37_0_113_min.png",
+          "local": "/products/mochila-defender-echolife-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/mochila-defender-echolife_2023-01-03_11-32-37_0_296_min.png",
+          "local": "/products/mochila-defender-echolife-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/mochila-defender-echolife_2023-01-03_11-32-37_0_296.png",
+          "local": "/products/mochila-defender-echolife-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "mochila-tatica-attack-echolife-45l",
+      "cover_local": "/products/mochila-tatica-attack-echolife-45l.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/mochila-tAtica-attack-echolife-45l_2023-01-03_11-07-47_0_189.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/mochila-tAtica-attack-echolife-45l_2023-01-03_11-07-47_0_189_min.png",
+          "local": "/products/mochila-tatica-attack-echolife-45l-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/mochila-tAtica-attack-echolife-45l_2023-01-03_11-07-46_0_451_min.png",
+          "local": "/products/mochila-tatica-attack-echolife-45l-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/mochila-tAtica-attack-echolife-45l_2023-01-03_11-07-46_0_451.png",
+          "local": "/products/mochila-tatica-attack-echolife-45l-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "mochila-coyote-rip-stop-fox-boy",
+      "cover_local": "/products/mochila-coyote-rip-stop-fox-boy.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/mochila-coyote-rip-stop-fox-boy_2023-01-03_11-40-36_0_404.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/mochila-coyote-rip-stop-fox-boy_2023-01-03_11-40-36_0_404_min.png",
+          "local": "/products/mochila-coyote-rip-stop-fox-boy-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/mochila-coyote-rip-stop-fox-boy_2023-01-03_11-40-36_0_117_min.png",
+          "local": "/products/mochila-coyote-rip-stop-fox-boy-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/mochila-coyote-rip-stop-fox-boy_2023-01-03_11-40-36_0_117.png",
+          "local": "/products/mochila-coyote-rip-stop-fox-boy-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "mochila-acao-e-aventura-fox-boy-35l",
+      "cover_local": "/products/mochila-acao-e-aventura-fox-boy-35l.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/mochila-aCAo-e-aventura-fox-boy-35l_2023-01-03_11-49-50_0_232.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/mochila-aCAo-e-aventura-fox-boy-35l_2023-01-03_11-49-50_0_232_min.png",
+          "local": "/products/mochila-acao-e-aventura-fox-boy-35l-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/mochila-aCAo-e-aventura-fox-boy-35l_2023-01-03_11-49-50_0_158_min.png",
+          "local": "/products/mochila-acao-e-aventura-fox-boy-35l-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/mochila-aCAo-e-aventura-fox-boy-35l_2023-01-03_11-49-50_0_158.png",
+          "local": "/products/mochila-acao-e-aventura-fox-boy-35l-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "mochila-tatica-echolife",
+      "cover_local": "/products/mochila-tatica-echolife.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/mochila-tAtica-echolife_2023-01-03_11-22-29_0_103.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/mochila-tAtica-echolife_2023-01-03_11-22-29_0_103_min.png",
+          "local": "/products/mochila-tatica-echolife-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/mochila-tAtica-echolife_2023-01-03_11-22-29_0_83_min.png",
+          "local": "/products/mochila-tatica-echolife-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/mochila-tAtica-echolife_2023-01-03_11-22-29_0_83.png",
+          "local": "/products/mochila-tatica-echolife-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "plaqueta-de-identificacao-belica",
+      "cover_local": "/products/plaqueta-de-identificacao-belica.jpg",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/plaqueta-de-identificaCAo-bElica_2019-08-14_13-48-01_0.jpg",
+      "gallery": []
+    },
+    {
+      "slug": "chinelo-havaianas",
+      "cover_local": "/products/chinelo-havaianas.jpg",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/havaianas-preta_2019-08-14_13-43-36_0.jpg",
+      "gallery": []
+    },
+    {
+      "slug": "coturno-acero-smith",
+      "cover_local": "/products/coturno-acero-smith.jpeg",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/coturno-acero-smith-preto_2024-06-07_10-08-13_0_468.jpeg",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/coturno-acero-smith-preto_2024-06-07_10-08-13_0_468_min.jpeg",
+          "local": "/products/coturno-acero-smith-2.jpeg"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/coturno-acero-smith-preto_2024-06-07_10-08-13_0_467_min.jpeg",
+          "local": "/products/coturno-acero-smith-3.jpeg"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/coturno-acero-smith-preto_2024-06-07_10-08-13_0_116_min.jpeg",
+          "local": "/products/coturno-acero-smith-4.jpeg"
+        }
+      ]
+    },
+    {
+      "slug": "coturno-impermeavel-acero-couro-apache",
+      "cover_local": "/products/coturno-impermeavel-acero-couro-apache.jpg",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/bota-impermeavel-acero-couro-apache-preto_2019-10-02_10-05-44_0.jpg",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/bota-impermeavel-acero-couro-apache-preto_2019-10-02_10-05-44_0_min.jpg",
+          "local": "/products/coturno-impermeavel-acero-couro-apache-2.jpg"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/bota-impermeavel-acero-couro-apache-preto_2019-10-02_10-06-26_1_min.jpg",
+          "local": "/products/coturno-impermeavel-acero-couro-apache-3.jpg"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/bota-impermeavel-acero-couro-apache-preto_2019-10-02_10-17-44_2_min.jpg",
+          "local": "/products/coturno-impermeavel-acero-couro-apache-4.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "coldre-kydex-taurus-serie-100",
+      "cover_local": "/products/coldre-kydex-taurus-serie-100.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/coldre-kydex-taurus-sErie-100_2022-12-31_11-11-41_0_213.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/coldre-kydex-taurus-sErie-100_2022-12-31_11-11-41_0_213_min.png",
+          "local": "/products/coldre-kydex-taurus-serie-100-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/coldre-kydex-taurus-sErie-100_2022-12-31_11-11-42_0_335_min.png",
+          "local": "/products/coldre-kydex-taurus-serie-100-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/coldre-kydex-taurus-sErie-100_2022-12-31_11-11-42_0_335.png",
+          "local": "/products/coldre-kydex-taurus-serie-100-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "coldre-hammer-1",
+      "cover_local": "/products/coldre-hammer-1.jpg",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/coldre-hammer-1_2019-08-14_13-12-38_0.jpg",
+      "gallery": []
+    },
+    {
+      "slug": "coldre-neoprene-38-2-polegada",
+      "cover_local": "/products/coldre-neoprene-38-2-polegada.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/coldre-neoprene-38-2-polegada_2022-12-31_11-43-29_0_385.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/coldre-neoprene-38-2-polegada_2022-12-31_11-43-29_0_385_min.png",
+          "local": "/products/coldre-neoprene-38-2-polegada-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/coldre-neoprene-38-2-polegada_2022-12-31_11-43-29_0_112_min.png",
+          "local": "/products/coldre-neoprene-38-2-polegada-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/coldre-neoprene-38-2-polegada_2022-12-31_11-43-29_0_112.png",
+          "local": "/products/coldre-neoprene-38-2-polegada-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "coldre-neoprene-38-4-polegada",
+      "cover_local": "/products/coldre-neoprene-38-4-polegada.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/coldre-neoprene-38-4-polegada_2022-12-31_12-26-51_0_151.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/coldre-neoprene-38-4-polegada_2022-12-31_12-26-51_0_151_min.png",
+          "local": "/products/coldre-neoprene-38-4-polegada-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/coldre-neoprene-38-4-polegada_2022-12-31_12-26-51_0_80_min.png",
+          "local": "/products/coldre-neoprene-38-4-polegada-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/coldre-neoprene-38-4-polegada_2022-12-31_12-26-51_0_80.png",
+          "local": "/products/coldre-neoprene-38-4-polegada-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "coturno-extra-leve",
+      "cover_local": "/products/coturno-extra-leve.jpeg",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/coturno-extra-leve_2024-07-11_10-50-39_0_492.jpeg",
+      "gallery": []
+    },
+    {
+      "slug": "coldre-neoprene-38-6-polegada",
+      "cover_local": "/products/coldre-neoprene-38-6-polegada.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/coldre-neoprene-38-6-polegada_2022-12-31_12-42-56_0_324.png",
+      "gallery": []
+    },
+    {
+      "slug": "coldre-neoprene-hacker",
+      "cover_local": "/products/coldre-neoprene-hacker.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/coldre-neoprene-hacker_2022-12-31_12-34-17_1_451.png",
+      "gallery": []
+    },
+    {
+      "slug": "coldre-neoprene-universal",
+      "cover_local": "/products/coldre-neoprene-universal.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/coldre-neoprene-universal_2022-12-31_12-49-52_0_5.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/coldre-neoprene-universal_2022-12-31_12-49-52_0_5_min.png",
+          "local": "/products/coldre-neoprene-universal-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/coldre-neoprene-universal_2022-12-31_12-49-52_0_528_min.png",
+          "local": "/products/coldre-neoprene-universal-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/coldre-neoprene-universal_2022-12-31_12-49-52_0_528.png",
+          "local": "/products/coldre-neoprene-universal-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "coldre-pro-sr1-belica",
+      "cover_local": "/products/coldre-pro-sr1-belica.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/coldre-pro-sr1-bElica_2022-11-22_16-42-02_1_250.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/coldre-pro-sr1-bElica_2022-11-22_16-42-02_1_250_min.png",
+          "local": "/products/coldre-pro-sr1-belica-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/coldre-pro-sr1-bElica_2022-11-22_16-42-02_1_398_min.png",
+          "local": "/products/coldre-pro-sr1-belica-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/coldre-pro-sr1-bElica_2022-11-22_16-42-02_1_398.png",
+          "local": "/products/coldre-pro-sr1-belica-4.png"
+        }
+      ]
+    },
+    {
+      "slug": "coldres-socoldres",
+      "cover_local": "/products/coldres-socoldres.jpg",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/coldre-sO-coldres_2018-10-03_15-06-44_1.jpg",
+      "gallery": []
+    },
+    {
+      "slug": "coldre-universal-velado-belica",
+      "cover_local": "/products/coldre-universal-velado-belica.jpg",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/coldre-universal-velado-bElica_2019-08-14_13-27-06_0.jpg",
+      "gallery": []
+    },
+    {
+      "slug": "coldre-velado-taurus-th-800-full-em-polimero-predador",
+      "cover_local": "/products/coldre-velado-taurus-th-800-full-em-polimero-predador.png",
+      "cover_remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/coldre-velado-taurus-th-800-full-em-polImero-predador_2022-12-31_11-33-42_0_68.png",
+      "gallery": [
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/coldre-velado-taurus-th-800-full-em-polImero-predador_2022-12-31_11-33-42_0_68_min.png",
+          "local": "/products/coldre-velado-taurus-th-800-full-em-polimero-predador-2.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/coldre-velado-taurus-th-800-full-em-polImero-predador_2022-12-31_11-33-42_0_71_min.png",
+          "local": "/products/coldre-velado-taurus-th-800-full-em-polimero-predador-3.png"
+        },
+        {
+          "remote": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/coldre-velado-taurus-th-800-full-em-polImero-predador_2022-12-31_11-33-42_0_219_min.png",
+          "local": "/products/coldre-velado-taurus-th-800-full-em-polimero-predador-4.png"
+        }
+      ]
+    }
+  ],
+  "failed": [
+    {
+      "slug": "algema-brasil",
+      "url": "https://www.dpolice.com.br/comprar/algema-brasil/direto/1710",
+      "error": "page.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"https://www.dpolice.com.br/comprar/algema-brasil/direto/1710\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "slug": "camisa-c1-pmmg",
+      "url": "https://www.dpolice.com.br/comprar/camisa-c1-pmmg/bege-2/1673",
+      "error": "HTTP 403"
+    },
+    {
+      "slug": "conjunto-b1-pmmg",
+      "url": "https://www.dpolice.com.br/comprar/conjunto-b1-pmmg/voce-esta-comprando-um-produto-de-uso-exclusivo-de-uma-corporacao-1-40/2012",
+      "error": "HTTP 403"
+    },
+    {
+      "slug": "japona-dupla-face-pmmg",
+      "url": "https://www.dpolice.com.br/comprar/japona-dupla-face-pmmg/pp/2031",
+      "error": "page.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"https://www.dpolice.com.br/comprar/japona-dupla-face-pmmg/pp/2031\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "slug": "divisa-bombeiro-militar-1-sargento",
+      "url": "https://www.dpolice.com.br/comprar/divisa-bombeiro-militar-1-sargento/laranja/561",
+      "error": "page.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"https://www.dpolice.com.br/comprar/divisa-bombeiro-militar-1-sargento/laranja/561\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "slug": "calca-camuflada-masculina",
+      "url": "https://www.dpolice.com.br/comprar/calca-camuflada-masculina/digitalizada-46/1785",
+      "error": "HTTP 403"
+    },
+    {
+      "slug": "conjunto-camuflado-masculino",
+      "url": "https://www.dpolice.com.br/comprar/conjunto-camuflado-masculino/38-50/1737",
+      "error": "HTTP 403"
+    },
+    {
+      "slug": "chaveiro",
+      "url": "https://www.dpolice.com.br/comprar/chaveiro/direto/1576",
+      "error": "This operation was aborted"
+    },
+    {
+      "slug": "gandola-camuflada",
+      "url": "https://www.dpolice.com.br/comprar/gandola-camuflada/digitalizada-54/1791",
+      "error": "page.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"https://www.dpolice.com.br/comprar/gandola-camuflada/digitalizada-54/1791\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "slug": "meiao-selene-futebol-performance",
+      "url": "https://www.dpolice.com.br/comprar/meiao-selene-futebol-performance/5/1714",
+      "error": "page.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"https://www.dpolice.com.br/comprar/meiao-selene-futebol-performance/5/1714\", waiting until \"domcontentloaded\"\n"
+    }
+  ]
+}

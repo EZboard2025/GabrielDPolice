@@ -1,0 +1,2713 @@
+{
+  "scraped_at": "2026-05-04",
+  "source": "https://www.dpolice.com.br",
+  "notes": "Scraping via WebFetch. Algumas categorias têm mais produtos do que conseguimos extrair via HTML server-rendered (paginação). Total declarado pela própria loja em /uniformes é '67 produto(s)' e em /artigos-militares é '45 produto(s)'. Capturamos a primeira página de cada categoria; produtos repetidos entre categorias (cross-listing) foram preservados nos dois lugares. Imagens vêm do CDN galaxcommerce.com.br/sistema/upload/523/produtos/.",
+  "categories": [
+    {
+      "name": "Colégio Tiradentes",
+      "slug": "colegio-tiradentes",
+      "url": "https://www.dpolice.com.br/colegio-tiradentes",
+      "declared_total": 10,
+      "products": [
+        {
+          "name": "Blusa de Frio Ed. Física Masculino e Feminino - Feminino",
+          "slug": "blusa-de-frio-ed-fisica-masculino-e-feminino",
+          "url": "https://www.dpolice.com.br/comprar/blusa-de-frio-ed-fisica-masculino-e-feminino/feminino-6/2112",
+          "price": 180,
+          "image_url": "/products/blusa-de-frio-ed-fisica-masculino-e-feminino.png",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/blusa-de-frio-ed-fisica-masculino-e-feminino-2.png",
+            "/products/blusa-de-frio-ed-fisica-masculino-e-feminino-3.png",
+            "/products/blusa-de-frio-ed-fisica-masculino-e-feminino-4.png"
+          ]
+        },
+        {
+          "name": "Blusa de Frio Ed. Física Masculino e Feminino - Masculino",
+          "slug": "blusa-de-frio-ed-fisica-masculino-e-feminino",
+          "url": "https://www.dpolice.com.br/comprar/blusa-de-frio-ed-fisica-masculino-e-feminino/masculino-6/2107",
+          "price": 180,
+          "image_url": "/products/blusa-de-frio-ed-fisica-masculino-e-feminino.png",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/blusa-de-frio-ed-fisica-masculino-e-feminino-2.png",
+            "/products/blusa-de-frio-ed-fisica-masculino-e-feminino-3.png",
+            "/products/blusa-de-frio-ed-fisica-masculino-e-feminino-4.png"
+          ]
+        },
+        {
+          "name": "Calça de Trânsito Masculina e Feminina Infantil - Feminino",
+          "slug": "calca-de-transito-masculina-e-feminina-intanfil",
+          "url": "https://www.dpolice.com.br/comprar/calca-de-transito-masculina-e-feminina-intanfil/feminino-6/2132",
+          "price": 130,
+          "image_url": "/products/calca-de-transito-masculina-e-feminina-intanfil.png",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/calca-de-transito-masculina-e-feminina-intanfil-2.png",
+            "/products/calca-de-transito-masculina-e-feminina-intanfil-3.png",
+            "/products/calca-de-transito-masculina-e-feminina-intanfil-4.png"
+          ]
+        },
+        {
+          "name": "Calça de Trânsito Masculina e Feminina Infantil - Masculino",
+          "slug": "calca-de-transito-masculina-e-feminina-intanfil",
+          "url": "https://www.dpolice.com.br/comprar/calca-de-transito-masculina-e-feminina-intanfil/masculino-6/2127",
+          "price": 130,
+          "image_url": "/products/calca-de-transito-masculina-e-feminina-intanfil.png",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/calca-de-transito-masculina-e-feminina-intanfil-2.png",
+            "/products/calca-de-transito-masculina-e-feminina-intanfil-3.png",
+            "/products/calca-de-transito-masculina-e-feminina-intanfil-4.png"
+          ]
+        },
+        {
+          "name": "Camisa de Malha Ed. Física Infantil Feminino",
+          "slug": "camisa-de-malha-de-edfisica-infantil-feminino",
+          "url": "https://www.dpolice.com.br/comprar/camisa-de-malha-de-edfisica-infantil-feminino/6/2098",
+          "price": 79,
+          "image_url": "/products/camisa-de-malha-de-edfisica-infantil-feminino.png",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/camisa-de-malha-de-edfisica-infantil-feminino-2.png",
+            "/products/camisa-de-malha-de-edfisica-infantil-feminino-3.png",
+            "/products/camisa-de-malha-de-edfisica-infantil-feminino-4.png"
+          ]
+        },
+        {
+          "name": "Camisa de Malha Ed. Física Infantil Masculina",
+          "slug": "camisa-de-malha-de-edfisica-infantil-masculina",
+          "url": "https://www.dpolice.com.br/comprar/camisa-de-malha-de-edfisica-infantil-masculina/6/2089",
+          "price": 79,
+          "image_url": "/products/camisa-de-malha-de-edfisica-infantil-masculina.png",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/camisa-de-malha-de-edfisica-infantil-masculina-2.png",
+            "/products/camisa-de-malha-de-edfisica-infantil-masculina-3.png",
+            "/products/camisa-de-malha-de-edfisica-infantil-masculina-4.png"
+          ]
+        },
+        {
+          "name": "Camisa Social de Trânsito CTPM Feminina",
+          "slug": "camisa-social-de-transito-ctpm-feminina",
+          "url": "https://www.dpolice.com.br/comprar/camisa-social-de-transito-ctpm-feminina/6/2080",
+          "price": 115,
+          "image_url": "/products/camisa-social-de-transito-ctpm-feminina.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Camisa Social de Trânsito CTPM Masculino",
+          "slug": "camisa-social-de-transito-ctpm-masculino",
+          "url": "https://www.dpolice.com.br/comprar/camisa-social-de-transito-ctpm-masculino/6/2071",
+          "price": 115,
+          "image_url": "/products/camisa-social-de-transito-ctpm-masculino.png",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/camisa-social-de-transito-ctpm-masculino-2.png",
+            "/products/camisa-social-de-transito-ctpm-masculino-3.png",
+            "/products/camisa-social-de-transito-ctpm-masculino-4.png"
+          ]
+        },
+        {
+          "name": "Jaqueta de Trânsito Infantil Masc/Fem - Feminino",
+          "slug": "jaqueta-de-transito-infantil-masc-fem",
+          "url": "https://www.dpolice.com.br/comprar/jaqueta-de-transito-infantil-masc-fem/feminino-6/2122",
+          "price": 235,
+          "image_url": "/products/jaqueta-de-transito-infantil-masc-fem.png",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/jaqueta-de-transito-infantil-masc-fem-2.png",
+            "/products/jaqueta-de-transito-infantil-masc-fem-3.png",
+            "/products/jaqueta-de-transito-infantil-masc-fem-4.png"
+          ]
+        },
+        {
+          "name": "Jaqueta de Trânsito Infantil Masc/Fem - Masculino",
+          "slug": "jaqueta-de-transito-infantil-masc-fem",
+          "url": "https://www.dpolice.com.br/comprar/jaqueta-de-transito-infantil-masc-fem/masculino-6/2117",
+          "price": 235,
+          "image_url": "/products/jaqueta-de-transito-infantil-masc-fem.png",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/jaqueta-de-transito-infantil-masc-fem-2.png",
+            "/products/jaqueta-de-transito-infantil-masc-fem-3.png",
+            "/products/jaqueta-de-transito-infantil-masc-fem-4.png"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Uniformes",
+      "slug": "uniformes",
+      "url": "https://www.dpolice.com.br/uniformes",
+      "declared_total": 67,
+      "products": [
+        {
+          "name": "Algema Brasil",
+          "slug": "algema-brasil",
+          "url": "https://www.dpolice.com.br/comprar/algema-brasil/direto/1710",
+          "price": 170,
+          "image_url": "indisponível",
+          "likely_restricted": true
+        },
+        {
+          "name": "Boné Digitalizado",
+          "slug": "bone-digitalizado",
+          "url": "https://www.dpolice.com.br/comprar/bone-digitalizado/digitalizada-unico/1703",
+          "price": 55,
+          "image_url": "/products/bone-digitalizado.png",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/bone-digitalizado-2.png",
+            "/products/bone-digitalizado-3.png",
+            "/products/bone-digitalizado-4.png"
+          ]
+        },
+        {
+          "name": "Calça Digitalizada Polícia Penal",
+          "slug": "calca-digitalizada-policia-penal",
+          "url": "https://www.dpolice.com.br/comprar/calca-digitalizada-policia-penal/digitalizada-46/1315",
+          "price": 150,
+          "price_original": 190,
+          "image_url": "/products/calca-digitalizada-policia-penal.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Calça Tática Cinza Polícia Penal",
+          "slug": "calca-tatica-cinza-policia-penal",
+          "url": "https://www.dpolice.com.br/comprar/calca-tatica-cinza-policia-penal/voce-esta-comprando-um-produto-de-uso-exclusivo-de-uma-corporacao-cinza-36/2070",
+          "price": 310,
+          "image_url": "/products/calca-tatica-cinza-policia-penal.png",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/calca-tatica-cinza-policia-penal-2.png",
+            "/products/calca-tatica-cinza-policia-penal-3.png",
+            "/products/calca-tatica-cinza-policia-penal-4.png"
+          ]
+        },
+        {
+          "name": "Calção CBMMG - Oficial",
+          "slug": "calcao-cbmmg",
+          "url": "https://www.dpolice.com.br/comprar/calcao-cbmmg/oficial-p/1618",
+          "price": 32,
+          "image_url": "/products/calcao-cbmmg.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Calção CBMMG - Sargento",
+          "slug": "calcao-cbmmg",
+          "url": "https://www.dpolice.com.br/comprar/calcao-cbmmg/sargento-p/1622",
+          "price": 32,
+          "image_url": "/products/calcao-cbmmg.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Calção CBMMG - Soldado/Cabo",
+          "slug": "calcao-cbmmg",
+          "url": "https://www.dpolice.com.br/comprar/calcao-cbmmg/soldado-cabo-p/1626",
+          "price": 32,
+          "image_url": "/products/calcao-cbmmg.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Camisa Branca",
+          "slug": "camisa-branca",
+          "url": "https://www.dpolice.com.br/comprar/camisa-branca/pp/347",
+          "price": 27,
+          "image_url": "/products/camisa-branca.png",
+          "likely_restricted": false
+        },
+        {
+          "name": "Camisa C1 PMMG",
+          "slug": "camisa-c1-pmmg",
+          "url": "https://www.dpolice.com.br/comprar/camisa-c1-pmmg/bege-2/1673",
+          "price": 135,
+          "image_url": "indisponível",
+          "likely_restricted": true
+        },
+        {
+          "name": "Camisa Manga Longa Polícia Penal MG",
+          "slug": "camisa-manga-longa-policia-penal-mg",
+          "url": "https://www.dpolice.com.br/comprar/camisa-manga-longa-policia-penal-mg/voce-esta-comprando-um-produto-de-uso-exclusivo-de-uma-corporacao-preto-pp/1722",
+          "price": 99,
+          "image_url": "/products/camisa-manga-longa-policia-penal-mg.jpeg",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/camisa-manga-longa-policia-penal-mg-2.jpeg",
+            "/products/camisa-manga-longa-policia-penal-mg-3.jpeg",
+            "/products/camisa-manga-longa-policia-penal-mg-4.jpeg"
+          ]
+        },
+        {
+          "name": "Camisa Polícia Penal Preta",
+          "slug": "camisa-policia-penal-preta",
+          "url": "https://www.dpolice.com.br/comprar/camisa-policia-penal-preta/voce-esta-comprando-um-produto-de-uso-exclusivo-de-uma-corporacao-preto-m/1294",
+          "price": 84,
+          "image_url": "/products/camisa-policia-penal-preta.png",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/camisa-policia-penal-preta-2.png",
+            "/products/camisa-policia-penal-preta-3.png",
+            "/products/camisa-policia-penal-preta-4.png"
+          ]
+        },
+        {
+          "name": "Camiseta Bege Polícia Penal",
+          "slug": "camiseta-bege-policia-penal",
+          "url": "https://www.dpolice.com.br/comprar/camiseta-bege-policia-penal/bege-pp/1704",
+          "price": 25,
+          "image_url": "/products/camiseta-bege-policia-penal.png",
+          "likely_restricted": true
+        }
+      ]
+    },
+    {
+      "name": "Uniformes - Polícia Militar",
+      "slug": "uniformes/policia-militar",
+      "url": "https://www.dpolice.com.br/uniformes/policia-militar",
+      "declared_total": 9,
+      "products": [
+        {
+          "name": "Camisa Branca",
+          "slug": "camisa-branca",
+          "url": "https://www.dpolice.com.br/comprar/camisa-branca/pp/347",
+          "price": 27,
+          "image_url": "/products/camisa-branca.png",
+          "likely_restricted": false
+        },
+        {
+          "name": "Camisa C1 PMMG",
+          "slug": "camisa-c1-pmmg",
+          "url": "https://www.dpolice.com.br/comprar/camisa-c1-pmmg/bege-2/1673",
+          "price": 135,
+          "image_url": "indisponível",
+          "likely_restricted": true
+        },
+        {
+          "name": "Conjunto Agasalho PMMG",
+          "slug": "conjunto-agasalho-pmmg",
+          "url": "https://www.dpolice.com.br/comprar/conjunto-agasalho-pmmg/pp/1387",
+          "price": 195,
+          "image_url": "/products/conjunto-agasalho-pmmg.png",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/conjunto-agasalho-pmmg-2.png",
+            "/products/conjunto-agasalho-pmmg-3.png",
+            "/products/conjunto-agasalho-pmmg-4.jpeg"
+          ]
+        },
+        {
+          "name": "Conjunto C1 PMMG",
+          "slug": "conjunto-c1-pmmg",
+          "url": "https://www.dpolice.com.br/comprar/conjunto-c1-pmmg/2-42/1679",
+          "price": 262,
+          "price_note": "a partir de",
+          "image_url": "/products/conjunto-c1-pmmg.png",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/conjunto-c1-pmmg-2.png",
+            "/products/conjunto-c1-pmmg-3.png",
+            "/products/conjunto-c1-pmmg-4.png"
+          ]
+        },
+        {
+          "name": "Fiel Retrátil Polícia Militar",
+          "slug": "fiel-retratil-policia-militar",
+          "url": "https://www.dpolice.com.br/comprar/fiel-retratil-policia-militar/direto/247",
+          "price": 35,
+          "image_url": "/products/fiel-retratil-policia-militar.png",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/fiel-retratil-policia-militar-2.png",
+            "/products/fiel-retratil-policia-militar-3.png",
+            "/products/fiel-retratil-policia-militar-4.png"
+          ]
+        },
+        {
+          "name": "Japona Dupla Face PMMG",
+          "slug": "japona-dupla-face-pmmg",
+          "url": "https://www.dpolice.com.br/comprar/japona-dupla-face-pmmg/pp/2031",
+          "price": 360,
+          "image_url": "indisponível",
+          "likely_restricted": true
+        },
+        {
+          "name": "Short Azul SGT e CAD PMMG - Cadete",
+          "slug": "short-azul-sgt-e-cad-pmmg",
+          "url": "https://www.dpolice.com.br/comprar/short-azul-sgt-e-cad-pmmg/cadete-g/1592",
+          "price": 32,
+          "image_url": "/products/short-azul-sgt-e-cad-pmmg.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Short Azul SGT e CAD PMMG - Sargento",
+          "slug": "short-azul-sgt-e-cad-pmmg",
+          "url": "https://www.dpolice.com.br/comprar/short-azul-sgt-e-cad-pmmg/sargento-g/1587",
+          "price": 32,
+          "image_url": "/products/short-azul-sgt-e-cad-pmmg.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Conjunto B1 PMMG",
+          "slug": "conjunto-b1-pmmg",
+          "url": "https://www.dpolice.com.br/comprar/conjunto-b1-pmmg/voce-esta-comprando-um-produto-de-uso-exclusivo-de-uma-corporacao-1-40/2012",
+          "price": 370,
+          "image_url": "indisponível",
+          "likely_restricted": true
+        }
+      ]
+    },
+    {
+      "name": "Uniformes - Polícia Penal",
+      "slug": "uniformes/policia-penal",
+      "url": "https://www.dpolice.com.br/uniformes/policia-penal",
+      "declared_total": 8,
+      "products": [
+        {
+          "name": "Calça Tática Cinza Polícia Penal",
+          "slug": "calca-tatica-cinza-policia-penal",
+          "url": "https://www.dpolice.com.br/comprar/calca-tatica-cinza-policia-penal/voce-esta-comprando-um-produto-de-uso-exclusivo-de-uma-corporacao-cinza-36/2070",
+          "price": 310,
+          "image_url": "/products/calca-tatica-cinza-policia-penal.png",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/calca-tatica-cinza-policia-penal-2.png",
+            "/products/calca-tatica-cinza-policia-penal-3.png",
+            "/products/calca-tatica-cinza-policia-penal-4.png"
+          ]
+        },
+        {
+          "name": "Camisa Manga Longa Polícia Penal MG",
+          "slug": "camisa-manga-longa-policia-penal-mg",
+          "url": "https://www.dpolice.com.br/comprar/camisa-manga-longa-policia-penal-mg/voce-esta-comprando-um-produto-de-uso-exclusivo-de-uma-corporacao-preto-pp/1722",
+          "price": 99,
+          "image_url": "/products/camisa-manga-longa-policia-penal-mg.jpeg",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/camisa-manga-longa-policia-penal-mg-2.jpeg",
+            "/products/camisa-manga-longa-policia-penal-mg-3.jpeg",
+            "/products/camisa-manga-longa-policia-penal-mg-4.jpeg"
+          ]
+        },
+        {
+          "name": "Camisa Polícia Penal Preta",
+          "slug": "camisa-policia-penal-preta",
+          "url": "https://www.dpolice.com.br/comprar/camisa-policia-penal-preta/voce-esta-comprando-um-produto-de-uso-exclusivo-de-uma-corporacao-preto-m/1294",
+          "price": 84,
+          "image_url": "/products/camisa-policia-penal-preta.png",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/camisa-policia-penal-preta-2.png",
+            "/products/camisa-policia-penal-preta-3.png",
+            "/products/camisa-policia-penal-preta-4.png"
+          ]
+        },
+        {
+          "name": "Fiel Retrátil Polícia Penal",
+          "slug": "fiel-retratil-policia-penal",
+          "url": "https://www.dpolice.com.br/comprar/fiel-retratil-policia-penal/direto/1711",
+          "price": 40,
+          "image_url": "/products/fiel-retratil-policia-penal.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Gandola Combate Polícia Penal MG",
+          "slug": "gandola-combate-policia-penal-mg",
+          "url": "https://www.dpolice.com.br/comprar/gandola-combate-policia-penal-mg/voce-esta-comprando-um-produto-de-uso-exclusivo-de-uma-corporacao-cinza-p/1605",
+          "price": 239,
+          "image_url": "/products/gandola-combate-policia-penal-mg.png",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/gandola-combate-policia-penal-mg-2.png",
+            "/products/gandola-combate-policia-penal-mg-3.png"
+          ]
+        },
+        {
+          "name": "Boné Polícia Penal MG",
+          "slug": "bone-policia-penal-mg",
+          "url": "https://www.dpolice.com.br/comprar/bone-policia-penal-mg/preto-unico-voce-esta-comprando-um-produto-de-uso-exclusivo-de-uma-corporacao/1727",
+          "price": 55,
+          "image_url": "/products/bone-policia-penal-mg.jpeg",
+          "likely_restricted": true,
+          "in_stock": false,
+          "gallery_urls": [
+            "/products/bone-policia-penal-mg-2.jpeg",
+            "/products/bone-policia-penal-mg-3.jpeg",
+            "/products/bone-policia-penal-mg-4.jpeg"
+          ]
+        },
+        {
+          "name": "Carteira Porta Nota Dourada Polícia Penal",
+          "slug": "carteira-porta-nota-dourada-policia-penal",
+          "url": "https://www.dpolice.com.br/comprar/carteira-porta-nota-dourada-policia-penal/dourada-unico/1719",
+          "price": 120,
+          "image_url": "/products/carteira-porta-nota-dourada-policia-penal.png",
+          "likely_restricted": true,
+          "in_stock": false
+        },
+        {
+          "name": "Carteira Porta Nota Polícia Penal",
+          "slug": "carteira-porta-nota-policia-penal",
+          "url": "https://www.dpolice.com.br/comprar/carteira-porta-nota-policia-penal/unico/1313",
+          "price": 105,
+          "image_url": "/products/carteira-porta-nota-policia-penal.png",
+          "likely_restricted": true,
+          "in_stock": false,
+          "gallery_urls": [
+            "/products/carteira-porta-nota-policia-penal-2.png",
+            "/products/carteira-porta-nota-policia-penal-3.png",
+            "/products/carteira-porta-nota-policia-penal-4.png"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Uniformes - Polícia Penal II",
+      "slug": "uniformes/policia-penal-ii",
+      "url": "https://www.dpolice.com.br/uniformes/policia-penal-ii",
+      "declared_total": 16,
+      "notes": "Captura parcial: 12 dos 16 produtos visíveis na página 1. Página 2 não retornada pelo WebFetch. Produtos extras vistos em outras categorias: Tonfa, Capa de Colete C&A Militar, Carteira Porta Nota Polícia Penal, Porta Tonfa.",
+      "products": [
+        {
+          "name": "Algema Brasil",
+          "slug": "algema-brasil",
+          "url": "https://www.dpolice.com.br/comprar/algema-brasil/direto/1710",
+          "price": 170,
+          "image_url": "indisponível",
+          "likely_restricted": true
+        },
+        {
+          "name": "Boné Digitalizado",
+          "slug": "bone-digitalizado",
+          "url": "https://www.dpolice.com.br/comprar/bone-digitalizado/digitalizada-unico/1703",
+          "price": 55,
+          "image_url": "/products/bone-digitalizado.png",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/bone-digitalizado-2.png",
+            "/products/bone-digitalizado-3.png",
+            "/products/bone-digitalizado-4.png"
+          ]
+        },
+        {
+          "name": "Calça Digitalizada Polícia Penal",
+          "slug": "calca-digitalizada-policia-penal",
+          "url": "https://www.dpolice.com.br/comprar/calca-digitalizada-policia-penal/digitalizada-46/1315",
+          "price": 150,
+          "price_original": 190,
+          "image_url": "/products/calca-digitalizada-policia-penal.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Camiseta Bege Polícia Penal",
+          "slug": "camiseta-bege-policia-penal",
+          "url": "https://www.dpolice.com.br/comprar/camiseta-bege-policia-penal/bege-pp/1704",
+          "price": 25,
+          "image_url": "/products/camiseta-bege-policia-penal.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Capa de Colete Fox Boy",
+          "slug": "capa-de-colete-fox-boy",
+          "url": "https://www.dpolice.com.br/comprar/capa-de-colete-fox-boy/p/518",
+          "price": 249,
+          "image_url": "/products/capa-de-colete-fox-boy.png",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/capa-de-colete-fox-boy-2.png",
+            "/products/capa-de-colete-fox-boy-3.png",
+            "/products/capa-de-colete-fox-boy-4.png"
+          ]
+        },
+        {
+          "name": "Cinto Tático CIA Militar",
+          "slug": "cinto-tatico-cia-militar",
+          "url": "https://www.dpolice.com.br/comprar/cinto-tatico-cia-militar/preto-p/1456",
+          "price": 135,
+          "image_url": "/products/cinto-tatico-cia-militar.png",
+          "likely_restricted": false
+        },
+        {
+          "name": "Conjunto Polícia Penal Digitalizado",
+          "slug": "conjunto-policia-penal-digitalizado",
+          "url": "https://www.dpolice.com.br/comprar/conjunto-policia-penal-digitalizado/digitalizada-46/1598",
+          "price": 300,
+          "image_url": "/products/conjunto-policia-penal-digitalizado.png",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/conjunto-policia-penal-digitalizado-2.png",
+            "/products/conjunto-policia-penal-digitalizado-3.png",
+            "/products/conjunto-policia-penal-digitalizado-4.png"
+          ]
+        },
+        {
+          "name": "Fiel Retrátil Polícia Penal",
+          "slug": "fiel-retratil-policia-penal",
+          "url": "https://www.dpolice.com.br/comprar/fiel-retratil-policia-penal/direto/1711",
+          "price": 40,
+          "image_url": "/products/fiel-retratil-policia-penal.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Gandola Digitalizada Polícia Penal",
+          "slug": "gandola-digitalizada-policia-penal",
+          "url": "https://www.dpolice.com.br/comprar/gandola-digitalizada-policia-penal/digitalizada-46/1322",
+          "price": 150,
+          "image_url": "/products/gandola-digitalizada-policia-penal.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Porta Tonfa Bélica",
+          "slug": "porta-tonfa-belica",
+          "url": "https://www.dpolice.com.br/comprar/porta-tonfa-belica/preto-belica/604",
+          "price": 42,
+          "image_url": "/products/porta-tonfa-belica.png",
+          "likely_restricted": false
+        },
+        {
+          "name": "Porta Tonfa Bélica 2",
+          "slug": "porta-tonfa-belica-2",
+          "url": "https://www.dpolice.com.br/comprar/porta-tonfa-belica-2/preto-belica/605",
+          "price": 32,
+          "image_url": "/products/porta-tonfa-belica-2.png",
+          "likely_restricted": false
+        },
+        {
+          "name": "Porta Treco 15x15",
+          "slug": "porta-treco-15x15",
+          "url": "https://www.dpolice.com.br/comprar/porta-treco-15x15/direto/1573",
+          "price": 81,
+          "image_url": "/products/porta-treco-15x15.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/porta-treco-15x15-2.png",
+            "/products/porta-treco-15x15-3.png",
+            "/products/porta-treco-15x15-4.png"
+          ]
+        },
+        {
+          "name": "Tonfa",
+          "slug": "tonfa",
+          "url": "https://www.dpolice.com.br/comprar/tonfa/direto/328",
+          "price": 40,
+          "image_url": "/products/tonfa.png",
+          "likely_restricted": false
+        },
+        {
+          "name": "Capa de Colete C&A Militar",
+          "slug": "capa-de-colete-cea-militar",
+          "url": "https://www.dpolice.com.br/comprar/capa-de-colete-cea-militar/g/622",
+          "price": 485,
+          "image_url": "/products/capa-de-colete-cea-militar.jpg",
+          "likely_restricted": true,
+          "in_stock": false
+        },
+        {
+          "name": "Carteira Porta Nota Polícia Penal",
+          "slug": "carteira-porta-nota-policia-penal",
+          "url": "https://www.dpolice.com.br/comprar/carteira-porta-nota-policia-penal/unico/1313",
+          "price": 105,
+          "image_url": "/products/carteira-porta-nota-policia-penal.png",
+          "likely_restricted": true,
+          "in_stock": false,
+          "gallery_urls": [
+            "/products/carteira-porta-nota-policia-penal-2.png",
+            "/products/carteira-porta-nota-policia-penal-3.png",
+            "/products/carteira-porta-nota-policia-penal-4.png"
+          ]
+        },
+        {
+          "name": "Porta Tonfa",
+          "slug": "porta-tonfa",
+          "url": "https://www.dpolice.com.br/comprar/porta-tonfa/direto/329",
+          "price": 21,
+          "image_url": "/products/porta-tonfa.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/porta-tonfa-2.png",
+            "/products/porta-tonfa-3.png",
+            "/products/porta-tonfa-4.png"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Uniformes - Bombeiro Militar",
+      "slug": "uniformes/bombeiro-militar",
+      "url": "https://www.dpolice.com.br/uniformes/bombeiro-militar",
+      "products": [
+        {
+          "name": "Calção CBMMG - Oficial",
+          "slug": "calcao-cbmmg",
+          "url": "https://www.dpolice.com.br/comprar/calcao-cbmmg/oficial-p/1618",
+          "price": 32,
+          "image_url": "/products/calcao-cbmmg.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Calção CBMMG - Sargento",
+          "slug": "calcao-cbmmg",
+          "url": "https://www.dpolice.com.br/comprar/calcao-cbmmg/sargento-p/1622",
+          "price": 32,
+          "image_url": "/products/calcao-cbmmg.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Calção CBMMG - Soldado/Cabo",
+          "slug": "calcao-cbmmg",
+          "url": "https://www.dpolice.com.br/comprar/calcao-cbmmg/soldado-cabo-p/1626",
+          "price": 32,
+          "image_url": "/products/calcao-cbmmg.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Divisa Bombeiro Militar - 1º Sargento",
+          "slug": "divisa-bombeiro-militar-1-sargento",
+          "url": "https://www.dpolice.com.br/comprar/divisa-bombeiro-militar-1-sargento/laranja/561",
+          "price": 10,
+          "image_url": "indisponível",
+          "likely_restricted": true
+        },
+        {
+          "name": "Divisa Bombeiro Militar - 2º Sargento (Cinza)",
+          "slug": "divisa-bombeiro-militar-2-sargento",
+          "url": "https://www.dpolice.com.br/comprar/divisa-bombeiro-militar-2-sargento/cinza/1564",
+          "price": 10,
+          "image_url": "/products/divisa-bombeiro-militar-2-sargento.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Divisa Bombeiro Militar - 2º Sargento (Laranja)",
+          "slug": "divisa-bombeiro-militar-2-sargento",
+          "url": "https://www.dpolice.com.br/comprar/divisa-bombeiro-militar-2-sargento/laranja/560",
+          "price": 10,
+          "image_url": "/products/divisa-bombeiro-militar-2-sargento.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Divisa Bombeiro Militar - 3º Sargento",
+          "slug": "divisa-bombeiro-militar-3-sargento",
+          "url": "https://www.dpolice.com.br/comprar/divisa-bombeiro-militar-3-sargento/laranja/559",
+          "price": 10,
+          "image_url": "/products/divisa-bombeiro-militar-3-sargento.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Divisa Bombeiro Militar - Cabo (Cinza)",
+          "slug": "divisa-bombeiro-militar-cabo",
+          "url": "https://www.dpolice.com.br/comprar/divisa-bombeiro-militar-cabo/cinza/1567",
+          "price": 10,
+          "image_url": "/products/divisa-bombeiro-militar-cabo.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Divisa Bombeiro Militar - Soldado",
+          "slug": "divisa-bombeiro-militar-soldado",
+          "url": "https://www.dpolice.com.br/comprar/divisa-bombeiro-militar-soldado/laranja/544",
+          "price": 10,
+          "image_url": "/products/divisa-bombeiro-militar-soldado.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Divisa Cinza Bombeiro Militar - Cabo",
+          "slug": "divisa-cinza-bombeiro-militar",
+          "url": "https://www.dpolice.com.br/comprar/divisa-cinza-bombeiro-militar/cabo/1666",
+          "price": 10,
+          "image_url": "/products/divisa-cinza-bombeiro-militar.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Gorro Bombeiro Militar",
+          "slug": "gorro-bombeiro-militar",
+          "url": "https://www.dpolice.com.br/comprar/gorro-bombeiro-militar/54/1517",
+          "price": 32,
+          "image_url": "/products/gorro-bombeiro-militar.png",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/gorro-bombeiro-militar-2.png",
+            "/products/gorro-bombeiro-militar-3.png",
+            "/products/gorro-bombeiro-militar-4.png"
+          ]
+        },
+        {
+          "name": "Conjunto 4ºA CBMMG Completo",
+          "slug": "conjunto-4a-cbmmg-completo",
+          "url": "https://www.dpolice.com.br/comprar/conjunto-4a-cbmmg-completo/48-4/1657",
+          "price": 455,
+          "image_url": "/products/conjunto-4a-cbmmg-completo.png",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/conjunto-4a-cbmmg-completo-2.png",
+            "/products/conjunto-4a-cbmmg-completo-3.png",
+            "/products/conjunto-4a-cbmmg-completo-4.png"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Uniformes - Bombeiro Civil",
+      "slug": "uniformes/bombeiro-civil",
+      "url": "https://www.dpolice.com.br/uniformes/bombeiro-civil",
+      "declared_total": 1,
+      "products": [
+        {
+          "name": "Gandola Vermelha Bombeiro Civil",
+          "slug": "gandola-vermelha-bombeiro-civil",
+          "url": "https://www.dpolice.com.br/comprar/gandola-vermelha-bombeiro-civil/vermelho-pp/2036",
+          "price": 250,
+          "image_url": "/products/gandola-vermelha-bombeiro-civil.png",
+          "likely_restricted": false
+        }
+      ]
+    },
+    {
+      "name": "Uniformes - Carteiras e Distintivos",
+      "slug": "uniformes/carteiras-e-distintivos",
+      "url": "https://www.dpolice.com.br/uniformes/carteiras-e-distintivos",
+      "declared_total": 1,
+      "products": [
+        {
+          "name": "Carteira Porta Nota Polícia Penal",
+          "slug": "carteira-porta-nota-policia-penal",
+          "url": "https://www.dpolice.com.br/comprar/carteira-porta-nota-policia-penal/unico/1313",
+          "price": 105,
+          "image_url": "/products/carteira-porta-nota-policia-penal.png",
+          "likely_restricted": true,
+          "in_stock": false,
+          "gallery_urls": [
+            "/products/carteira-porta-nota-policia-penal-2.png",
+            "/products/carteira-porta-nota-policia-penal-3.png",
+            "/products/carteira-porta-nota-policia-penal-4.png"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Uniformes - Florões e Divisas",
+      "slug": "uniformes/floroes-e-divisas",
+      "url": "https://www.dpolice.com.br/uniformes/floroes-e-divisas",
+      "products": [
+        {
+          "name": "Divisa Bombeiro Militar - 1º Sargento",
+          "slug": "divisa-bombeiro-militar-1-sargento",
+          "url": "https://www.dpolice.com.br/comprar/divisa-bombeiro-militar-1-sargento/laranja/561",
+          "price": 10,
+          "image_url": "indisponível",
+          "likely_restricted": true
+        },
+        {
+          "name": "Divisa Bombeiro Militar - 2º Sargento - Cinza",
+          "slug": "divisa-bombeiro-militar-2-sargento",
+          "url": "https://www.dpolice.com.br/comprar/divisa-bombeiro-militar-2-sargento/cinza/1564",
+          "price": 10,
+          "image_url": "/products/divisa-bombeiro-militar-2-sargento.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Divisa Bombeiro Militar - 2º Sargento - Laranja",
+          "slug": "divisa-bombeiro-militar-2-sargento",
+          "url": "https://www.dpolice.com.br/comprar/divisa-bombeiro-militar-2-sargento/laranja/560",
+          "price": 10,
+          "image_url": "/products/divisa-bombeiro-militar-2-sargento.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Divisa Bombeiro Militar - 3º Sargento",
+          "slug": "divisa-bombeiro-militar-3-sargento",
+          "url": "https://www.dpolice.com.br/comprar/divisa-bombeiro-militar-3-sargento/laranja/559",
+          "price": 10,
+          "image_url": "/products/divisa-bombeiro-militar-3-sargento.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Divisa Bombeiro Militar - Cabo",
+          "slug": "divisa-bombeiro-militar-cabo",
+          "url": "https://www.dpolice.com.br/comprar/divisa-bombeiro-militar-cabo/cinza/1567",
+          "price": 10,
+          "image_url": "/products/divisa-bombeiro-militar-cabo.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Divisa Bombeiro Militar - Soldado",
+          "slug": "divisa-bombeiro-militar-soldado",
+          "url": "https://www.dpolice.com.br/comprar/divisa-bombeiro-militar-soldado/laranja/544",
+          "price": 10,
+          "image_url": "/products/divisa-bombeiro-militar-soldado.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Divisa Cinza Bombeiro Militar - Cabo",
+          "slug": "divisa-cinza-bombeiro-militar",
+          "url": "https://www.dpolice.com.br/comprar/divisa-cinza-bombeiro-militar/cabo/1666",
+          "price": 10,
+          "image_url": "/products/divisa-cinza-bombeiro-militar.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Divisa Polícia Militar - Soldado - 1° Sargento",
+          "slug": "divisa-policia-militar-soldado",
+          "url": "https://www.dpolice.com.br/comprar/divisa-policia-militar-soldado/1-sargento/532",
+          "price": 10,
+          "image_url": "/products/divisa-policia-militar-soldado.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Divisa Polícia Militar - Soldado - 3° Sargento",
+          "slug": "divisa-policia-militar-soldado",
+          "url": "https://www.dpolice.com.br/comprar/divisa-policia-militar-soldado/3-sargento/524",
+          "price": 10,
+          "image_url": "/products/divisa-policia-militar-soldado.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Divisa Polícia Militar - Soldado - Cabo",
+          "slug": "divisa-policia-militar-soldado",
+          "url": "https://www.dpolice.com.br/comprar/divisa-policia-militar-soldado/cabo/523",
+          "price": 10,
+          "image_url": "/products/divisa-policia-militar-soldado.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Divisa Polícia Militar - Soldado - Soldado",
+          "slug": "divisa-policia-militar-soldado",
+          "url": "https://www.dpolice.com.br/comprar/divisa-policia-militar-soldado/soldado/533",
+          "price": 10,
+          "image_url": "/products/divisa-policia-militar-soldado.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Florão Cadete - Boina",
+          "slug": "florao-cadete",
+          "url": "https://www.dpolice.com.br/comprar/florao-cadete/voce-esta-comprando-um-produto-de-uso-exclusivo-de-uma-corporacao-boina/1561",
+          "price": 125,
+          "image_url": "/products/florao-cadete.gif",
+          "likely_restricted": true
+        }
+      ]
+    },
+    {
+      "name": "Uniformes - Passadeiras e Platinas",
+      "slug": "uniformes/passadeiras-e-platinas",
+      "url": "https://www.dpolice.com.br/uniformes/passadeiras-e-platinas",
+      "products": [
+        {
+          "name": "Platina PMMG CHO, CFO e Aspirante - Aspirante",
+          "slug": "platina-pmmg-cho-cfo-e-aspirante",
+          "url": "https://www.dpolice.com.br/comprar/platina-pmmg-cho-cfo-e-aspirante/aspirante/393",
+          "price": 143.5,
+          "image_url": "/products/platina-pmmg-cho-cfo-e-aspirante.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Platina PMMG CHO, CFO e Aspirante - Cadete 1° Ano",
+          "slug": "platina-pmmg-cho-cfo-e-aspirante",
+          "url": "https://www.dpolice.com.br/comprar/platina-pmmg-cho-cfo-e-aspirante/cadete-1-ano/390",
+          "price": 156,
+          "image_url": "/products/platina-pmmg-cho-cfo-e-aspirante.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Platina PMMG CHO, CFO e Aspirante - Cadete 2° Ano",
+          "slug": "platina-pmmg-cho-cfo-e-aspirante",
+          "url": "https://www.dpolice.com.br/comprar/platina-pmmg-cho-cfo-e-aspirante/cadete-2-ano/391",
+          "price": 164,
+          "image_url": "/products/platina-pmmg-cho-cfo-e-aspirante.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Platina PMMG CHO, CFO e Aspirante - Cadete 3° Ano",
+          "slug": "platina-pmmg-cho-cfo-e-aspirante",
+          "url": "https://www.dpolice.com.br/comprar/platina-pmmg-cho-cfo-e-aspirante/cadete-3-ano/392",
+          "price": 173,
+          "image_url": "/products/platina-pmmg-cho-cfo-e-aspirante.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Passadeira PMMG - 1° Tenente",
+          "slug": "passadeira-pmmg",
+          "url": "https://www.dpolice.com.br/comprar/passadeira-pmmg/1-tenente/383",
+          "price": 189,
+          "image_url": "/products/passadeira-pmmg.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Passadeira PMMG - 2° Tenente",
+          "slug": "passadeira-pmmg",
+          "url": "https://www.dpolice.com.br/comprar/passadeira-pmmg/2-tenente/384",
+          "price": 156,
+          "image_url": "/products/passadeira-pmmg.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Passadeira PMMG - Capitão",
+          "slug": "passadeira-pmmg",
+          "url": "https://www.dpolice.com.br/comprar/passadeira-pmmg/capitao/385",
+          "price": 226,
+          "image_url": "/products/passadeira-pmmg.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Passadeira PMMG - Coronel",
+          "slug": "passadeira-pmmg",
+          "url": "https://www.dpolice.com.br/comprar/passadeira-pmmg/coronel/388",
+          "price": 226,
+          "image_url": "/products/passadeira-pmmg.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Passadeira PMMG - Major",
+          "slug": "passadeira-pmmg",
+          "url": "https://www.dpolice.com.br/comprar/passadeira-pmmg/major/386",
+          "price": 226,
+          "image_url": "/products/passadeira-pmmg.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Passadeira PMMG - Sub Tenente",
+          "slug": "passadeira-pmmg",
+          "url": "https://www.dpolice.com.br/comprar/passadeira-pmmg/sub-tenente/389",
+          "price": 126,
+          "image_url": "/products/passadeira-pmmg.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Passadeira PMMG - Ten Coronel",
+          "slug": "passadeira-pmmg",
+          "url": "https://www.dpolice.com.br/comprar/passadeira-pmmg/ten-coronel/387",
+          "price": 226,
+          "image_url": "/products/passadeira-pmmg.png",
+          "likely_restricted": true
+        },
+        {
+          "name": "Passadeira PMMG CHO, CFO e Aspirante - Cadete 1° Ano",
+          "slug": "passadeira-pmmg-cho-cfo-e-aspirante",
+          "url": "https://www.dpolice.com.br/comprar/passadeira-pmmg-cho-cfo-e-aspirante/cadete-1-ano/379",
+          "price": 138.5,
+          "image_url": "/products/passadeira-pmmg-cho-cfo-e-aspirante.png",
+          "likely_restricted": true
+        }
+      ]
+    },
+    {
+      "name": "CFSD 2025 PMMG",
+      "slug": "cfsd-2025-pmmg",
+      "url": "https://www.dpolice.com.br/cfsd-2025-pmmg",
+      "declared_total": 16,
+      "notes": "Categoria provavelmente para candidatos do Curso de Formação de Soldados PMMG 2025 (kit do candidato). Estes uniformes/itens são exigidos pela corporação para o curso.",
+      "products": [
+        {
+          "name": "Boné Branco",
+          "slug": "bone-branco",
+          "url": "https://www.dpolice.com.br/comprar/bone-branco/branco-unico/2053",
+          "price": 22,
+          "image_url": "/products/bone-branco.jpeg",
+          "likely_restricted": false
+        },
+        {
+          "name": "Boné Cáqui",
+          "slug": "bone-caqui",
+          "url": "https://www.dpolice.com.br/comprar/bone-caqui/unico/2054",
+          "price": 35,
+          "image_url": "/products/bone-caqui.jpeg",
+          "likely_restricted": false
+        },
+        {
+          "name": "Calça Jeans com Elastano",
+          "slug": "calca-jeans-com-elastano",
+          "url": "https://www.dpolice.com.br/comprar/calca-jeans-com-elastano/42/2048",
+          "price": 85,
+          "image_url": "/products/calca-jeans-com-elastano.jpeg",
+          "likely_restricted": false
+        },
+        {
+          "name": "Camisa Branca",
+          "slug": "camisa-branca",
+          "url": "https://www.dpolice.com.br/comprar/camisa-branca/pp/347",
+          "price": 27,
+          "image_url": "/products/camisa-branca.png",
+          "likely_restricted": false
+        },
+        {
+          "name": "Camisa Branca Bordada com Ribana",
+          "slug": "camisa-branca-bordada-com-ribana",
+          "url": "https://www.dpolice.com.br/comprar/camisa-branca-bordada-com-ribana/pp/2042",
+          "price": 45,
+          "image_url": "/products/camisa-branca-bordada-com-ribana.jpeg",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/camisa-branca-bordada-com-ribana-2.jpeg",
+            "/products/camisa-branca-bordada-com-ribana-3.jpeg",
+            "/products/camisa-branca-bordada-com-ribana-4.jpeg"
+          ]
+        },
+        {
+          "name": "Cantil",
+          "slug": "cantil",
+          "url": "https://www.dpolice.com.br/comprar/cantil/preto/558",
+          "price": 22,
+          "image_url": "/products/cantil.png",
+          "likely_restricted": false
+        },
+        {
+          "name": "Cinto Nylon PMMG",
+          "slug": "cinto-nylon-pmmg",
+          "url": "https://www.dpolice.com.br/comprar/cinto-nylon-pmmg/preto-pmmg/1329",
+          "price": 22.5,
+          "image_url": "/products/cinto-nylon-pmmg.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/cinto-nylon-pmmg-2.png",
+            "/products/cinto-nylon-pmmg-3.png",
+            "/products/cinto-nylon-pmmg-4.png"
+          ]
+        },
+        {
+          "name": "Cinturão Completo",
+          "slug": "cinturao-completo",
+          "url": "https://www.dpolice.com.br/comprar/cinturao-completo/unico/2058",
+          "price": 539,
+          "image_url": "/products/cinturao-completo.jpeg",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/cinturao-completo-2.jpeg",
+            "/products/cinturao-completo-3.jpeg",
+            "/products/cinturao-completo-4.jpeg"
+          ]
+        },
+        {
+          "name": "Conjunto Agasalho PMMG",
+          "slug": "conjunto-agasalho-pmmg",
+          "url": "https://www.dpolice.com.br/comprar/conjunto-agasalho-pmmg/pp/1387",
+          "price": 195,
+          "image_url": "/products/conjunto-agasalho-pmmg.png",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/conjunto-agasalho-pmmg-2.png",
+            "/products/conjunto-agasalho-pmmg-3.png",
+            "/products/conjunto-agasalho-pmmg-4.jpeg"
+          ]
+        },
+        {
+          "name": "Japona Dupla Face PMMG",
+          "slug": "japona-dupla-face-pmmg",
+          "url": "https://www.dpolice.com.br/comprar/japona-dupla-face-pmmg/pp/2031",
+          "price": 360,
+          "image_url": "indisponível",
+          "likely_restricted": true
+        },
+        {
+          "name": "Kit Meia Branca Selene",
+          "slug": "kit-meia-branca-selene",
+          "url": "https://www.dpolice.com.br/comprar/kit-meia-branca-selene/direto/2059",
+          "price": 30,
+          "image_url": "/products/kit-meia-branca-selene.jpeg",
+          "likely_restricted": false
+        },
+        {
+          "name": "Meião Selene Futebol",
+          "slug": "meiao-selene-futebol",
+          "url": "https://www.dpolice.com.br/comprar/meiao-selene-futebol/5/1712",
+          "price": 22,
+          "image_url": "/products/meiao-selene-futebol.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/meiao-selene-futebol-2.png",
+            "/products/meiao-selene-futebol-3.png",
+            "/products/meiao-selene-futebol-4.png"
+          ]
+        },
+        {
+          "name": "Organizador de Armário",
+          "slug": "organizador-de-armario",
+          "url": "https://www.dpolice.com.br/cfsd-2025-pmmg",
+          "price": 55,
+          "image_url": "/products/organizador-de-armario.jpeg",
+          "likely_restricted": false,
+          "url_note": "URL exata da PDP não capturada",
+          "gallery_urls": [
+            "/products/organizador-de-armario-2.jpeg",
+            "/products/organizador-de-armario-3.jpeg",
+            "/products/organizador-de-armario-4.png"
+          ]
+        },
+        {
+          "name": "Short Azul SD PM",
+          "slug": "short-azul-sd-pm",
+          "url": "https://www.dpolice.com.br/cfsd-2025-pmmg",
+          "price": 25,
+          "image_url": "/products/short-azul-sd-pm.jpeg",
+          "likely_restricted": true,
+          "url_note": "URL exata da PDP não capturada",
+          "gallery_urls": [
+            "/products/short-azul-sd-pm-2.jpeg",
+            "/products/short-azul-sd-pm-3.jpeg",
+            "/products/short-azul-sd-pm-4.png"
+          ]
+        },
+        {
+          "name": "Sunga Azul",
+          "slug": "sunga-azul",
+          "url": "https://www.dpolice.com.br/cfsd-2025-pmmg",
+          "price": 45,
+          "image_url": "/products/sunga-azul.jpeg",
+          "likely_restricted": false,
+          "url_note": "URL exata da PDP não capturada",
+          "gallery_urls": [
+            "/products/sunga-azul-2.jpeg",
+            "/products/sunga-azul-3.jpeg",
+            "/products/sunga-azul-4.png"
+          ]
+        },
+        {
+          "name": "Tensor Azul",
+          "slug": "tensor-azul",
+          "url": "https://www.dpolice.com.br/cfsd-2025-pmmg",
+          "price": 45,
+          "image_url": "/products/tensor-azul.jpeg",
+          "likely_restricted": false,
+          "url_note": "URL exata da PDP não capturada",
+          "gallery_urls": [
+            "/products/tensor-azul-2.jpeg",
+            "/products/tensor-azul-3.jpeg",
+            "/products/tensor-azul-4.png"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Artigos Militares",
+      "slug": "artigos-militares",
+      "url": "https://www.dpolice.com.br/artigos-militares",
+      "declared_total": 45,
+      "notes": "Captura agregada de páginas 1-3 + subcategorias. Página 4 não retornada pelo WebFetch (cache). Total declarado 45 produtos.",
+      "products": [
+        {
+          "name": "Algema Brasil",
+          "slug": "algema-brasil",
+          "url": "https://www.dpolice.com.br/comprar/algema-brasil/direto/1710",
+          "price": 170,
+          "image_url": "indisponível",
+          "likely_restricted": true
+        },
+        {
+          "name": "Algema de Corrente",
+          "slug": "algema-de-corrente",
+          "url": "https://www.dpolice.com.br/comprar/algema-de-corrente/direto/223",
+          "price": 170,
+          "image_url": "/products/algema-de-corrente.png",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/algema-de-corrente-2.png",
+            "/products/algema-de-corrente-3.png",
+            "/products/algema-de-corrente-4.png"
+          ]
+        },
+        {
+          "name": "Boina Lyon",
+          "slug": "boina-lyon",
+          "url": "https://www.dpolice.com.br/comprar/boina-lyon/preto-54/1400",
+          "price": 160,
+          "image_url": "/products/boina-lyon.png",
+          "likely_restricted": false
+        },
+        {
+          "name": "Calça Camuflada Masculina",
+          "slug": "calca-camuflada-masculina",
+          "url": "https://www.dpolice.com.br/comprar/calca-camuflada-masculina/digitalizada-46/1785",
+          "price": 120,
+          "price_original": 173,
+          "image_url": "indisponível",
+          "likely_restricted": false
+        },
+        {
+          "name": "Cantil",
+          "slug": "cantil",
+          "url": "https://www.dpolice.com.br/comprar/cantil/preto/558",
+          "price": 22,
+          "image_url": "/products/cantil.png",
+          "likely_restricted": false
+        },
+        {
+          "name": "Capa de Colete Fox Boy",
+          "slug": "capa-de-colete-fox-boy",
+          "url": "https://www.dpolice.com.br/comprar/capa-de-colete-fox-boy/p/518",
+          "price": 249,
+          "image_url": "/products/capa-de-colete-fox-boy.png",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/capa-de-colete-fox-boy-2.png",
+            "/products/capa-de-colete-fox-boy-3.png",
+            "/products/capa-de-colete-fox-boy-4.png"
+          ]
+        },
+        {
+          "name": "Chave de Algema",
+          "slug": "chave-de-algema",
+          "url": "https://www.dpolice.com.br/comprar/chave-de-algema/unico/1709",
+          "price": 28,
+          "image_url": "/products/chave-de-algema.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/chave-de-algema-2.png",
+            "/products/chave-de-algema-3.png",
+            "/products/chave-de-algema-4.png"
+          ]
+        },
+        {
+          "name": "Chaveiro",
+          "slug": "chaveiro",
+          "url": "https://www.dpolice.com.br/comprar/chaveiro/direto/1576",
+          "price": 15,
+          "image_url": "indisponível",
+          "likely_restricted": false
+        },
+        {
+          "name": "Cinto de Guarnição PMMG",
+          "slug": "cinto-de-guarnicao-pmmg",
+          "url": "https://www.dpolice.com.br/comprar/cinto-de-guarnicao-pmmg/preto-unico/1419",
+          "price": 150,
+          "image_url": "/products/cinto-de-guarnicao-pmmg.png",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/cinto-de-guarnicao-pmmg-2.png",
+            "/products/cinto-de-guarnicao-pmmg-3.png",
+            "/products/cinto-de-guarnicao-pmmg-4.png"
+          ]
+        },
+        {
+          "name": "Cinto de Nylon",
+          "slug": "cinto-de-nylon",
+          "url": "https://www.dpolice.com.br/comprar/cinto-de-nylon/preto-m/1707",
+          "price": 22.5,
+          "image_url": "/products/cinto-de-nylon.png",
+          "likely_restricted": false
+        },
+        {
+          "name": "Cinto Nylon CBMG - CBMMG",
+          "slug": "cinto-nylon-cbmg",
+          "url": "https://www.dpolice.com.br/comprar/cinto-nylon-cbmg/vermelho-cbmmg/1420",
+          "price": 45,
+          "image_url": "/products/cinto-nylon-cbmg.png",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/cinto-nylon-cbmg-2.png",
+            "/products/cinto-nylon-cbmg-3.png",
+            "/products/cinto-nylon-cbmg-4.png"
+          ]
+        },
+        {
+          "name": "Cinto Nylon CIA Militar",
+          "slug": "cinto-nylon-cia-militar",
+          "url": "https://www.dpolice.com.br/comprar/cinto-nylon-cia-militar/bege-unico/1421",
+          "price": 38,
+          "image_url": "/products/cinto-nylon-cia-militar.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/cinto-nylon-cia-militar-2.png",
+            "/products/cinto-nylon-cia-militar-3.png",
+            "/products/cinto-nylon-cia-militar-4.png"
+          ]
+        },
+        {
+          "name": "Cinto Nylon PMMG",
+          "slug": "cinto-nylon-pmmg",
+          "url": "https://www.dpolice.com.br/comprar/cinto-nylon-pmmg/preto-pmmg/1329",
+          "price": 22.5,
+          "image_url": "/products/cinto-nylon-pmmg.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/cinto-nylon-pmmg-2.png",
+            "/products/cinto-nylon-pmmg-3.png",
+            "/products/cinto-nylon-pmmg-4.png"
+          ]
+        },
+        {
+          "name": "Cinto Tático",
+          "slug": "cinto-tatico",
+          "url": "https://www.dpolice.com.br/comprar/cinto-tatico/preto-unico/1423",
+          "price": 65,
+          "image_url": "/products/cinto-tatico.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/cinto-tatico-2.png",
+            "/products/cinto-tatico-3.png",
+            "/products/cinto-tatico-4.png"
+          ]
+        },
+        {
+          "name": "Cinto Tático CIA Militar",
+          "slug": "cinto-tatico-cia-militar",
+          "url": "https://www.dpolice.com.br/comprar/cinto-tatico-cia-militar/preto-p/1456",
+          "price": 135,
+          "image_url": "/products/cinto-tatico-cia-militar.png",
+          "likely_restricted": false
+        },
+        {
+          "name": "Conjunto Camuflado Masculino",
+          "slug": "conjunto-camuflado-masculino",
+          "url": "https://www.dpolice.com.br/comprar/conjunto-camuflado-masculino/38-50/1737",
+          "price": 200,
+          "price_original": 284,
+          "image_url": "indisponível",
+          "likely_restricted": false
+        },
+        {
+          "name": "Fiel Retrátil Polícia Militar",
+          "slug": "fiel-retratil-policia-militar",
+          "url": "https://www.dpolice.com.br/comprar/fiel-retratil-policia-militar/direto/247",
+          "price": 35,
+          "image_url": "/products/fiel-retratil-policia-militar.png",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/fiel-retratil-policia-militar-2.png",
+            "/products/fiel-retratil-policia-militar-3.png",
+            "/products/fiel-retratil-policia-militar-4.png"
+          ]
+        },
+        {
+          "name": "Gandola Camuflada",
+          "slug": "gandola-camuflada",
+          "url": "https://www.dpolice.com.br/comprar/gandola-camuflada/digitalizada-54/1791",
+          "price": 99.9,
+          "price_original": 145,
+          "image_url": "indisponível",
+          "likely_restricted": false
+        },
+        {
+          "name": "Meião Selene Futebol",
+          "slug": "meiao-selene-futebol",
+          "url": "https://www.dpolice.com.br/comprar/meiao-selene-futebol/5/1712",
+          "price": 22,
+          "image_url": "/products/meiao-selene-futebol.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/meiao-selene-futebol-2.png",
+            "/products/meiao-selene-futebol-3.png",
+            "/products/meiao-selene-futebol-4.png"
+          ]
+        },
+        {
+          "name": "Meião Selene Futebol Performance",
+          "slug": "meiao-selene-futebol-performance",
+          "url": "https://www.dpolice.com.br/comprar/meiao-selene-futebol-performance/5/1714",
+          "price": 25,
+          "image_url": "indisponível",
+          "likely_restricted": false
+        },
+        {
+          "name": "Mini Coldre Modular",
+          "slug": "mini-coldre-modular",
+          "url": "https://www.dpolice.com.br/comprar/mini-coldre-modular/direto/1569",
+          "price": 57,
+          "image_url": "/products/mini-coldre-modular.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/mini-coldre-modular-2.png",
+            "/products/mini-coldre-modular-3.png",
+            "/products/mini-coldre-modular-4.png"
+          ]
+        },
+        {
+          "name": "Porta Algema",
+          "slug": "porta-algema",
+          "url": "https://www.dpolice.com.br/comprar/porta-algema/direto/330",
+          "price": 55,
+          "image_url": "/products/porta-algema.png",
+          "likely_restricted": false
+        },
+        {
+          "name": "Porta Algema Bélica",
+          "slug": "porta-algema-belica",
+          "url": "https://www.dpolice.com.br/comprar/porta-algema-belica/preto/545",
+          "price": 82,
+          "image_url": "/products/porta-algema-belica.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/porta-algema-belica-2.png",
+            "/products/porta-algema-belica-3.png",
+            "/products/porta-algema-belica-4.png"
+          ]
+        },
+        {
+          "name": "Porta Carregador Bélica",
+          "slug": "porta-carregador-belica",
+          "url": "https://www.dpolice.com.br/comprar/porta-carregador-belica/belica/601",
+          "price": 83,
+          "image_url": "/products/porta-carregador-belica.jpg",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/porta-carregador-belica-2.jpg",
+            "/products/porta-carregador-belica-3.jpg",
+            "/products/porta-carregador-belica-4.jpg"
+          ]
+        },
+        {
+          "name": "Porta Carregador de Fuzil",
+          "slug": "porta-carregador-de-fuzil",
+          "url": "https://www.dpolice.com.br/comprar/porta-carregador-de-fuzil/direto/1571",
+          "price": 45.9,
+          "image_url": "/products/porta-carregador-de-fuzil.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/porta-carregador-de-fuzil-2.png",
+            "/products/porta-carregador-de-fuzil-3.png",
+            "/products/porta-carregador-de-fuzil-4.png"
+          ]
+        },
+        {
+          "name": "Porta Carregador Duplo",
+          "slug": "porta-carregador-duplo",
+          "url": "https://www.dpolice.com.br/comprar/porta-carregador-duplo/direto/1574",
+          "price": 35,
+          "image_url": "/products/porta-carregador-duplo.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/porta-carregador-duplo-2.png",
+            "/products/porta-carregador-duplo-3.png",
+            "/products/porta-carregador-duplo-4.png"
+          ]
+        },
+        {
+          "name": "Porta Carregador Duplo PT",
+          "slug": "porta-carregador-duplo-pt",
+          "url": "https://www.dpolice.com.br/comprar/porta-carregador-duplo-pt/preto-unico/1568",
+          "price": 50,
+          "image_url": "/products/porta-carregador-duplo-pt.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/porta-carregador-duplo-pt-2.png",
+            "/products/porta-carregador-duplo-pt-3.png",
+            "/products/porta-carregador-duplo-pt-4.png"
+          ]
+        },
+        {
+          "name": "Porta HT Modular",
+          "slug": "porta-ht-modular",
+          "url": "https://www.dpolice.com.br/comprar/porta-ht-modular/direto/1572",
+          "price": 38,
+          "image_url": "/products/porta-ht-modular.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/porta-ht-modular-2.png",
+            "/products/porta-ht-modular-3.png",
+            "/products/porta-ht-modular-4.png"
+          ]
+        },
+        {
+          "name": "Porta Refil Modular",
+          "slug": "porta-refil-modular",
+          "url": "https://www.dpolice.com.br/comprar/porta-refil-modular/direto/1575",
+          "price": 87,
+          "image_url": "/products/porta-refil-modular.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/porta-refil-modular-2.png",
+            "/products/porta-refil-modular-3.png",
+            "/products/porta-refil-modular-4.png"
+          ]
+        },
+        {
+          "name": "Porta Smartphone",
+          "slug": "porta-smartphone",
+          "url": "https://www.dpolice.com.br/comprar/porta-smartphone/preto-unico/1570",
+          "price": 63,
+          "image_url": "/products/porta-smartphone.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/porta-smartphone-2.png",
+            "/products/porta-smartphone-3.png",
+            "/products/porta-smartphone-4.png"
+          ]
+        },
+        {
+          "name": "Porta Tonfa Bélica",
+          "slug": "porta-tonfa-belica",
+          "url": "https://www.dpolice.com.br/comprar/porta-tonfa-belica/preto-belica/604",
+          "price": 42,
+          "image_url": "/products/porta-tonfa-belica.png",
+          "likely_restricted": false
+        },
+        {
+          "name": "Porta Tonfa Bélica 2",
+          "slug": "porta-tonfa-belica-2",
+          "url": "https://www.dpolice.com.br/comprar/porta-tonfa-belica-2/preto-belica/605",
+          "price": 32,
+          "image_url": "/products/porta-tonfa-belica-2.png",
+          "likely_restricted": false
+        },
+        {
+          "name": "Porta Treco 15x15",
+          "slug": "porta-treco-15x15",
+          "url": "https://www.dpolice.com.br/comprar/porta-treco-15x15/direto/1573",
+          "price": 81,
+          "image_url": "/products/porta-treco-15x15.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/porta-treco-15x15-2.png",
+            "/products/porta-treco-15x15-3.png",
+            "/products/porta-treco-15x15-4.png"
+          ]
+        },
+        {
+          "name": "Quepe Marrom PMMG",
+          "slug": "quepe-marron-pmmg",
+          "url": "https://www.dpolice.com.br/comprar/quepe-marron-pmmg/voce-esta-comprando-um-produto-de-uso-exclusivo-de-uma-corporacao-pmmg-54/1544",
+          "price": 89,
+          "image_url": "/products/quepe-marron-pmmg.png",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/quepe-marron-pmmg-2.png",
+            "/products/quepe-marron-pmmg-3.png",
+            "/products/quepe-marron-pmmg-4.png"
+          ]
+        },
+        {
+          "name": "Tonfa",
+          "slug": "tonfa",
+          "url": "https://www.dpolice.com.br/comprar/tonfa/direto/328",
+          "price": 40,
+          "image_url": "/products/tonfa.png",
+          "likely_restricted": false
+        },
+        {
+          "name": "Boina Défense",
+          "slug": "boina-defense",
+          "url": "https://www.dpolice.com.br/comprar/boina-defense/vermelho-54/1291",
+          "price": 185,
+          "image_url": "/products/boina-defense.png",
+          "likely_restricted": false
+        },
+        {
+          "name": "Capa de Colete C&A Militar",
+          "slug": "capa-de-colete-cea-militar",
+          "url": "https://www.dpolice.com.br/comprar/capa-de-colete-cea-militar/g/622",
+          "price": 485,
+          "image_url": "/products/capa-de-colete-cea-militar.jpg",
+          "likely_restricted": true,
+          "in_stock": false
+        },
+        {
+          "name": "Chapéu de Pescador Polícia Penal",
+          "slug": "chapeu-de-pescador-policia-penal",
+          "url": "https://www.dpolice.com.br/comprar/chapeu-de-pescador-policia-penal/preto-m/1530",
+          "price": 90,
+          "image_url": "/products/chapeu-de-pescador-policia-penal.png",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/chapeu-de-pescador-policia-penal-2.png",
+            "/products/chapeu-de-pescador-policia-penal-3.png",
+            "/products/chapeu-de-pescador-policia-penal-4.png"
+          ]
+        },
+        {
+          "name": "Mochila Ação e Aventura Fox Boy 35L",
+          "slug": "mochila-acao-e-aventura-fox-boy-35l",
+          "url": "https://www.dpolice.com.br/comprar/mochila-acao-e-aventura-fox-boy-35l/preto/1468",
+          "price": 320,
+          "image_url": "/products/mochila-acao-e-aventura-fox-boy-35l.png",
+          "likely_restricted": false,
+          "in_stock": false,
+          "gallery_urls": [
+            "/products/mochila-acao-e-aventura-fox-boy-35l-2.png",
+            "/products/mochila-acao-e-aventura-fox-boy-35l-3.png",
+            "/products/mochila-acao-e-aventura-fox-boy-35l-4.png"
+          ]
+        },
+        {
+          "name": "Mochila Coyote Rip Stop Fox Boy",
+          "slug": "mochila-coyote-rip-stop-fox-boy",
+          "url": "https://www.dpolice.com.br/comprar/mochila-coyote-rip-stop-fox-boy/preto/1467",
+          "price": 405,
+          "image_url": "/products/mochila-coyote-rip-stop-fox-boy.png",
+          "likely_restricted": false,
+          "in_stock": false,
+          "gallery_urls": [
+            "/products/mochila-coyote-rip-stop-fox-boy-2.png",
+            "/products/mochila-coyote-rip-stop-fox-boy-3.png",
+            "/products/mochila-coyote-rip-stop-fox-boy-4.png"
+          ]
+        },
+        {
+          "name": "Mochila Defender Echolife",
+          "slug": "mochila-defender-echolife",
+          "url": "https://www.dpolice.com.br/comprar/mochila-defender-echolife/preto/1464",
+          "price": 599,
+          "image_url": "/products/mochila-defender-echolife.png",
+          "likely_restricted": false,
+          "in_stock": false,
+          "gallery_urls": [
+            "/products/mochila-defender-echolife-2.png",
+            "/products/mochila-defender-echolife-3.png",
+            "/products/mochila-defender-echolife-4.png"
+          ]
+        },
+        {
+          "name": "Mochila Tática Attack Echolife 45L",
+          "slug": "mochila-tatica-attack-echolife-45l",
+          "url": "https://www.dpolice.com.br/comprar/mochila-tatica-attack-echolife-45l/preto/1466",
+          "price": 485,
+          "image_url": "/products/mochila-tatica-attack-echolife-45l.png",
+          "likely_restricted": false,
+          "in_stock": false,
+          "gallery_urls": [
+            "/products/mochila-tatica-attack-echolife-45l-2.png",
+            "/products/mochila-tatica-attack-echolife-45l-3.png",
+            "/products/mochila-tatica-attack-echolife-45l-4.png"
+          ]
+        },
+        {
+          "name": "Mochila Tática Echolife",
+          "slug": "mochila-tatica-echolife",
+          "url": "https://www.dpolice.com.br/comprar/mochila-tatica-echolife/preto/1465",
+          "price": 270,
+          "image_url": "/products/mochila-tatica-echolife.png",
+          "likely_restricted": false,
+          "in_stock": false,
+          "gallery_urls": [
+            "/products/mochila-tatica-echolife-2.png",
+            "/products/mochila-tatica-echolife-3.png",
+            "/products/mochila-tatica-echolife-4.png"
+          ]
+        },
+        {
+          "name": "Plaqueta de Identificação Bélica",
+          "slug": "plaqueta-de-identificacao-belica",
+          "url": "https://www.dpolice.com.br/comprar/plaqueta-de-identificacao-belica/g/600",
+          "price": 15,
+          "image_url": "/products/plaqueta-de-identificacao-belica.jpg",
+          "likely_restricted": false,
+          "in_stock": false
+        },
+        {
+          "name": "Porta Tonfa",
+          "slug": "porta-tonfa",
+          "url": "https://www.dpolice.com.br/comprar/porta-tonfa/direto/329",
+          "price": 21,
+          "image_url": "/products/porta-tonfa.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/porta-tonfa-2.png",
+            "/products/porta-tonfa-3.png",
+            "/products/porta-tonfa-4.png"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Artigos Militares - Cintos e Fivelas",
+      "slug": "artigos-militares/cintos-e-fivelas",
+      "url": "https://www.dpolice.com.br/artigos-militares/cintos-e-fivelas",
+      "products": [
+        {
+          "name": "Cinto de Guarnição PMMG",
+          "slug": "cinto-de-guarnicao-pmmg",
+          "url": "https://www.dpolice.com.br/comprar/cinto-de-guarnicao-pmmg/preto-unico/1419",
+          "price": 150,
+          "image_url": "/products/cinto-de-guarnicao-pmmg.png",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/cinto-de-guarnicao-pmmg-2.png",
+            "/products/cinto-de-guarnicao-pmmg-3.png",
+            "/products/cinto-de-guarnicao-pmmg-4.png"
+          ]
+        },
+        {
+          "name": "Cinto de Nylon",
+          "slug": "cinto-de-nylon",
+          "url": "https://www.dpolice.com.br/comprar/cinto-de-nylon/preto-m/1707",
+          "price": 22.5,
+          "image_url": "/products/cinto-de-nylon.png",
+          "likely_restricted": false
+        },
+        {
+          "name": "Cinto Nylon CBMG - CBMMG",
+          "slug": "cinto-nylon-cbmg",
+          "url": "https://www.dpolice.com.br/comprar/cinto-nylon-cbmg/vermelho-cbmmg/1420",
+          "price": 45,
+          "image_url": "/products/cinto-nylon-cbmg.png",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/cinto-nylon-cbmg-2.png",
+            "/products/cinto-nylon-cbmg-3.png",
+            "/products/cinto-nylon-cbmg-4.png"
+          ]
+        },
+        {
+          "name": "Cinto Nylon CIA Militar",
+          "slug": "cinto-nylon-cia-militar",
+          "url": "https://www.dpolice.com.br/comprar/cinto-nylon-cia-militar/bege-unico/1421",
+          "price": 38,
+          "image_url": "/products/cinto-nylon-cia-militar.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/cinto-nylon-cia-militar-2.png",
+            "/products/cinto-nylon-cia-militar-3.png",
+            "/products/cinto-nylon-cia-militar-4.png"
+          ]
+        },
+        {
+          "name": "Cinto Nylon PMMG",
+          "slug": "cinto-nylon-pmmg",
+          "url": "https://www.dpolice.com.br/comprar/cinto-nylon-pmmg/preto-pmmg/1329",
+          "price": 22.5,
+          "image_url": "/products/cinto-nylon-pmmg.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/cinto-nylon-pmmg-2.png",
+            "/products/cinto-nylon-pmmg-3.png",
+            "/products/cinto-nylon-pmmg-4.png"
+          ]
+        },
+        {
+          "name": "Cinto Tático",
+          "slug": "cinto-tatico",
+          "url": "https://www.dpolice.com.br/comprar/cinto-tatico/preto-unico/1423",
+          "price": 65,
+          "image_url": "/products/cinto-tatico.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/cinto-tatico-2.png",
+            "/products/cinto-tatico-3.png",
+            "/products/cinto-tatico-4.png"
+          ]
+        },
+        {
+          "name": "Cinto Tático CIA Militar",
+          "slug": "cinto-tatico-cia-militar",
+          "url": "https://www.dpolice.com.br/comprar/cinto-tatico-cia-militar/preto-p/1456",
+          "price": 135,
+          "image_url": "/products/cinto-tatico-cia-militar.png",
+          "likely_restricted": false
+        }
+      ]
+    },
+    {
+      "name": "Artigos Militares - Algemas",
+      "slug": "artigos-militares/algemas",
+      "url": "https://www.dpolice.com.br/artigos-militares/algemas",
+      "declared_total": 3,
+      "products": [
+        {
+          "name": "Algema Brasil",
+          "slug": "algema-brasil",
+          "url": "https://www.dpolice.com.br/comprar/algema-brasil/direto/1710",
+          "price": 170,
+          "image_url": "indisponível",
+          "likely_restricted": true
+        },
+        {
+          "name": "Algema de Corrente",
+          "slug": "algema-de-corrente",
+          "url": "https://www.dpolice.com.br/comprar/algema-de-corrente/direto/223",
+          "price": 170,
+          "image_url": "/products/algema-de-corrente.png",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/algema-de-corrente-2.png",
+            "/products/algema-de-corrente-3.png",
+            "/products/algema-de-corrente-4.png"
+          ]
+        },
+        {
+          "name": "Chave de Algema",
+          "slug": "chave-de-algema",
+          "url": "https://www.dpolice.com.br/comprar/chave-de-algema/unico/1709",
+          "price": 28,
+          "image_url": "/products/chave-de-algema.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/chave-de-algema-2.png",
+            "/products/chave-de-algema-3.png",
+            "/products/chave-de-algema-4.png"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Artigos Militares - Mochilas",
+      "slug": "artigos-militares/mochilas",
+      "url": "https://www.dpolice.com.br/artigos-militares/mochilas",
+      "notes": "Todos os 5 produtos estão esgotados na captura.",
+      "products": [
+        {
+          "name": "Mochila Ação e Aventura Fox Boy 35L",
+          "slug": "mochila-acao-e-aventura-fox-boy-35l",
+          "url": "https://www.dpolice.com.br/comprar/mochila-acao-e-aventura-fox-boy-35l/preto/1468",
+          "price": 320,
+          "image_url": "/products/mochila-acao-e-aventura-fox-boy-35l.png",
+          "likely_restricted": false,
+          "in_stock": false,
+          "gallery_urls": [
+            "/products/mochila-acao-e-aventura-fox-boy-35l-2.png",
+            "/products/mochila-acao-e-aventura-fox-boy-35l-3.png",
+            "/products/mochila-acao-e-aventura-fox-boy-35l-4.png"
+          ]
+        },
+        {
+          "name": "Mochila Coyote Rip Stop Fox Boy",
+          "slug": "mochila-coyote-rip-stop-fox-boy",
+          "url": "https://www.dpolice.com.br/comprar/mochila-coyote-rip-stop-fox-boy/preto/1467",
+          "price": 405,
+          "image_url": "/products/mochila-coyote-rip-stop-fox-boy.png",
+          "likely_restricted": false,
+          "in_stock": false,
+          "gallery_urls": [
+            "/products/mochila-coyote-rip-stop-fox-boy-2.png",
+            "/products/mochila-coyote-rip-stop-fox-boy-3.png",
+            "/products/mochila-coyote-rip-stop-fox-boy-4.png"
+          ]
+        },
+        {
+          "name": "Mochila Defender Echolife",
+          "slug": "mochila-defender-echolife",
+          "url": "https://www.dpolice.com.br/comprar/mochila-defender-echolife/preto/1464",
+          "price": 599,
+          "image_url": "/products/mochila-defender-echolife.png",
+          "likely_restricted": false,
+          "in_stock": false,
+          "gallery_urls": [
+            "/products/mochila-defender-echolife-2.png",
+            "/products/mochila-defender-echolife-3.png",
+            "/products/mochila-defender-echolife-4.png"
+          ]
+        },
+        {
+          "name": "Mochila Tática Attack Echolife 45L",
+          "slug": "mochila-tatica-attack-echolife-45l",
+          "url": "https://www.dpolice.com.br/comprar/mochila-tatica-attack-echolife-45l/preto/1466",
+          "price": 485,
+          "image_url": "/products/mochila-tatica-attack-echolife-45l.png",
+          "likely_restricted": false,
+          "in_stock": false,
+          "gallery_urls": [
+            "/products/mochila-tatica-attack-echolife-45l-2.png",
+            "/products/mochila-tatica-attack-echolife-45l-3.png",
+            "/products/mochila-tatica-attack-echolife-45l-4.png"
+          ]
+        },
+        {
+          "name": "Mochila Tática Echolife",
+          "slug": "mochila-tatica-echolife",
+          "url": "https://www.dpolice.com.br/comprar/mochila-tatica-echolife/preto/1465",
+          "price": 270,
+          "image_url": "/products/mochila-tatica-echolife.png",
+          "likely_restricted": false,
+          "in_stock": false,
+          "gallery_urls": [
+            "/products/mochila-tatica-echolife-2.png",
+            "/products/mochila-tatica-echolife-3.png",
+            "/products/mochila-tatica-echolife-4.png"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Artigos Militares - Acessórios",
+      "slug": "artigos-militares/acessorios",
+      "url": "https://www.dpolice.com.br/artigos-militares/acessorios",
+      "declared_total": 15,
+      "notes": "Captura parcial: 12 produtos da página 1 + 3 da página 2 (Capa de Colete C&A Militar, Plaqueta, Porta Tonfa).",
+      "products": [
+        {
+          "name": "Cantil",
+          "slug": "cantil",
+          "url": "https://www.dpolice.com.br/comprar/cantil/preto/558",
+          "price": 22,
+          "image_url": "/products/cantil.png",
+          "likely_restricted": false
+        },
+        {
+          "name": "Capa de Colete Fox Boy",
+          "slug": "capa-de-colete-fox-boy",
+          "url": "https://www.dpolice.com.br/comprar/capa-de-colete-fox-boy/p/518",
+          "price": 249,
+          "image_url": "/products/capa-de-colete-fox-boy.png",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/capa-de-colete-fox-boy-2.png",
+            "/products/capa-de-colete-fox-boy-3.png",
+            "/products/capa-de-colete-fox-boy-4.png"
+          ]
+        },
+        {
+          "name": "Chaveiro",
+          "slug": "chaveiro",
+          "url": "https://www.dpolice.com.br/comprar/chaveiro/direto/1576",
+          "price": 15,
+          "image_url": "indisponível",
+          "likely_restricted": false
+        },
+        {
+          "name": "Fiel Retrátil Polícia Militar",
+          "slug": "fiel-retratil-policia-militar",
+          "url": "https://www.dpolice.com.br/comprar/fiel-retratil-policia-militar/direto/247",
+          "price": 35,
+          "image_url": "/products/fiel-retratil-policia-militar.png",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/fiel-retratil-policia-militar-2.png",
+            "/products/fiel-retratil-policia-militar-3.png",
+            "/products/fiel-retratil-policia-militar-4.png"
+          ]
+        },
+        {
+          "name": "Meião Selene Futebol",
+          "slug": "meiao-selene-futebol",
+          "url": "https://www.dpolice.com.br/comprar/meiao-selene-futebol/5/1712",
+          "price": 22,
+          "image_url": "/products/meiao-selene-futebol.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/meiao-selene-futebol-2.png",
+            "/products/meiao-selene-futebol-3.png",
+            "/products/meiao-selene-futebol-4.png"
+          ]
+        },
+        {
+          "name": "Meião Selene Futebol Performance",
+          "slug": "meiao-selene-futebol-performance",
+          "url": "https://www.dpolice.com.br/comprar/meiao-selene-futebol-performance/5/1714",
+          "price": 25,
+          "image_url": "indisponível",
+          "likely_restricted": false
+        },
+        {
+          "name": "Porta Algema",
+          "slug": "porta-algema",
+          "url": "https://www.dpolice.com.br/comprar/porta-algema/direto/330",
+          "price": 55,
+          "image_url": "/products/porta-algema.png",
+          "likely_restricted": false
+        },
+        {
+          "name": "Porta Algema Bélica",
+          "slug": "porta-algema-belica",
+          "url": "https://www.dpolice.com.br/comprar/porta-algema-belica/preto/545",
+          "price": 82,
+          "image_url": "/products/porta-algema-belica.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/porta-algema-belica-2.png",
+            "/products/porta-algema-belica-3.png",
+            "/products/porta-algema-belica-4.png"
+          ]
+        },
+        {
+          "name": "Porta Carregador Bélica",
+          "slug": "porta-carregador-belica",
+          "url": "https://www.dpolice.com.br/comprar/porta-carregador-belica/belica/601",
+          "price": 83,
+          "image_url": "/products/porta-carregador-belica.jpg",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/porta-carregador-belica-2.jpg",
+            "/products/porta-carregador-belica-3.jpg",
+            "/products/porta-carregador-belica-4.jpg"
+          ]
+        },
+        {
+          "name": "Porta Tonfa Bélica",
+          "slug": "porta-tonfa-belica",
+          "url": "https://www.dpolice.com.br/comprar/porta-tonfa-belica/preto-belica/604",
+          "price": 42,
+          "image_url": "/products/porta-tonfa-belica.png",
+          "likely_restricted": false
+        },
+        {
+          "name": "Porta Tonfa Bélica 2",
+          "slug": "porta-tonfa-belica-2",
+          "url": "https://www.dpolice.com.br/comprar/porta-tonfa-belica-2/preto-belica/605",
+          "price": 32,
+          "image_url": "/products/porta-tonfa-belica-2.png",
+          "likely_restricted": false
+        },
+        {
+          "name": "Tonfa",
+          "slug": "tonfa",
+          "url": "https://www.dpolice.com.br/comprar/tonfa/direto/328",
+          "price": 40,
+          "image_url": "/products/tonfa.png",
+          "likely_restricted": false
+        },
+        {
+          "name": "Capa de Colete C&A Militar",
+          "slug": "capa-de-colete-cea-militar",
+          "url": "https://www.dpolice.com.br/comprar/capa-de-colete-cea-militar/g/622",
+          "price": 485,
+          "image_url": "/products/capa-de-colete-cea-militar.jpg",
+          "likely_restricted": true,
+          "in_stock": false
+        },
+        {
+          "name": "Plaqueta de Identificação Bélica",
+          "slug": "plaqueta-de-identificacao-belica",
+          "url": "https://www.dpolice.com.br/comprar/plaqueta-de-identificacao-belica/g/600",
+          "price": 15,
+          "image_url": "/products/plaqueta-de-identificacao-belica.jpg",
+          "likely_restricted": false,
+          "in_stock": false
+        },
+        {
+          "name": "Porta Tonfa",
+          "slug": "porta-tonfa",
+          "url": "https://www.dpolice.com.br/comprar/porta-tonfa/direto/329",
+          "price": 21,
+          "image_url": "/products/porta-tonfa.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/porta-tonfa-2.png",
+            "/products/porta-tonfa-3.png",
+            "/products/porta-tonfa-4.png"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Artigos Militares - Boinas e Coberturas",
+      "slug": "artigos-militares/boinas-e-coberturas",
+      "url": "https://www.dpolice.com.br/artigos-militares/boinas-e-coberturas",
+      "declared_total": 4,
+      "products": [
+        {
+          "name": "Boina Lyon",
+          "slug": "boina-lyon",
+          "url": "https://www.dpolice.com.br/comprar/boina-lyon/preto-54/1400",
+          "price": 160,
+          "image_url": "/products/boina-lyon.png",
+          "likely_restricted": false
+        },
+        {
+          "name": "Quepe Marrom PMMG",
+          "slug": "quepe-marron-pmmg",
+          "url": "https://www.dpolice.com.br/comprar/quepe-marron-pmmg/voce-esta-comprando-um-produto-de-uso-exclusivo-de-uma-corporacao-pmmg-54/1544",
+          "price": 89,
+          "image_url": "/products/quepe-marron-pmmg.png",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/quepe-marron-pmmg-2.png",
+            "/products/quepe-marron-pmmg-3.png",
+            "/products/quepe-marron-pmmg-4.png"
+          ]
+        },
+        {
+          "name": "Boina Défense",
+          "slug": "boina-defense",
+          "url": "https://www.dpolice.com.br/comprar/boina-defense/vermelho-54/1291",
+          "price": 185,
+          "image_url": "/products/boina-defense.png",
+          "likely_restricted": false
+        },
+        {
+          "name": "Chapéu de Pescador Polícia Penal",
+          "slug": "chapeu-de-pescador-policia-penal",
+          "url": "https://www.dpolice.com.br/comprar/chapeu-de-pescador-policia-penal/preto-m/1530",
+          "price": 90,
+          "image_url": "/products/chapeu-de-pescador-policia-penal.png",
+          "likely_restricted": true,
+          "gallery_urls": [
+            "/products/chapeu-de-pescador-policia-penal-2.png",
+            "/products/chapeu-de-pescador-policia-penal-3.png",
+            "/products/chapeu-de-pescador-policia-penal-4.png"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Artigos Militares - Modulares",
+      "slug": "artigos-militares/modulares",
+      "url": "https://www.dpolice.com.br/artigos-militares/modulares",
+      "declared_total": 8,
+      "products": [
+        {
+          "name": "Mini Coldre Modular",
+          "slug": "mini-coldre-modular",
+          "url": "https://www.dpolice.com.br/comprar/mini-coldre-modular/direto/1569",
+          "price": 57,
+          "image_url": "/products/mini-coldre-modular.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/mini-coldre-modular-2.png",
+            "/products/mini-coldre-modular-3.png",
+            "/products/mini-coldre-modular-4.png"
+          ]
+        },
+        {
+          "name": "Porta Carregador de Fuzil",
+          "slug": "porta-carregador-de-fuzil",
+          "url": "https://www.dpolice.com.br/comprar/porta-carregador-de-fuzil/direto/1571",
+          "price": 45.9,
+          "image_url": "/products/porta-carregador-de-fuzil.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/porta-carregador-de-fuzil-2.png",
+            "/products/porta-carregador-de-fuzil-3.png",
+            "/products/porta-carregador-de-fuzil-4.png"
+          ]
+        },
+        {
+          "name": "Porta Carregador Duplo",
+          "slug": "porta-carregador-duplo",
+          "url": "https://www.dpolice.com.br/comprar/porta-carregador-duplo/direto/1574",
+          "price": 35,
+          "image_url": "/products/porta-carregador-duplo.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/porta-carregador-duplo-2.png",
+            "/products/porta-carregador-duplo-3.png",
+            "/products/porta-carregador-duplo-4.png"
+          ]
+        },
+        {
+          "name": "Porta Carregador Duplo PT",
+          "slug": "porta-carregador-duplo-pt",
+          "url": "https://www.dpolice.com.br/comprar/porta-carregador-duplo-pt/preto-unico/1568",
+          "price": 50,
+          "image_url": "/products/porta-carregador-duplo-pt.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/porta-carregador-duplo-pt-2.png",
+            "/products/porta-carregador-duplo-pt-3.png",
+            "/products/porta-carregador-duplo-pt-4.png"
+          ]
+        },
+        {
+          "name": "Porta HT Modular",
+          "slug": "porta-ht-modular",
+          "url": "https://www.dpolice.com.br/comprar/porta-ht-modular/direto/1572",
+          "price": 38,
+          "image_url": "/products/porta-ht-modular.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/porta-ht-modular-2.png",
+            "/products/porta-ht-modular-3.png",
+            "/products/porta-ht-modular-4.png"
+          ]
+        },
+        {
+          "name": "Porta Refil Modular",
+          "slug": "porta-refil-modular",
+          "url": "https://www.dpolice.com.br/comprar/porta-refil-modular/direto/1575",
+          "price": 87,
+          "image_url": "/products/porta-refil-modular.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/porta-refil-modular-2.png",
+            "/products/porta-refil-modular-3.png",
+            "/products/porta-refil-modular-4.png"
+          ]
+        },
+        {
+          "name": "Porta Smartphone",
+          "slug": "porta-smartphone",
+          "url": "https://www.dpolice.com.br/comprar/porta-smartphone/preto-unico/1570",
+          "price": 63,
+          "image_url": "/products/porta-smartphone.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/porta-smartphone-2.png",
+            "/products/porta-smartphone-3.png",
+            "/products/porta-smartphone-4.png"
+          ]
+        },
+        {
+          "name": "Porta Treco 15x15",
+          "slug": "porta-treco-15x15",
+          "url": "https://www.dpolice.com.br/comprar/porta-treco-15x15/direto/1573",
+          "price": 81,
+          "image_url": "/products/porta-treco-15x15.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/porta-treco-15x15-2.png",
+            "/products/porta-treco-15x15-3.png",
+            "/products/porta-treco-15x15-4.png"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Artigos Militares - Roupas",
+      "slug": "artigos-militares/roupas",
+      "url": "https://www.dpolice.com.br/artigos-militares/roupas",
+      "declared_total": 3,
+      "products": [
+        {
+          "name": "Calça Camuflada Masculina",
+          "slug": "calca-camuflada-masculina",
+          "url": "https://www.dpolice.com.br/comprar/calca-camuflada-masculina/digitalizada-46/1785",
+          "price": 120,
+          "price_original": 173,
+          "image_url": "indisponível",
+          "likely_restricted": false
+        },
+        {
+          "name": "Conjunto Camuflado Masculino",
+          "slug": "conjunto-camuflado-masculino",
+          "url": "https://www.dpolice.com.br/comprar/conjunto-camuflado-masculino/38-50/1737",
+          "price": 200,
+          "price_original": 284,
+          "image_url": "indisponível",
+          "likely_restricted": false
+        },
+        {
+          "name": "Gandola Camuflada",
+          "slug": "gandola-camuflada",
+          "url": "https://www.dpolice.com.br/comprar/gandola-camuflada/digitalizada-54/1791",
+          "price": 99.9,
+          "price_original": 145,
+          "image_url": "indisponível",
+          "likely_restricted": false
+        }
+      ]
+    },
+    {
+      "name": "Calçados",
+      "slug": "calcados",
+      "url": "https://www.dpolice.com.br/calcados",
+      "declared_total": 4,
+      "products": [
+        {
+          "name": "Chinelo Havaianas",
+          "slug": "chinelo-havaianas",
+          "url": "https://www.dpolice.com.br/comprar/chinelo-havaianas/preto-36/594",
+          "price": 46,
+          "image_url": "/products/chinelo-havaianas.jpg",
+          "likely_restricted": false
+        },
+        {
+          "name": "Coturno Acero Smith",
+          "slug": "coturno-acero-smith",
+          "url": "https://www.dpolice.com.br/comprar/coturno-acero-smith/preto-39/1729",
+          "price": 280,
+          "image_url": "/products/coturno-acero-smith.jpeg",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/coturno-acero-smith-2.jpeg",
+            "/products/coturno-acero-smith-3.jpeg",
+            "/products/coturno-acero-smith-4.jpeg"
+          ]
+        },
+        {
+          "name": "Coturno Extra Leve",
+          "slug": "coturno-extra-leve",
+          "url": "https://www.dpolice.com.br/comprar/coturno-extra-leve/38/1806",
+          "price": 209,
+          "image_url": "/products/coturno-extra-leve.jpeg",
+          "likely_restricted": false
+        },
+        {
+          "name": "Coturno Impermeável Acero Couro Apache",
+          "slug": "coturno-impermeavel-acero-couro-apache",
+          "url": "https://www.dpolice.com.br/comprar/coturno-impermeavel-acero-couro-apache/preto-39/650",
+          "price": 519.9,
+          "image_url": "/products/coturno-impermeavel-acero-couro-apache.jpg",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/coturno-impermeavel-acero-couro-apache-2.jpg",
+            "/products/coturno-impermeavel-acero-couro-apache-3.jpg",
+            "/products/coturno-impermeavel-acero-couro-apache-4.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Calçados - Coturnos",
+      "slug": "calcados/coturnos",
+      "url": "https://www.dpolice.com.br/calcados/coturnos",
+      "products": [
+        {
+          "name": "Coturno Acero Smith",
+          "slug": "coturno-acero-smith",
+          "url": "https://www.dpolice.com.br/comprar/coturno-acero-smith/preto-39/1729",
+          "price": 280,
+          "image_url": "/products/coturno-acero-smith.jpeg",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/coturno-acero-smith-2.jpeg",
+            "/products/coturno-acero-smith-3.jpeg",
+            "/products/coturno-acero-smith-4.jpeg"
+          ]
+        },
+        {
+          "name": "Coturno Extra Leve",
+          "slug": "coturno-extra-leve",
+          "url": "https://www.dpolice.com.br/comprar/coturno-extra-leve/38/1806",
+          "price": 209,
+          "image_url": "/products/coturno-extra-leve.jpeg",
+          "likely_restricted": false
+        },
+        {
+          "name": "Coturno Impermeável Acero Couro Apache",
+          "slug": "coturno-impermeavel-acero-couro-apache",
+          "url": "https://www.dpolice.com.br/comprar/coturno-impermeavel-acero-couro-apache/preto-39/650",
+          "price": 519.9,
+          "image_url": "/products/coturno-impermeavel-acero-couro-apache.jpg",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/coturno-impermeavel-acero-couro-apache-2.jpg",
+            "/products/coturno-impermeavel-acero-couro-apache-3.jpg",
+            "/products/coturno-impermeavel-acero-couro-apache-4.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Calçados - Calçados",
+      "slug": "calcados/calcados",
+      "url": "https://www.dpolice.com.br/calcados/calcados",
+      "products": [
+        {
+          "name": "Chinelo Havaianas",
+          "slug": "chinelo-havaianas",
+          "url": "https://www.dpolice.com.br/comprar/chinelo-havaianas/preto-36/594",
+          "price": 46,
+          "image_url": "/products/chinelo-havaianas.jpg",
+          "likely_restricted": false
+        },
+        {
+          "name": "Coturno Acero Smith",
+          "slug": "coturno-acero-smith",
+          "url": "https://www.dpolice.com.br/comprar/coturno-acero-smith/preto-39/1729",
+          "price": 280,
+          "image_url": "/products/coturno-acero-smith.jpeg",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/coturno-acero-smith-2.jpeg",
+            "/products/coturno-acero-smith-3.jpeg",
+            "/products/coturno-acero-smith-4.jpeg"
+          ]
+        },
+        {
+          "name": "Coturno Extra Leve",
+          "slug": "coturno-extra-leve",
+          "url": "https://www.dpolice.com.br/comprar/coturno-extra-leve/38/1806",
+          "price": 209,
+          "image_url": "/products/coturno-extra-leve.jpeg",
+          "likely_restricted": false
+        },
+        {
+          "name": "Coturno Impermeável Acero Couro Apache",
+          "slug": "coturno-impermeavel-acero-couro-apache",
+          "url": "https://www.dpolice.com.br/comprar/coturno-impermeavel-acero-couro-apache/preto-39/650",
+          "price": 519.9,
+          "image_url": "/products/coturno-impermeavel-acero-couro-apache.jpg",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/coturno-impermeavel-acero-couro-apache-2.jpg",
+            "/products/coturno-impermeavel-acero-couro-apache-3.jpg",
+            "/products/coturno-impermeavel-acero-couro-apache-4.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Coldres",
+      "slug": "coldres",
+      "url": "https://www.dpolice.com.br/coldres",
+      "declared_total": 13,
+      "products": [
+        {
+          "name": "Coldre Hammer 1 - Bélica",
+          "slug": "coldre-hammer-1",
+          "url": "https://www.dpolice.com.br/comprar/coldre-hammer-1/belica/591",
+          "price": 270,
+          "image_url": "/products/coldre-hammer-1.jpg",
+          "likely_restricted": false
+        },
+        {
+          "name": "Coldre Kydex Taurus Série 100",
+          "slug": "coldre-kydex-taurus-serie-100",
+          "url": "https://www.dpolice.com.br/comprar/coldre-kydex-taurus-serie-100/preto-unico/1443",
+          "price": 285,
+          "image_url": "/products/coldre-kydex-taurus-serie-100.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/coldre-kydex-taurus-serie-100-2.png",
+            "/products/coldre-kydex-taurus-serie-100-3.png",
+            "/products/coldre-kydex-taurus-serie-100-4.png"
+          ]
+        },
+        {
+          "name": "Coldre Neoprene 38-2 Polegada",
+          "slug": "coldre-neoprene-38-2-polegada",
+          "url": "https://www.dpolice.com.br/comprar/coldre-neoprene-38-2-polegada/preto-unico/1447",
+          "price": 44,
+          "image_url": "/products/coldre-neoprene-38-2-polegada.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/coldre-neoprene-38-2-polegada-2.png",
+            "/products/coldre-neoprene-38-2-polegada-3.png",
+            "/products/coldre-neoprene-38-2-polegada-4.png"
+          ]
+        },
+        {
+          "name": "Coldre Neoprene 38-4 Polegada",
+          "slug": "coldre-neoprene-38-4-polegada",
+          "url": "https://www.dpolice.com.br/comprar/coldre-neoprene-38-4-polegada/preto-unico/1448",
+          "price": 44,
+          "image_url": "/products/coldre-neoprene-38-4-polegada.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/coldre-neoprene-38-4-polegada-2.png",
+            "/products/coldre-neoprene-38-4-polegada-3.png",
+            "/products/coldre-neoprene-38-4-polegada-4.png"
+          ]
+        },
+        {
+          "name": "Coldre Neoprene 38-6 Polegada",
+          "slug": "coldre-neoprene-38-6-polegada",
+          "url": "https://www.dpolice.com.br/comprar/coldre-neoprene-38-6-polegada/preto-unico/1446",
+          "price": 44,
+          "image_url": "/products/coldre-neoprene-38-6-polegada.png",
+          "likely_restricted": false
+        },
+        {
+          "name": "Coldre Neoprene Hacker",
+          "slug": "coldre-neoprene-hacker",
+          "url": "https://www.dpolice.com.br/comprar/coldre-neoprene-hacker/preto/220",
+          "price": 29,
+          "image_url": "/products/coldre-neoprene-hacker.png",
+          "likely_restricted": false
+        },
+        {
+          "name": "Coldre Neoprene Universal (1444)",
+          "slug": "coldre-neoprene-universal",
+          "url": "https://www.dpolice.com.br/comprar/coldre-neoprene-universal/preto-unico/1444",
+          "price": 44,
+          "image_url": "/products/coldre-neoprene-universal.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/coldre-neoprene-universal-2.png",
+            "/products/coldre-neoprene-universal-3.png",
+            "/products/coldre-neoprene-universal-4.png"
+          ]
+        },
+        {
+          "name": "Coldre Neoprene Universal (1445)",
+          "slug": "coldre-neoprene-universal",
+          "url": "https://www.dpolice.com.br/comprar/coldre-neoprene-universal/preto-unico/1445",
+          "price": 44,
+          "image_url": "/products/coldre-neoprene-universal.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/coldre-neoprene-universal-2.png",
+            "/products/coldre-neoprene-universal-3.png",
+            "/products/coldre-neoprene-universal-4.png"
+          ]
+        },
+        {
+          "name": "Coldre Pro SR1 Bélica",
+          "slug": "coldre-pro-sr1-belica",
+          "url": "https://www.dpolice.com.br/comprar/coldre-pro-sr1-belica/preto-belica/1331",
+          "price": 170,
+          "image_url": "/products/coldre-pro-sr1-belica.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/coldre-pro-sr1-belica-2.png",
+            "/products/coldre-pro-sr1-belica-3.png",
+            "/products/coldre-pro-sr1-belica-4.png"
+          ]
+        },
+        {
+          "name": "Coldre Universal Velado Bélica",
+          "slug": "coldre-universal-velado-belica",
+          "url": "https://www.dpolice.com.br/comprar/coldre-universal-velado-belica/belica/593",
+          "price": 160,
+          "image_url": "/products/coldre-universal-velado-belica.jpg",
+          "likely_restricted": false
+        },
+        {
+          "name": "Coldre Velado Taurus TH/800 Full em Polímero",
+          "slug": "coldre-velado-taurus-th-800-full-em-polimero-predador",
+          "url": "https://www.dpolice.com.br/comprar/coldre-velado-taurus-th-800-full-em-polimero-predador/preto-unico/1442",
+          "price": 250,
+          "image_url": "/products/coldre-velado-taurus-th-800-full-em-polimero-predador.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/coldre-velado-taurus-th-800-full-em-polimero-predador-2.png",
+            "/products/coldre-velado-taurus-th-800-full-em-polimero-predador-3.png",
+            "/products/coldre-velado-taurus-th-800-full-em-polimero-predador-4.png"
+          ]
+        },
+        {
+          "name": "Coldres SóColdres - PT Tauros Externo",
+          "slug": "coldres-socoldres",
+          "url": "https://www.dpolice.com.br/comprar/coldres-e-39e-39socoldrese-39e-39/pt-tauros-externo/401",
+          "price": 103,
+          "image_url": "/products/coldres-socoldres.jpg",
+          "likely_restricted": false,
+          "in_stock": false
+        },
+        {
+          "name": "Coldres SóColdres - Universal PT",
+          "slug": "coldres-socoldres",
+          "url": "https://www.dpolice.com.br/comprar/coldres-e-39e-39socoldrese-39e-39/universal-pt/402",
+          "price": 103,
+          "image_url": "/products/coldres-socoldres.jpg",
+          "likely_restricted": false,
+          "in_stock": false
+        }
+      ]
+    },
+    {
+      "name": "Coldres - Coldre Velado",
+      "slug": "coldres/coldre-velado",
+      "url": "https://www.dpolice.com.br/coldres/coldre-velado",
+      "products": [
+        {
+          "name": "Coldre Kydex Taurus Série 100",
+          "slug": "coldre-kydex-taurus-serie-100",
+          "url": "https://www.dpolice.com.br/comprar/coldre-kydex-taurus-serie-100/preto-unico/1443",
+          "price": 285,
+          "image_url": "/products/coldre-kydex-taurus-serie-100.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/coldre-kydex-taurus-serie-100-2.png",
+            "/products/coldre-kydex-taurus-serie-100-3.png",
+            "/products/coldre-kydex-taurus-serie-100-4.png"
+          ]
+        },
+        {
+          "name": "Coldre Neoprene 38-2 Polegada",
+          "slug": "coldre-neoprene-38-2-polegada",
+          "url": "https://www.dpolice.com.br/comprar/coldre-neoprene-38-2-polegada/preto-unico/1447",
+          "price": 44,
+          "image_url": "/products/coldre-neoprene-38-2-polegada.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/coldre-neoprene-38-2-polegada-2.png",
+            "/products/coldre-neoprene-38-2-polegada-3.png",
+            "/products/coldre-neoprene-38-2-polegada-4.png"
+          ]
+        },
+        {
+          "name": "Coldre Neoprene 38-4 Polegada",
+          "slug": "coldre-neoprene-38-4-polegada",
+          "url": "https://www.dpolice.com.br/comprar/coldre-neoprene-38-4-polegada/preto-unico/1448",
+          "price": 44,
+          "image_url": "/products/coldre-neoprene-38-4-polegada.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/coldre-neoprene-38-4-polegada-2.png",
+            "/products/coldre-neoprene-38-4-polegada-3.png",
+            "/products/coldre-neoprene-38-4-polegada-4.png"
+          ]
+        },
+        {
+          "name": "Coldre Neoprene 38-6 Polegada",
+          "slug": "coldre-neoprene-38-6-polegada",
+          "url": "https://www.dpolice.com.br/comprar/coldre-neoprene-38-6-polegada/preto-unico/1446",
+          "price": 44,
+          "image_url": "/products/coldre-neoprene-38-6-polegada.png",
+          "likely_restricted": false
+        },
+        {
+          "name": "Coldre Neoprene Hacker",
+          "slug": "coldre-neoprene-hacker",
+          "url": "https://www.dpolice.com.br/comprar/coldre-neoprene-hacker/preto/220",
+          "price": 29,
+          "image_url": "/products/coldre-neoprene-hacker.png",
+          "likely_restricted": false
+        },
+        {
+          "name": "Coldre Neoprene Universal (1444)",
+          "slug": "coldre-neoprene-universal",
+          "url": "https://www.dpolice.com.br/comprar/coldre-neoprene-universal/preto-unico/1444",
+          "price": 44,
+          "image_url": "/products/coldre-neoprene-universal.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/coldre-neoprene-universal-2.png",
+            "/products/coldre-neoprene-universal-3.png",
+            "/products/coldre-neoprene-universal-4.png"
+          ]
+        },
+        {
+          "name": "Coldre Neoprene Universal (1445)",
+          "slug": "coldre-neoprene-universal",
+          "url": "https://www.dpolice.com.br/comprar/coldre-neoprene-universal/preto-unico/1445",
+          "price": 44,
+          "image_url": "/products/coldre-neoprene-universal.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/coldre-neoprene-universal-2.png",
+            "/products/coldre-neoprene-universal-3.png",
+            "/products/coldre-neoprene-universal-4.png"
+          ]
+        },
+        {
+          "name": "Coldre Universal Velado Bélica",
+          "slug": "coldre-universal-velado-belica",
+          "url": "https://www.dpolice.com.br/comprar/coldre-universal-velado-belica/belica/593",
+          "price": 160,
+          "image_url": "/products/coldre-universal-velado-belica.jpg",
+          "likely_restricted": false
+        },
+        {
+          "name": "Coldre Velado Taurus TH/800 Full em Polímero",
+          "slug": "coldre-velado-taurus-th-800-full-em-polimero-predador",
+          "url": "https://www.dpolice.com.br/comprar/coldre-velado-taurus-th-800-full-em-polimero-predador/preto-unico/1442",
+          "price": 250,
+          "image_url": "/products/coldre-velado-taurus-th-800-full-em-polimero-predador.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/coldre-velado-taurus-th-800-full-em-polimero-predador-2.png",
+            "/products/coldre-velado-taurus-th-800-full-em-polimero-predador-3.png",
+            "/products/coldre-velado-taurus-th-800-full-em-polimero-predador-4.png"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Coldres - Coldre Cintura",
+      "slug": "coldres/coldre-cintura",
+      "url": "https://www.dpolice.com.br/coldres/coldre-cintura",
+      "products": [
+        {
+          "name": "Coldre Hammer 1 - Bélica",
+          "slug": "coldre-hammer-1",
+          "url": "https://www.dpolice.com.br/comprar/coldre-hammer-1/belica/591",
+          "price": 270,
+          "image_url": "/products/coldre-hammer-1.jpg",
+          "likely_restricted": false
+        },
+        {
+          "name": "Coldre Pro SR1 Bélica",
+          "slug": "coldre-pro-sr1-belica",
+          "url": "https://www.dpolice.com.br/comprar/coldre-pro-sr1-belica/preto-belica/1331",
+          "price": 170,
+          "image_url": "/products/coldre-pro-sr1-belica.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/coldre-pro-sr1-belica-2.png",
+            "/products/coldre-pro-sr1-belica-3.png",
+            "/products/coldre-pro-sr1-belica-4.png"
+          ]
+        },
+        {
+          "name": "Coldres SóColdres - PT Tauros Externo",
+          "slug": "coldres-socoldres",
+          "url": "https://www.dpolice.com.br/comprar/coldres-e-39e-39socoldrese-39e-39/pt-tauros-externo/401",
+          "price": 103,
+          "image_url": "/products/coldres-socoldres.jpg",
+          "likely_restricted": false,
+          "in_stock": false
+        },
+        {
+          "name": "Coldres SóColdres - Universal PT",
+          "slug": "coldres-socoldres",
+          "url": "https://www.dpolice.com.br/comprar/coldres-e-39e-39socoldrese-39e-39/universal-pt/402",
+          "price": 103,
+          "image_url": "/products/coldres-socoldres.jpg",
+          "likely_restricted": false,
+          "in_stock": false
+        }
+      ]
+    }
+  ],
+  "images_scraped_at": "2026-05-04T22:28:56.957Z",
+  "images_summary": {
+    "unique_slugs": 112,
+    "ok": 102,
+    "failed": 10
+  }
+}

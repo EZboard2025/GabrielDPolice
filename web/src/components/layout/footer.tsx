@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { Clock, MapPin, MessageCircle, Phone } from 'lucide-react'
-import { DPoliceWordmark } from './dpolice-wordmark'
+import { DPoliceLogo } from './dpolice-logo'
 
 function InstagramGlyph({ className }: { className?: string }) {
   return (
@@ -38,7 +38,7 @@ export function Footer() {
     <footer className="bg-tactical-charcoal text-background/85 mt-20">
       <div className="container-wide grid gap-10 py-14 md:grid-cols-2 lg:grid-cols-4">
         <div className="space-y-4">
-          <DPoliceWordmark className="h-8 w-auto" variant="inverse" />
+          <DPoliceLogo variant="inverse" className="h-24 w-auto" />
           <p className="max-w-xs text-sm leading-relaxed opacity-80">
             Equipamentos policiais e militares com atendimento especializado em Belo Horizonte/MG
             desde 2014.
