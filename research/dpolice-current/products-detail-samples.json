@@ -1,0 +1,158 @@
+{
+  "scraped_at": "2026-05-04",
+  "source": "https://www.dpolice.com.br",
+  "samples": [
+    {
+      "name": "Camisa Polícia Penal Preta",
+      "slug": "camisa-policia-penal-preta",
+      "url": "https://www.dpolice.com.br/comprar/camisa-policia-penal-preta/voce-esta-comprando-um-produto-de-uso-exclusivo-de-uma-corporacao-preto-m/1294",
+      "sku": "949",
+      "price": 84.00,
+      "currency": "BRL",
+      "category": "uniformes/policia-penal",
+      "description": "Material confeccionado em Tecido Dry Fit com FPS 50 - Proteção UVA e UVB. Você está comprando um produto de uso exclusivo de uma corporação.",
+      "specs": {
+        "material": "Dry Fit (FPS 50, proteção UVA/UVB)",
+        "weight_grams": 120,
+        "dimensions_cm": {"height": 5, "width": 15, "length": 22}
+      },
+      "variants": {
+        "colors": ["Preto"],
+        "sizes": ["P", "M", "G", "GG"]
+      },
+      "images": [
+        "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/camiseta-policia-penal-preta_2022-12-22_16-46-01_6_440.png",
+        "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/camiseta-policia-penal-preta_2022-12-22_16-46-01_6_440_min.png",
+        "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/camiseta-policia-penal-preta_2022-12-22_16-46-02_6_397_min.png",
+        "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/camiseta-policia-penal-preta_2022-12-22_16-46-02_6_101_min.png"
+      ],
+      "payment_options": [
+        {"installments": 1, "amount": 84.00, "interest_free": true},
+        {"installments": 2, "amount": 42.00, "interest_free": true},
+        {"installments": 3, "amount": 28.00, "interest_free": true},
+        {"installments": 4, "amount": 21.00, "interest_free": true}
+      ],
+      "likely_restricted": true,
+      "restriction_note": "Produto exibe explicitamente o aviso 'VOCÊ ESTÁ COMPRANDO UM PRODUTO DE USO EXCLUSIVO DE UMA CORPORAÇÃO' na URL e na ficha. Provavelmente exige documento de identificação funcional para liberação de venda.",
+      "stock_status": "indisponível"
+    },
+    {
+      "name": "Coturno Impermeável Acero Couro Apache",
+      "slug": "coturno-impermeavel-acero-couro-apache",
+      "url": "https://www.dpolice.com.br/comprar/coturno-impermeavel-acero-couro-apache/preto-39/650",
+      "sku": "410",
+      "brand": "Acero Botas",
+      "price": 519.90,
+      "currency": "BRL",
+      "category": "calcados/coturnos",
+      "description": "Coturno impermeável em couro. 100% IMPERMEÁVEL À ÁGUA, com tratamento antibacteriano, reforço EVA 2.0mm, presilhas de polímero injetado fechadas e abertas (no topo) para facilitar a remoção.",
+      "specs": {
+        "material": "Couro com tratamento antibacteriano e EVA 2.0mm",
+        "waterproof": true,
+        "weight_grams": 500,
+        "dimensions_cm": {"height": 20, "width": 30, "length": 30}
+      },
+      "variants": {
+        "colors": ["Preto"],
+        "sizes": ["39", "40", "41", "42"]
+      },
+      "images": [
+        "3 fotos disponíveis na galeria do produto (URLs exatas não capturadas no fetch)"
+      ],
+      "payment_options": [
+        {"installments": "1x a 4x", "interest_free": true}
+      ],
+      "likely_restricted": false,
+      "restriction_note": "Produto comercial sem indicação de uso exclusivo. Coturno tático aberto a qualquer comprador.",
+      "stock_status": "indisponível"
+    },
+    {
+      "name": "Conjunto Agasalho PMMG",
+      "slug": "conjunto-agasalho-pmmg",
+      "url": "https://www.dpolice.com.br/comprar/conjunto-agasalho-pmmg/pp/1387",
+      "sku": "1042",
+      "price": 195.00,
+      "currency": "BRL",
+      "category": "uniformes/policia-militar",
+      "description": "Agasalho e calça azul de educação física da Polícia Militar de Minas Gerais.",
+      "specs": {
+        "material": "Poliamida",
+        "weight_grams": 280,
+        "dimensions_cm": {"height": 10, "width": 20, "length": 25}
+      },
+      "variants": {
+        "colors": ["Azul"],
+        "sizes": ["PP", "P", "M", "G"]
+      },
+      "images": [
+        "4 fotos disponíveis (frente e costas) - URLs exatas não capturadas"
+      ],
+      "payment_options": [
+        {"installments": 1, "amount": 195.00, "interest_free": true},
+        {"installments": 2, "amount": 97.50, "interest_free": true},
+        {"installments": 3, "amount": 65.00, "interest_free": true},
+        {"installments": 4, "amount": 48.75, "interest_free": true}
+      ],
+      "likely_restricted": true,
+      "restriction_note": "Marcado como 'VOCÊ ESTÁ COMPRANDO UM PRODUTO DE USO EXCLUSIVO DE UMA CORPORAÇÃO'. Provavelmente exige documento PMMG.",
+      "stock_status": "indisponível"
+    },
+    {
+      "name": "Algema Brasil",
+      "slug": "algema-brasil",
+      "url": "https://www.dpolice.com.br/comprar/algema-brasil/direto/1710",
+      "sku": "1354",
+      "price": 170.00,
+      "currency": "BRL",
+      "category": "artigos-militares/algemas",
+      "description": "Algema confeccionada em aço inox.",
+      "specs": {
+        "material": "Aço inox",
+        "weight_grams": 150,
+        "dimensions_cm": {"height": 20, "width": 20, "length": 20}
+      },
+      "variants": {
+        "options": ["Direto"]
+      },
+      "images": [
+        "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/algema-brasil_2023-01-13_22-16-46_0_115.png"
+      ],
+      "payment_options": [
+        {"installments": 1, "amount": 170.00, "interest_free": true},
+        {"installments": 2, "amount": 85.00, "interest_free": true},
+        {"installments": 3, "amount": 56.67, "interest_free": true},
+        {"installments": 4, "amount": 42.50, "interest_free": true}
+      ],
+      "likely_restricted": true,
+      "restriction_note": "Algemas são produtos controlados pelo Exército Brasileiro (Portaria 51-COLOG/2015 e Decreto 9.845/2019). Venda restrita a agentes públicos com habilitação. Site não exibe aviso explícito, mas a regra legal aplica.",
+      "stock_status": "indisponível"
+    },
+    {
+      "name": "Mochila Tática Echolife",
+      "slug": "mochila-tatica-echolife",
+      "url": "https://www.dpolice.com.br/comprar/mochila-tatica-echolife/preto/1465",
+      "sku": "1120",
+      "brand": "Echolife",
+      "price": 270.00,
+      "currency": "BRL",
+      "category": "artigos-militares/mochilas",
+      "description": "Mochila tática 40L com três compartimentos, alças acolchoadas, fivelas reguláveis, fixadores tipo D, cinto de fixação na cintura e peito, painel de identificação em velcro, forro interno impermeável.",
+      "specs": {
+        "material": "100% Poliamida",
+        "capacity_l": 40,
+        "weight_grams": 450,
+        "dimensions_cm": {"height": 18, "width": 30, "length": 30}
+      },
+      "variants": {
+        "colors": ["Preto"]
+      },
+      "images": [
+        "Foto 1: vista principal",
+        "Foto 2: ângulo alternativo"
+      ],
+      "likely_restricted": false,
+      "restriction_note": "Item tático comercial, sem restrição.",
+      "stock_status": "Esgotado"
+    }
+  ]
+}
