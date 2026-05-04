@@ -85,3 +85,37 @@ export const corporationsHighlight = [
   { slug: 'colegio-tiradentes', name: 'Colégio Tiradentes', short: 'CT' },
   { slug: 'cfsd-2025-pmmg', name: 'CFSD 2025', short: 'CFSD' },
 ] as const
+
+/**
+ * Procura uma categoria pelo slug (incluindo subcategorias).
+ * Aceita tanto o slug raiz ("uniformes") quanto encadeado ("uniformes/policia-militar").
+ */
+export function findCategoryBySlug(slug: string): Category | null {
+  for (const cat of categories) {
+    if (cat.slug === slug) return cat
+    if (cat.children) {
+      const child = cat.children.find((c) => c.slug === slug)
+      if (child) return child
+    }
+  }
+  return null
+}
+
+/** Devolve [pai?, atual] pra breadcrumb. */
+export function getCategoryAncestry(slug: string): Category[] {
+  const trail: Category[] = []
+  for (const cat of categories) {
+    if (cat.slug === slug) {
+      trail.push(cat)
+      return trail
+    }
+    if (cat.children) {
+      const child = cat.children.find((c) => c.slug === slug)
+      if (child) {
+        trail.push(cat, child)
+        return trail
+      }
+    }
+  }
+  return trail
+}

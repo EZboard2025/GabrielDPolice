@@ -1,5 +1,8 @@
 import type { Metadata, Viewport } from 'next'
 import { Inter, JetBrains_Mono } from 'next/font/google'
+import { Footer } from '@/components/layout/footer'
+import { Header } from '@/components/layout/header'
+import { WhatsAppFab } from '@/components/layout/whatsapp-fab'
 import { Toaster } from '@/components/ui/sonner'
 import { siteConfig } from '@/lib/site-config'
 import './globals.css'
@@ -58,7 +61,10 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body className="bg-background text-foreground flex min-h-full flex-col font-sans">
-        {children}
+        <Header />
+        <main className="flex-1">{children}</main>
+        <Footer />
+        <WhatsAppFab />
         <Toaster richColors position="top-right" />
       </body>
     </html>

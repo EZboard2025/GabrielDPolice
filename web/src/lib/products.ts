@@ -167,3 +167,29 @@ export function getCategoryCoverImage(categorySlug: string): string | null {
   }
   return null
 }
+
+/** Busca produtos por nome (case/diacritic-insensitive). */
+export function searchProducts(query: string): Product[] {
+  const q = query
+    .normalize('NFD')
+    .replace(/\p{Diacritic}/gu, '')
+    .toLowerCase()
+    .trim()
+  if (!q) return []
+  return allProducts.filter((p) => {
+    const haystack = `${p.name} ${p.category.name}`
+      .normalize('NFD')
+      .replace(/\p{Diacritic}/gu, '')
+      .toLowerCase()
+    return haystack.includes(q)
+  })
+}
+
+/** Produtos relacionados na mesma categoria primária (excluindo o atual). */
+export function getRelatedProducts(slug: string, limit = 4): Product[] {
+  const product = getProductBySlug(slug)
+  if (!product) return []
+  return getProductsByCategory(product.category.slug)
+    .filter((p) => p.slug !== slug)
+    .slice(0, limit)
+}

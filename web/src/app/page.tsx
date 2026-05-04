@@ -1,6 +1,3 @@
-import { Footer } from '@/components/layout/footer'
-import { Header } from '@/components/layout/header'
-import { WhatsAppFab } from '@/components/layout/whatsapp-fab'
 import { AboutSection } from '@/components/marketing/about-section'
 import { BestSellers } from '@/components/marketing/best-sellers'
 import { HeroCarousel } from '@/components/marketing/hero-carousel'
@@ -13,32 +10,27 @@ import { CategoryTabs } from '@/components/product/category-tabs'
 export default function HomePage() {
   return (
     <>
-      <Header />
-      <main className="flex-1">
-        <HeroCarousel />
-        <PaymentShippingBar />
+      <HeroCarousel />
+      <PaymentShippingBar />
 
-        <BestSellers />
+      <BestSellers />
 
-        <section className="container-wide pb-12">
-          <SectionHeading
-            eyebrow="Categorias em destaque"
-            title="Encontre por departamento"
-            description="Curadoria por tipo de produto, do uniforme oficial ao acessório operacional."
-          />
-          <div className="mt-8">
-            <CategoryTabs />
-          </div>
-        </section>
+      <section className="container-wide pb-12">
+        <SectionHeading
+          eyebrow="Categorias em destaque"
+          title="Encontre por departamento"
+          description="Curadoria por tipo de produto, do uniforme oficial ao acessório operacional."
+        />
+        <div className="mt-8">
+          <CategoryTabs />
+        </div>
+      </section>
 
-        <UniformCorporations />
+      <UniformCorporations />
 
-        <AboutSection />
+      <AboutSection />
 
-        <StoreLocator />
-      </main>
-      <Footer />
-      <WhatsAppFab />
+      <StoreLocator />
     </>
   )
 }
