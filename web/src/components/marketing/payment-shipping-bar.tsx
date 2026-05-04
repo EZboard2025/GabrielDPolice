@@ -14,7 +14,7 @@ const items = [
   {
     icon: ShieldCheck,
     title: 'Compra segura',
-    description: 'SSL + validação por IA + revisão humana',
+    description: 'SSL 256 bits + criptografia ponta a ponta',
   },
   {
     icon: ShoppingBag,

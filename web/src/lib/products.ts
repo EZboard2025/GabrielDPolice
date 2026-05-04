@@ -41,39 +41,21 @@ function pickPrimary(categories: { slug: string; name: string }[]) {
   return [...categories].sort((a, b) => b.slug.length - a.slug.length)[0]
 }
 
-function detectBadges(raw: RawProduct, primarySlug: string): ProductBadge[] {
+// Marca "restrito" por produto está desativada por enquanto.
+// O catálogo tem `likely_restricted` (heurística do scraper) mas a regra real
+// vai ser definida com cliente + advogado depois. Vou re-ativar em
+// detectBadges/detectRestrictions quando isso acontecer.
+function detectBadges(_raw: RawProduct, primarySlug: string): ProductBadge[] {
   const badges: ProductBadge[] = []
-  if (raw.likely_restricted) badges.push('restrito')
   if (primarySlug === 'cfsd-2025-pmmg') badges.push('lancamento')
   return badges
 }
 
 function detectRestrictions(
-  raw: RawProduct,
-  primarySlug: string,
+  _raw: RawProduct,
+  _primarySlug: string,
 ): Product['restrictions'] | undefined {
-  if (!raw.likely_restricted) return undefined
-
-  const docs = new Set<AcceptedDocType>()
-  if (primarySlug.includes('policia-militar') || primarySlug === 'cfsd-2025-pmmg') {
-    docs.add('identidade-funcional-pm')
-  }
-  if (primarySlug.includes('policia-penal')) docs.add('identidade-funcional-policia-penal')
-  if (primarySlug.includes('bombeiro-militar')) docs.add('identidade-funcional-bombeiro')
-  if (primarySlug === 'colegio-tiradentes') docs.add('matricula-colegio-tiradentes')
-  if (
-    primarySlug.includes('algemas') ||
-    primarySlug.includes('floroes') ||
-    primarySlug.includes('passadeiras') ||
-    primarySlug.includes('carteiras')
-  ) {
-    docs.add('identidade-funcional-pm')
-    docs.add('identidade-funcional-policia-penal')
-    docs.add('identidade-funcional-policia-civil')
-  }
-  if (docs.size === 0) docs.add('identidade-funcional-pm')
-
-  return { required: true, acceptedDocs: Array.from(docs) }
+  return undefined
 }
 
 const raw = catalogJson as RawCatalog
@@ -175,3 +157,13 @@ export function getFeaturedProducts(limit = 5): Product[] {
 
 export const productCount = productsBySlug.size
 export const categoryCount = raw.categories.length
+
+/** Retorna a primeira imagem real (não placeholder) de qualquer produto da categoria. */
+export function getCategoryCoverImage(categorySlug: string): string | null {
+  const products = getProductsByCategory(categorySlug)
+  for (const p of products) {
+    const first = p.images[0]?.url
+    if (first && first.startsWith('/products/')) return first
+  }
+  return null
+}

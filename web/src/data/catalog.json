@@ -147,8 +147,9 @@
           "slug": "algema-brasil",
           "url": "https://www.dpolice.com.br/comprar/algema-brasil/direto/1710",
           "price": 170,
-          "image_url": "indisponível",
-          "likely_restricted": true
+          "image_url": "/products/algema-brasil.png",
+          "likely_restricted": true,
+          "gallery_urls": []
         },
         {
           "name": "Boné Digitalizado",
@@ -328,8 +329,9 @@
           "slug": "japona-dupla-face-pmmg",
           "url": "https://www.dpolice.com.br/comprar/japona-dupla-face-pmmg/pp/2031",
           "price": 360,
-          "image_url": "indisponível",
-          "likely_restricted": true
+          "image_url": "/products/japona-dupla-face-pmmg.jpeg",
+          "likely_restricted": true,
+          "gallery_urls": []
         },
         {
           "name": "Short Azul SGT e CAD PMMG - Cadete",
@@ -473,8 +475,9 @@
           "slug": "algema-brasil",
           "url": "https://www.dpolice.com.br/comprar/algema-brasil/direto/1710",
           "price": 170,
-          "image_url": "indisponível",
-          "likely_restricted": true
+          "image_url": "/products/algema-brasil.png",
+          "likely_restricted": true,
+          "gallery_urls": []
         },
         {
           "name": "Boné Digitalizado",
@@ -665,8 +668,9 @@
           "slug": "divisa-bombeiro-militar-1-sargento",
           "url": "https://www.dpolice.com.br/comprar/divisa-bombeiro-militar-1-sargento/laranja/561",
           "price": 10,
-          "image_url": "indisponível",
-          "likely_restricted": true
+          "image_url": "/products/divisa-bombeiro-militar-1-sargento.png",
+          "likely_restricted": true,
+          "gallery_urls": []
         },
         {
           "name": "Divisa Bombeiro Militar - 2º Sargento (Cinza)",
@@ -792,8 +796,9 @@
           "slug": "divisa-bombeiro-militar-1-sargento",
           "url": "https://www.dpolice.com.br/comprar/divisa-bombeiro-militar-1-sargento/laranja/561",
           "price": 10,
-          "image_url": "indisponível",
-          "likely_restricted": true
+          "image_url": "/products/divisa-bombeiro-militar-1-sargento.png",
+          "likely_restricted": true,
+          "gallery_urls": []
         },
         {
           "name": "Divisa Bombeiro Militar - 2º Sargento - Cinza",
@@ -1092,8 +1097,9 @@
           "slug": "japona-dupla-face-pmmg",
           "url": "https://www.dpolice.com.br/comprar/japona-dupla-face-pmmg/pp/2031",
           "price": 360,
-          "image_url": "indisponível",
-          "likely_restricted": true
+          "image_url": "/products/japona-dupla-face-pmmg.jpeg",
+          "likely_restricted": true,
+          "gallery_urls": []
         },
         {
           "name": "Kit Meia Branca Selene",
@@ -1186,8 +1192,9 @@
           "slug": "algema-brasil",
           "url": "https://www.dpolice.com.br/comprar/algema-brasil/direto/1710",
           "price": 170,
-          "image_url": "indisponível",
-          "likely_restricted": true
+          "image_url": "/products/algema-brasil.png",
+          "likely_restricted": true,
+          "gallery_urls": []
         },
         {
           "name": "Algema de Corrente",
@@ -1258,8 +1265,13 @@
           "slug": "chaveiro",
           "url": "https://www.dpolice.com.br/comprar/chaveiro/direto/1576",
           "price": 15,
-          "image_url": "indisponível",
-          "likely_restricted": false
+          "image_url": "/products/chaveiro.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/chaveiro-2.png",
+            "/products/chaveiro-3.png",
+            "/products/chaveiro-4.png"
+          ]
         },
         {
           "name": "Cinto de Guarnição PMMG",
@@ -1391,8 +1403,12 @@
           "slug": "meiao-selene-futebol-performance",
           "url": "https://www.dpolice.com.br/comprar/meiao-selene-futebol-performance/5/1714",
           "price": 25,
-          "image_url": "indisponível",
-          "likely_restricted": false
+          "image_url": "/products/meiao-selene-futebol-performance.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/meiao-selene-futebol-performance-2.png",
+            "/products/meiao-selene-futebol-performance-3.png"
+          ]
         },
         {
           "name": "Mini Coldre Modular",
@@ -1792,8 +1808,9 @@
           "slug": "algema-brasil",
           "url": "https://www.dpolice.com.br/comprar/algema-brasil/direto/1710",
           "price": 170,
-          "image_url": "indisponível",
-          "likely_restricted": true
+          "image_url": "/products/algema-brasil.png",
+          "likely_restricted": true,
+          "gallery_urls": []
         },
         {
           "name": "Algema de Corrente",
@@ -1934,8 +1951,13 @@
           "slug": "chaveiro",
           "url": "https://www.dpolice.com.br/comprar/chaveiro/direto/1576",
           "price": 15,
-          "image_url": "indisponível",
-          "likely_restricted": false
+          "image_url": "/products/chaveiro.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/chaveiro-2.png",
+            "/products/chaveiro-3.png",
+            "/products/chaveiro-4.png"
+          ]
         },
         {
           "name": "Fiel Retrátil Polícia Militar",
@@ -1968,8 +1990,12 @@
           "slug": "meiao-selene-futebol-performance",
           "url": "https://www.dpolice.com.br/comprar/meiao-selene-futebol-performance/5/1714",
           "price": 25,
-          "image_url": "indisponível",
-          "likely_restricted": false
+          "image_url": "/products/meiao-selene-futebol-performance.png",
+          "likely_restricted": false,
+          "gallery_urls": [
+            "/products/meiao-selene-futebol-performance-2.png",
+            "/products/meiao-selene-futebol-performance-3.png"
+          ]
         },
         {
           "name": "Porta Algema",

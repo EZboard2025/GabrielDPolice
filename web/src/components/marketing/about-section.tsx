@@ -1,4 +1,4 @@
-import { Award, BadgeCheck, Truck, Users } from 'lucide-react'
+import { Award, MapPin, Truck, Users } from 'lucide-react'
 
 const stats = [
   {
@@ -12,9 +12,9 @@ const stats = [
     description: 'clientes atendidos em Minas Gerais',
   },
   {
-    icon: BadgeCheck,
-    title: 'Validação por IA',
-    description: 'CAC, identidade funcional e demais documentos',
+    icon: MapPin,
+    title: 'Loja física BH',
+    description: 'no Prado, com retirada em até 2h',
   },
   {
     icon: Truck,
@@ -37,8 +37,7 @@ export function AboutSection() {
           <p className="text-muted-foreground max-w-xl text-sm leading-relaxed">
             Somos referência em uniformes e equipamentos para PMMG, Polícia Penal, Bombeiro Militar,
             alunos do Colégio Tiradentes e profissionais de segurança pública e privada. Cada item
-            que vendemos passa por curadoria técnica e respeita a regulamentação de produtos
-            restritos no Brasil.
+            que vendemos passa por curadoria técnica e atende às regulamentações vigentes.
           </p>
         </div>
         <div className="grid grid-cols-2 gap-4">

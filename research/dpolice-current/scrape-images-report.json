@@ -1394,54 +1394,80 @@
   ],
   "failed": [
     {
-      "slug": "algema-brasil",
-      "url": "https://www.dpolice.com.br/comprar/algema-brasil/direto/1710",
-      "error": "page.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"https://www.dpolice.com.br/comprar/algema-brasil/direto/1710\", waiting until \"domcontentloaded\"\n"
-    },
-    {
       "slug": "camisa-c1-pmmg",
-      "url": "https://www.dpolice.com.br/comprar/camisa-c1-pmmg/bege-2/1673",
-      "error": "HTTP 403"
+      "reason": "HTTP 403"
     },
     {
       "slug": "conjunto-b1-pmmg",
-      "url": "https://www.dpolice.com.br/comprar/conjunto-b1-pmmg/voce-esta-comprando-um-produto-de-uso-exclusivo-de-uma-corporacao-1-40/2012",
-      "error": "HTTP 403"
-    },
-    {
-      "slug": "japona-dupla-face-pmmg",
-      "url": "https://www.dpolice.com.br/comprar/japona-dupla-face-pmmg/pp/2031",
-      "error": "page.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"https://www.dpolice.com.br/comprar/japona-dupla-face-pmmg/pp/2031\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "slug": "divisa-bombeiro-militar-1-sargento",
-      "url": "https://www.dpolice.com.br/comprar/divisa-bombeiro-militar-1-sargento/laranja/561",
-      "error": "page.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"https://www.dpolice.com.br/comprar/divisa-bombeiro-militar-1-sargento/laranja/561\", waiting until \"domcontentloaded\"\n"
+      "reason": "HTTP 403"
     },
     {
       "slug": "calca-camuflada-masculina",
-      "url": "https://www.dpolice.com.br/comprar/calca-camuflada-masculina/digitalizada-46/1785",
-      "error": "HTTP 403"
+      "reason": "HTTP 403"
     },
     {
       "slug": "conjunto-camuflado-masculino",
-      "url": "https://www.dpolice.com.br/comprar/conjunto-camuflado-masculino/38-50/1737",
-      "error": "HTTP 403"
-    },
-    {
-      "slug": "chaveiro",
-      "url": "https://www.dpolice.com.br/comprar/chaveiro/direto/1576",
-      "error": "This operation was aborted"
+      "reason": "HTTP 403"
     },
     {
       "slug": "gandola-camuflada",
-      "url": "https://www.dpolice.com.br/comprar/gandola-camuflada/digitalizada-54/1791",
-      "error": "page.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"https://www.dpolice.com.br/comprar/gandola-camuflada/digitalizada-54/1791\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "slug": "meiao-selene-futebol-performance",
-      "url": "https://www.dpolice.com.br/comprar/meiao-selene-futebol-performance/5/1714",
-      "error": "page.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"https://www.dpolice.com.br/comprar/meiao-selene-futebol-performance/5/1714\", waiting until \"domcontentloaded\"\n"
+      "reason": "HTTP 403"
     }
-  ]
+  ],
+  "retry": {
+    "recovered": [
+      "algema-brasil",
+      "japona-dupla-face-pmmg",
+      "divisa-bombeiro-militar-1-sargento",
+      "chaveiro",
+      "meiao-selene-futebol-performance"
+    ],
+    "still_failed": [
+      {
+        "slug": "camisa-c1-pmmg",
+        "reason": "HTTP 403"
+      },
+      {
+        "slug": "conjunto-b1-pmmg",
+        "reason": "HTTP 403"
+      },
+      {
+        "slug": "calca-camuflada-masculina",
+        "reason": "HTTP 403"
+      },
+      {
+        "slug": "conjunto-camuflado-masculino",
+        "reason": "HTTP 403"
+      },
+      {
+        "slug": "gandola-camuflada",
+        "reason": "HTTP 403"
+      }
+    ]
+  },
+  "final_retry": {
+    "recovered": [],
+    "still_failed": [
+      {
+        "slug": "camisa-c1-pmmg",
+        "reason": "HTTP 403"
+      },
+      {
+        "slug": "conjunto-b1-pmmg",
+        "reason": "HTTP 403"
+      },
+      {
+        "slug": "calca-camuflada-masculina",
+        "reason": "HTTP 403"
+      },
+      {
+        "slug": "conjunto-camuflado-masculino",
+        "reason": "HTTP 403"
+      },
+      {
+        "slug": "gandola-camuflada",
+        "reason": "HTTP 403"
+      }
+    ]
+  }
 }

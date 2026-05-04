@@ -139,10 +139,7 @@ export function Footer() {
             © {new Date().getFullYear()} D Police — CNPJ {siteConfig.store.cnpj}. Todos os direitos
             reservados.
           </p>
-          <p>
-            Itens com restrição legal exigem documentação válida na entrega. Validação realizada por
-            inteligência artificial com revisão humana.
-          </p>
+          <p>Itens com restrição legal exigem documentação válida na entrega.</p>
         </div>
       </div>
     </footer>

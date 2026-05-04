@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
+import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react'
 import { cn } from '@/lib/utils'
@@ -12,6 +13,8 @@ type Slide = {
   description: string
   cta: { label: string; href: string }
   accent: 'brand' | 'olive' | 'tan' | 'destructive'
+  /** Imagem de fundo opcional. Quando presente, substitui o pattern tático. */
+  image?: { src: string; alt: string; position?: 'right' | 'cover' }
 }
 
 const slides: Slide[] = [
@@ -24,20 +27,25 @@ const slides: Slide[] = [
     accent: 'brand',
   },
   {
+    eyebrow: 'Linha Operacional',
+    title: 'Coturnos táticos',
+    description:
+      'Modelos selecionados de couro legítimo com solado anti-derrapante. Em até 6x sem juros.',
+    cta: { label: 'Ver coturnos', href: '/categoria/calcados/coturnos' },
+    accent: 'destructive',
+    image: {
+      src: '/banners/coturno-hero.png',
+      alt: 'Coturno tático',
+      position: 'cover',
+    },
+  },
+  {
     eyebrow: 'Colégio Tiradentes',
     title: 'Volta às aulas pronta',
     description:
       'Uniforme oficial, ed. física e acessórios validados pela escola — entrega em BH no mesmo dia.',
     cta: { label: 'Comprar agora', href: '/categoria/colegio-tiradentes' },
     accent: 'olive',
-  },
-  {
-    eyebrow: 'Linha Operacional',
-    title: 'Coturnos táticos -20%',
-    description:
-      'Modelos selecionados de couro legítimo com solado anti-derrapante, em até 6x sem juros.',
-    cta: { label: 'Ver ofertas', href: '/categoria/calcados/coturnos' },
-    accent: 'destructive',
   },
 ]
 
@@ -79,7 +87,30 @@ export function HeroCarousel() {
                 accentBg[s.accent],
               )}
             >
-              <div className="container-wide flex min-h-[420px] items-center py-16 md:min-h-[460px]">
+              {s.image && (
+                <>
+                  <Image
+                    src={s.image.src}
+                    alt={s.image.alt}
+                    fill
+                    priority={i === 0}
+                    sizes="100vw"
+                    className={cn(
+                      'absolute inset-0 object-cover',
+                      s.image.position === 'right'
+                        ? 'object-right'
+                        : 'object-center',
+                    )}
+                  />
+                  {/* gradiente esquerda → transparente direita pra texto ler */}
+                  <div
+                    aria-hidden
+                    className="from-tactical-charcoal/95 via-tactical-charcoal/70 absolute inset-0 bg-gradient-to-r to-transparent"
+                  />
+                </>
+              )}
+
+              <div className="container-wide relative flex min-h-[420px] items-center py-16 md:min-h-[480px]">
                 <div className="max-w-2xl space-y-5">
                   {s.eyebrow && (
                     <p className="text-tactical-tan inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.25em]">
@@ -87,7 +118,7 @@ export function HeroCarousel() {
                       {s.eyebrow}
                     </p>
                   )}
-                  <h2 className="text-4xl font-bold leading-tight tracking-tight md:text-5xl lg:text-6xl">
+                  <h2 className="text-balance text-4xl font-bold leading-tight tracking-tight md:text-5xl lg:text-6xl">
                     {s.title}
                   </h2>
                   <p className="max-w-lg text-base leading-relaxed text-white/80 md:text-lg">
@@ -102,22 +133,29 @@ export function HeroCarousel() {
                   </Link>
                 </div>
 
-                {/* tactical grid backdrop */}
-                <svg
-                  aria-hidden
-                  className="pointer-events-none absolute inset-y-0 right-0 hidden h-full w-1/2 opacity-15 md:block"
-                  viewBox="0 0 600 600"
-                >
-                  <defs>
-                    <pattern id={`grid-${i}`} width="40" height="40" patternUnits="userSpaceOnUse">
-                      <path d="M40 0 L0 0 0 40" fill="none" stroke="white" strokeWidth="0.5" />
-                    </pattern>
-                  </defs>
-                  <rect width="100%" height="100%" fill={`url(#grid-${i})`} />
-                  <circle cx="450" cy="300" r="180" fill="none" stroke="white" strokeWidth="0.6" />
-                  <circle cx="450" cy="300" r="120" fill="none" stroke="white" strokeWidth="0.6" />
-                  <circle cx="450" cy="300" r="60" fill="none" stroke="white" strokeWidth="0.6" />
-                </svg>
+                {/* tactical grid backdrop apenas quando NÃO tem imagem */}
+                {!s.image && (
+                  <svg
+                    aria-hidden
+                    className="pointer-events-none absolute inset-y-0 right-0 hidden h-full w-1/2 opacity-15 md:block"
+                    viewBox="0 0 600 600"
+                  >
+                    <defs>
+                      <pattern
+                        id={`grid-${i}`}
+                        width="40"
+                        height="40"
+                        patternUnits="userSpaceOnUse"
+                      >
+                        <path d="M40 0 L0 0 0 40" fill="none" stroke="white" strokeWidth="0.5" />
+                      </pattern>
+                    </defs>
+                    <rect width="100%" height="100%" fill={`url(#grid-${i})`} />
+                    <circle cx="450" cy="300" r="180" fill="none" stroke="white" strokeWidth="0.6" />
+                    <circle cx="450" cy="300" r="120" fill="none" stroke="white" strokeWidth="0.6" />
+                    <circle cx="450" cy="300" r="60" fill="none" stroke="white" strokeWidth="0.6" />
+                  </svg>
+                )}
               </div>
             </div>
           ))}

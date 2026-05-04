@@ -5,7 +5,6 @@ import { AboutSection } from '@/components/marketing/about-section'
 import { BestSellers } from '@/components/marketing/best-sellers'
 import { HeroCarousel } from '@/components/marketing/hero-carousel'
 import { PaymentShippingBar } from '@/components/marketing/payment-shipping-bar'
-import { RestrictedInfo } from '@/components/marketing/restricted-info'
 import { SectionHeading } from '@/components/marketing/section-heading'
 import { StoreLocator } from '@/components/marketing/store-locator'
 import { UniformCorporations } from '@/components/marketing/uniform-corporations'
@@ -33,8 +32,6 @@ export default function HomePage() {
         </section>
 
         <UniformCorporations />
-
-        <RestrictedInfo />
 
         <AboutSection />
 
