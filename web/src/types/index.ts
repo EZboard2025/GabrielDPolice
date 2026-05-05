@@ -22,7 +22,10 @@ export type Product = {
   price: Money
   comparePrice?: Money
   images: ProductImage[]
+  /** Categoria primária (mais específica) — usada pra exibir no card. */
   category: { slug: string; name: string }
+  /** Todas as categorias em que o produto aparece (cross-listing do catálogo). */
+  categorySlugs: string[]
   variants?: ProductVariant[]
   badges?: ProductBadge[]
   restrictions?: ProductRestriction

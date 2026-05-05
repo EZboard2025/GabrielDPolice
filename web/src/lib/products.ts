@@ -1,4 +1,5 @@
 import catalogJson from '@/data/catalog.json'
+import restrictedVisualJson from '@/data/restricted-visual.json'
 import type { AcceptedDocType, Product, ProductBadge } from '@/types'
 
 type RawProduct = {
@@ -41,21 +42,49 @@ function pickPrimary(categories: { slug: string; name: string }[]) {
   return [...categories].sort((a, b) => b.slug.length - a.slug.length)[0]
 }
 
-// Marca "restrito" por produto está desativada por enquanto.
-// O catálogo tem `likely_restricted` (heurística do scraper) mas a regra real
-// vai ser definida com cliente + advogado depois. Vou re-ativar em
-// detectBadges/detectRestrictions quando isso acontecer.
-function detectBadges(_raw: RawProduct, primarySlug: string): ProductBadge[] {
+// Lista de slugs marcados como restritos por análise visual da foto do produto
+// (presença do selo "VENDA CONTROLADA COM DOCUMENTAÇÃO FUNCIONAL" no rodapé).
+// Gerado em research/dpolice-current/visual-classification.json
+const restrictedSlugs = new Set<string>(
+  (restrictedVisualJson as { restricted: { slug: string }[] }).restricted.map((r) => r.slug),
+)
+
+function isRestricted(slug: string): boolean {
+  return restrictedSlugs.has(slug)
+}
+
+function detectBadges(raw: RawProduct, primarySlug: string): ProductBadge[] {
   const badges: ProductBadge[] = []
-  if (primarySlug === 'cfsd-2025-pmmg') badges.push('lancamento')
+  if (isRestricted(raw.slug)) badges.push('restrito')
+  if (primarySlug === 'cfsd-2025-pmmg' && !badges.includes('restrito')) badges.push('lancamento')
   return badges
 }
 
 function detectRestrictions(
-  _raw: RawProduct,
-  _primarySlug: string,
+  raw: RawProduct,
+  primarySlug: string,
 ): Product['restrictions'] | undefined {
-  return undefined
+  if (!isRestricted(raw.slug)) return undefined
+
+  const docs = new Set<AcceptedDocType>()
+  if (primarySlug.includes('policia-militar') || primarySlug === 'cfsd-2025-pmmg') {
+    docs.add('identidade-funcional-pm')
+  }
+  if (primarySlug.includes('policia-penal')) docs.add('identidade-funcional-policia-penal')
+  if (primarySlug.includes('bombeiro-militar')) docs.add('identidade-funcional-bombeiro')
+  if (
+    primarySlug.includes('algemas') ||
+    primarySlug.includes('floroes') ||
+    primarySlug.includes('passadeiras') ||
+    primarySlug.includes('carteiras') ||
+    primarySlug.includes('cintos')
+  ) {
+    docs.add('identidade-funcional-pm')
+    docs.add('identidade-funcional-policia-penal')
+  }
+  if (docs.size === 0) docs.add('identidade-funcional-pm')
+
+  return { required: true, acceptedDocs: Array.from(docs) }
 }
 
 const raw = catalogJson as RawCatalog
@@ -100,6 +129,7 @@ function toProduct(entry: Aggregated): Product {
     price: entry.raw.price,
     images: [cover, ...gallery],
     category: primary,
+    categorySlugs: entry.categories.map((c) => c.slug),
     badges: detectBadges(entry.raw, primary.slug),
     restrictions: detectRestrictions(entry.raw, primary.slug),
   }

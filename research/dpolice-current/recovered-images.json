@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-05-05T00:49:23.564Z",
+  "recovered": [
+    {
+      "slug": "camisa-c1-pmmg",
+      "image_url": "/products/camisa-c1-pmmg.png",
+      "method": "category_listing",
+      "source_url": "https://www.dpolice.com.br/uniformes/policia-militar",
+      "cdn_url": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/camisa-c1-pmmg_2023-01-10_15-52-48_0_397_min.PNG",
+      "bytes": 57724
+    },
+    {
+      "slug": "conjunto-b1-pmmg",
+      "image_url": "/products/conjunto-b1-pmmg.png",
+      "method": "category_listing",
+      "source_url": "https://www.dpolice.com.br/uniformes/policia-militar",
+      "cdn_url": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/conjunto-b1-pmmg_2024-08-13_13-05-48_0_223_min.PNG",
+      "bytes": 61003
+    },
+    {
+      "slug": "calca-camuflada-masculina",
+      "image_url": "/products/calca-camuflada-masculina.png",
+      "method": "category_listing",
+      "source_url": "https://www.dpolice.com.br/artigos-militares/roupas",
+      "cdn_url": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/calCa-camuflada-masculina_2024-06-18_09-41-21_0_229_min.PNG",
+      "bytes": 73838
+    },
+    {
+      "slug": "conjunto-camuflado-masculino",
+      "image_url": "/products/conjunto-camuflado-masculino.png",
+      "method": "category_listing",
+      "source_url": "https://www.dpolice.com.br/artigos-militares/roupas",
+      "cdn_url": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/conjunto-camuflado-masculino_2024-06-12_16-58-29_0_237_min.PNG",
+      "bytes": 56923
+    },
+    {
+      "slug": "gandola-camuflada",
+      "image_url": "/products/gandola-camuflada.png",
+      "method": "category_listing",
+      "source_url": "https://www.dpolice.com.br/artigos-militares/roupas",
+      "cdn_url": "https://www.galaxcommerce.com.br/sistema/upload/523/produtos/gandola-camuflada_2024-06-18_09-51-21_0_329_min.PNG",
+      "bytes": 81878
+    }
+  ],
+  "still_failed": []
+}

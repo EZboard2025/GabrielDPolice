@@ -210,7 +210,7 @@
           "slug": "camisa-c1-pmmg",
           "url": "https://www.dpolice.com.br/comprar/camisa-c1-pmmg/bege-2/1673",
           "price": 135,
-          "image_url": "indisponível",
+          "image_url": "/products/camisa-c1-pmmg.png",
           "likely_restricted": true,
           "gallery_urls": []
         },
@@ -266,7 +266,7 @@
           "slug": "camisa-c1-pmmg",
           "url": "https://www.dpolice.com.br/comprar/camisa-c1-pmmg/bege-2/1673",
           "price": 135,
-          "image_url": "indisponível",
+          "image_url": "/products/camisa-c1-pmmg.png",
           "likely_restricted": true,
           "gallery_urls": []
         },
@@ -337,7 +337,7 @@
           "slug": "conjunto-b1-pmmg",
           "url": "https://www.dpolice.com.br/comprar/conjunto-b1-pmmg/voce-esta-comprando-um-produto-de-uso-exclusivo-de-uma-corporacao-1-40/2012",
           "price": 370,
-          "image_url": "indisponível",
+          "image_url": "/products/conjunto-b1-pmmg.png",
           "likely_restricted": true,
           "gallery_urls": []
         }
@@ -1102,52 +1102,40 @@
           "slug": "organizador-de-armario",
           "url": "https://www.dpolice.com.br/cfsd-2025-pmmg",
           "price": 55,
-          "image_url": "/products/organizador-de-armario.jpeg",
+          "image_url": "indisponível",
           "likely_restricted": false,
           "url_note": "URL exata da PDP não capturada",
-          "gallery_urls": [
-            "/products/organizador-de-armario-3.jpeg",
-            "/products/organizador-de-armario-4.png"
-          ]
+          "gallery_urls": []
         },
         {
           "name": "Short Azul SD PM",
           "slug": "short-azul-sd-pm",
           "url": "https://www.dpolice.com.br/cfsd-2025-pmmg",
           "price": 25,
-          "image_url": "/products/short-azul-sd-pm.jpeg",
+          "image_url": "indisponível",
           "likely_restricted": true,
           "url_note": "URL exata da PDP não capturada",
-          "gallery_urls": [
-            "/products/short-azul-sd-pm-3.jpeg",
-            "/products/short-azul-sd-pm-4.png"
-          ]
+          "gallery_urls": []
         },
         {
           "name": "Sunga Azul",
           "slug": "sunga-azul",
           "url": "https://www.dpolice.com.br/cfsd-2025-pmmg",
           "price": 45,
-          "image_url": "/products/sunga-azul.jpeg",
+          "image_url": "indisponível",
           "likely_restricted": false,
           "url_note": "URL exata da PDP não capturada",
-          "gallery_urls": [
-            "/products/sunga-azul-3.jpeg",
-            "/products/sunga-azul-4.png"
-          ]
+          "gallery_urls": []
         },
         {
           "name": "Tensor Azul",
           "slug": "tensor-azul",
           "url": "https://www.dpolice.com.br/cfsd-2025-pmmg",
           "price": 45,
-          "image_url": "/products/tensor-azul.jpeg",
+          "image_url": "indisponível",
           "likely_restricted": false,
           "url_note": "URL exata da PDP não capturada",
-          "gallery_urls": [
-            "/products/tensor-azul-3.jpeg",
-            "/products/tensor-azul-4.png"
-          ]
+          "gallery_urls": []
         }
       ]
     },
@@ -1193,7 +1181,7 @@
           "url": "https://www.dpolice.com.br/comprar/calca-camuflada-masculina/digitalizada-46/1785",
           "price": 120,
           "price_original": 173,
-          "image_url": "indisponível",
+          "image_url": "/products/calca-camuflada-masculina.png",
           "likely_restricted": false,
           "gallery_urls": []
         },
@@ -1315,7 +1303,7 @@
           "url": "https://www.dpolice.com.br/comprar/conjunto-camuflado-masculino/38-50/1737",
           "price": 200,
           "price_original": 284,
-          "image_url": "indisponível",
+          "image_url": "/products/conjunto-camuflado-masculino.png",
           "likely_restricted": false,
           "gallery_urls": []
         },
@@ -1336,7 +1324,7 @@
           "url": "https://www.dpolice.com.br/comprar/gandola-camuflada/digitalizada-54/1791",
           "price": 99.9,
           "price_original": 145,
-          "image_url": "indisponível",
+          "image_url": "/products/gandola-camuflada.png",
           "likely_restricted": false,
           "gallery_urls": []
         },
@@ -2074,7 +2062,7 @@
           "url": "https://www.dpolice.com.br/comprar/calca-camuflada-masculina/digitalizada-46/1785",
           "price": 120,
           "price_original": 173,
-          "image_url": "indisponível",
+          "image_url": "/products/calca-camuflada-masculina.png",
           "likely_restricted": false,
           "gallery_urls": []
         },
@@ -2084,7 +2072,7 @@
           "url": "https://www.dpolice.com.br/comprar/conjunto-camuflado-masculino/38-50/1737",
           "price": 200,
           "price_original": 284,
-          "image_url": "indisponível",
+          "image_url": "/products/conjunto-camuflado-masculino.png",
           "likely_restricted": false,
           "gallery_urls": []
         },
@@ -2094,7 +2082,7 @@
           "url": "https://www.dpolice.com.br/comprar/gandola-camuflada/digitalizada-54/1791",
           "price": 99.9,
           "price_original": 145,
-          "image_url": "indisponível",
+          "image_url": "/products/gandola-camuflada.png",
           "likely_restricted": false,
           "gallery_urls": []
         }

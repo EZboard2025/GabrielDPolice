@@ -1,0 +1,357 @@
+{
+  "analyzed_at": "2026-05-04",
+  "total_analyzed": 105,
+  "method": "visual_inspection",
+  "criteria": "tarja preta com texto branco 'VENDA CONTROLADA COM DOCUMENTAÇÃO FUNCIONAL' (ou variantes) sobreposta na foto do produto",
+  "restricted": [
+    {
+      "slug": "calca-digitalizada-policia-penal",
+      "evidence": "tarjas pretas com 'VENDA CONTROLADA COM DOCUMENTAÇÃO FUNCIONAL' no rodapé"
+    },
+    {
+      "slug": "calca-tatica-cinza-policia-penal",
+      "evidence": "tarjas pretas com 'VENDA CONTROLADA COM DOCUMENTAÇÃO FUNCIONAL' no rodapé"
+    },
+    {
+      "slug": "camisa-manga-longa-policia-penal-mg",
+      "evidence": "tarjas pretas com 'VENDA CONTROLADA COM DOCUMENTAÇÃO FUNCIONAL' no rodapé"
+    },
+    {
+      "slug": "camiseta-bege-policia-penal",
+      "evidence": "tarjas pretas com 'VENDA CONTROLADA COM DOCUMENTAÇÃO FUNCIONAL' no rodapé"
+    },
+    {
+      "slug": "carteira-porta-nota-dourada-policia-penal",
+      "evidence": "tarjas pretas com 'VENDA CONTROLADA COM DOCUMENTAÇÃO FUNCIONAL' no rodapé"
+    },
+    {
+      "slug": "carteira-porta-nota-policia-penal",
+      "evidence": "tarjas pretas com 'VENDA CONTROLADA COM DOCUMENTAÇÃO FUNCIONAL' no rodapé"
+    },
+    {
+      "slug": "cinto-de-guarnicao-pmmg",
+      "evidence": "tarjas pretas com 'VENDA CONTROLADA COM DOCUMENTAÇÃO FUNCIONAL' no rodapé"
+    },
+    {
+      "slug": "cinto-nylon-cbmg",
+      "evidence": "tarjas pretas com 'VENDA CONTROLADA COM DOCUMENTAÇÃO FUNCIONAL' no rodapé"
+    },
+    {
+      "slug": "cinto-nylon-pmmg",
+      "evidence": "tarjas pretas com 'VENDA CONTROLADA COM DOCUMENTAÇÃO FUNCIONAL' no rodapé"
+    },
+    {
+      "slug": "coldre-pro-sr1-belica",
+      "evidence": "tarjas pretas com 'VENDA CONTROLADA COM DOCUMENTAÇÃO FUNCIONAL' no rodapé"
+    },
+    {
+      "slug": "conjunto-4a-cbmmg-completo",
+      "evidence": "tarjas pretas com 'VENDA CONTROLADA COM DOCUMENTAÇÃO FUNCIONAL' no rodapé"
+    },
+    {
+      "slug": "conjunto-agasalho-pmmg",
+      "evidence": "tarjas pretas com 'VENDA CONTROLADA COM DOCUMENTAÇÃO FUNCIONAL' no rodapé"
+    },
+    {
+      "slug": "conjunto-c1-pmmg",
+      "evidence": "tarjas pretas com 'VENDA CONTROLADA COM DOCUMENTAÇÃO FUNCIONAL' no rodapé"
+    },
+    {
+      "slug": "conjunto-policia-penal-digitalizado",
+      "evidence": "tarjas pretas com 'VENDA CONTROLADA COM DOCUMENTAÇÃO FUNCIONAL' no rodapé"
+    },
+    {
+      "slug": "divisa-bombeiro-militar-1-sargento",
+      "evidence": "tarjas pretas com 'VENDA CONTROLADA COM DOCUMENTAÇÃO FUNCIONAL' no rodapé"
+    },
+    {
+      "slug": "divisa-bombeiro-militar-2-sargento",
+      "evidence": "tarjas pretas com 'VENDA CONTROLADA COM DOCUMENTAÇÃO FUNCIONAL' no rodapé"
+    },
+    {
+      "slug": "divisa-bombeiro-militar-3-sargento",
+      "evidence": "tarjas pretas com 'VENDA CONTROLADA COM DOCUMENTAÇÃO FUNCIONAL' no rodapé"
+    },
+    {
+      "slug": "divisa-bombeiro-militar-cabo",
+      "evidence": "tarjas pretas com 'VENDA CONTROLADA COM DOCUMENTAÇÃO FUNCIONAL' no rodapé"
+    },
+    {
+      "slug": "divisa-bombeiro-militar-soldado",
+      "evidence": "tarjas pretas com 'VENDA CONTROLADA COM DOCUMENTAÇÃO FUNCIONAL' no rodapé"
+    },
+    {
+      "slug": "divisa-cinza-bombeiro-militar",
+      "evidence": "tarjas pretas com 'VENDA CONTROLADA COM DOCUMENTAÇÃO FUNCIONAL' no rodapé"
+    },
+    {
+      "slug": "divisa-policia-militar-soldado",
+      "evidence": "tarjas pretas com 'VENDA CONTROLADA COM DOCUMENTAÇÃO FUNCIONAL' no rodapé"
+    },
+    {
+      "slug": "fiel-retratil-policia-militar",
+      "evidence": "tarjas pretas com 'VENDA CONTROLADA COM DOCUMENTAÇÃO FUNCIONAL' no rodapé"
+    },
+    {
+      "slug": "fiel-retratil-policia-penal",
+      "evidence": "tarjas pretas com 'VENDA CONTROLADA COM DOCUMENTAÇÃO FUNCIONAL' no rodapé"
+    },
+    {
+      "slug": "gandola-combate-policia-penal-mg",
+      "evidence": "tarjas pretas com 'VENDA CONTROLADA COM DOCUMENTAÇÃO FUNCIONAL' no rodapé"
+    },
+    {
+      "slug": "gandola-digitalizada-policia-penal",
+      "evidence": "tarjas pretas com 'VENDA CONTROLADA COM DOCUMENTAÇÃO FUNCIONAL' no rodapé"
+    },
+    {
+      "slug": "gorro-bombeiro-militar",
+      "evidence": "tarjas pretas com 'VENDA CONTROLADA COM DOCUMENTAÇÃO FUNCIONAL' no rodapé"
+    },
+    {
+      "slug": "passadeira-pmmg",
+      "evidence": "tarjas pretas com 'VENDA CONTROLADA COM DOCUMENTAÇÃO FUNCIONAL' no rodapé"
+    },
+    {
+      "slug": "passadeira-pmmg-cho-cfo-e-aspirante",
+      "evidence": "tarjas pretas com 'VENDA CONTROLADA COM DOCUMENTAÇÃO FUNCIONAL' no rodapé"
+    },
+    {
+      "slug": "platina-pmmg-cho-cfo-e-aspirante",
+      "evidence": "tarjas pretas com 'VENDA CONTROLADA COM DOCUMENTAÇÃO FUNCIONAL' no rodapé"
+    },
+    {
+      "slug": "short-azul-sgt-e-cad-pmmg",
+      "evidence": "tarjas pretas com 'VENDA CONTROLADA COM DOCUMENTAÇÃO FUNCIONAL' no rodapé"
+    },
+    {
+      "slug": "camisa-c1-pmmg",
+      "evidence": "selo 'VENDA CONTROLADA COM DOCUMENTAÇÃO FUNCIONAL' visível no rodapé"
+    }
+  ],
+  "free": [
+    {
+      "slug": "algema-brasil"
+    },
+    {
+      "slug": "algema-de-corrente"
+    },
+    {
+      "slug": "blusa-de-frio-ed-fisica-masculino-e-feminino"
+    },
+    {
+      "slug": "boina-defense"
+    },
+    {
+      "slug": "boina-lyon"
+    },
+    {
+      "slug": "bone-branco"
+    },
+    {
+      "slug": "bone-caqui"
+    },
+    {
+      "slug": "bone-digitalizado"
+    },
+    {
+      "slug": "bone-policia-penal-mg"
+    },
+    {
+      "slug": "calca-de-transito-masculina-e-feminina-intanfil"
+    },
+    {
+      "slug": "calca-jeans-com-elastano"
+    },
+    {
+      "slug": "calcao-cbmmg"
+    },
+    {
+      "slug": "camisa-branca"
+    },
+    {
+      "slug": "camisa-branca-bordada-com-ribana"
+    },
+    {
+      "slug": "camisa-de-malha-de-edfisica-infantil-feminino"
+    },
+    {
+      "slug": "camisa-de-malha-de-edfisica-infantil-masculina"
+    },
+    {
+      "slug": "camisa-policia-penal-preta"
+    },
+    {
+      "slug": "camisa-social-de-transito-ctpm-feminina"
+    },
+    {
+      "slug": "camisa-social-de-transito-ctpm-masculino"
+    },
+    {
+      "slug": "cantil"
+    },
+    {
+      "slug": "capa-de-colete-cea-militar"
+    },
+    {
+      "slug": "capa-de-colete-fox-boy"
+    },
+    {
+      "slug": "chapeu-de-pescador-policia-penal"
+    },
+    {
+      "slug": "chave-de-algema"
+    },
+    {
+      "slug": "chaveiro"
+    },
+    {
+      "slug": "chinelo-havaianas"
+    },
+    {
+      "slug": "cinto-de-nylon"
+    },
+    {
+      "slug": "cinto-nylon-cia-militar"
+    },
+    {
+      "slug": "cinto-tatico"
+    },
+    {
+      "slug": "cinto-tatico-cia-militar"
+    },
+    {
+      "slug": "cinturao-completo"
+    },
+    {
+      "slug": "coldre-neoprene-38-2-polegada"
+    },
+    {
+      "slug": "coldre-neoprene-38-4-polegada"
+    },
+    {
+      "slug": "coldre-neoprene-38-6-polegada"
+    },
+    {
+      "slug": "coldre-neoprene-hacker"
+    },
+    {
+      "slug": "coldre-neoprene-universal"
+    },
+    {
+      "slug": "coldre-universal-velado-belica"
+    },
+    {
+      "slug": "coldre-velado-taurus-th-800-full-em-polimero-predador"
+    },
+    {
+      "slug": "coldres-socoldres"
+    },
+    {
+      "slug": "coturno-acero-smith"
+    },
+    {
+      "slug": "coturno-extra-leve"
+    },
+    {
+      "slug": "coturno-impermeavel-acero-couro-apache"
+    },
+    {
+      "slug": "florao-cadete"
+    },
+    {
+      "slug": "gandola-vermelha-bombeiro-civil"
+    },
+    {
+      "slug": "japona-dupla-face-pmmg"
+    },
+    {
+      "slug": "jaqueta-de-transito-infantil-masc-fem"
+    },
+    {
+      "slug": "kit-meia-branca-selene"
+    },
+    {
+      "slug": "meiao-selene-futebol"
+    },
+    {
+      "slug": "meiao-selene-futebol-performance"
+    },
+    {
+      "slug": "mini-coldre-modular"
+    },
+    {
+      "slug": "mochila-acao-e-aventura-fox-boy-35l"
+    },
+    {
+      "slug": "mochila-coyote-rip-stop-fox-boy"
+    },
+    {
+      "slug": "mochila-defender-echolife"
+    },
+    {
+      "slug": "mochila-tatica-attack-echolife-45l"
+    },
+    {
+      "slug": "mochila-tatica-echolife"
+    },
+    {
+      "slug": "plaqueta-de-identificacao-belica"
+    },
+    {
+      "slug": "porta-algema"
+    },
+    {
+      "slug": "porta-algema-belica"
+    },
+    {
+      "slug": "porta-carregador-belica"
+    },
+    {
+      "slug": "porta-carregador-de-fuzil"
+    },
+    {
+      "slug": "porta-carregador-duplo"
+    },
+    {
+      "slug": "porta-carregador-duplo-pt"
+    },
+    {
+      "slug": "porta-ht-modular"
+    },
+    {
+      "slug": "porta-refil-modular"
+    },
+    {
+      "slug": "porta-smartphone"
+    },
+    {
+      "slug": "porta-tonfa"
+    },
+    {
+      "slug": "porta-tonfa-belica"
+    },
+    {
+      "slug": "porta-treco-15x15"
+    },
+    {
+      "slug": "quepe-marron-pmmg"
+    },
+    {
+      "slug": "tonfa"
+    },
+    {
+      "slug": "conjunto-b1-pmmg"
+    },
+    {
+      "slug": "calca-camuflada-masculina"
+    },
+    {
+      "slug": "conjunto-camuflado-masculino"
+    },
+    {
+      "slug": "gandola-camuflada"
+    }
+  ],
+  "unsure": []
+}

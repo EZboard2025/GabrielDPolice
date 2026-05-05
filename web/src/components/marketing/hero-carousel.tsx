@@ -19,18 +19,6 @@ type Slide = {
 
 const slides: Slide[] = [
   {
-    eyebrow: 'CFSD 2025 PMMG',
-    title: 'Kit do Soldado',
-    description: 'Itens para o Curso de Formação de Soldados da PMMG.',
-    cta: { label: 'Ver itens', href: '/categoria/cfsd-2025-pmmg' },
-    accent: 'brand',
-    image: {
-      src: '/banners/cfsd-soldado.png',
-      alt: 'Soldado uniformizado',
-      position: 'cover',
-    },
-  },
-  {
     eyebrow: 'Calçados',
     title: 'Coturnos táticos',
     description: 'Coturnos para uso operacional.',
@@ -51,6 +39,18 @@ const slides: Slide[] = [
     image: {
       src: '/banners/colegio-tiradentes.png',
       alt: 'Uniforme do Colégio Tiradentes — camisa e mochila',
+      position: 'cover',
+    },
+  },
+  {
+    eyebrow: 'CFSD 2025 PMMG',
+    title: 'Kit do Soldado',
+    description: 'Itens para o Curso de Formação de Soldados da PMMG.',
+    cta: { label: 'Ver itens', href: '/categoria/cfsd-2025-pmmg' },
+    accent: 'brand',
+    image: {
+      src: '/banners/cfsd-soldado.png',
+      alt: 'Soldado uniformizado',
       position: 'cover',
     },
   },

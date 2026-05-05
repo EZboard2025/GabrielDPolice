@@ -46,7 +46,9 @@ export function CatalogView({ products, groups, showCategoryFilter = true }: Pro
     if (selectedCats.size > 0) {
       res = res.filter((p) => {
         for (const sel of selectedCats) {
-          if (p.category.slug === sel || p.category.slug.startsWith(`${sel}/`)) return true
+          for (const cat of p.categorySlugs) {
+            if (cat === sel || cat.startsWith(`${sel}/`)) return true
+          }
         }
         return false
       })
