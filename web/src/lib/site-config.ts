@@ -33,6 +33,8 @@ export const siteConfig = {
   },
   social: {
     instagram: 'https://www.instagram.com/lojadpolice/',
+    threads: 'https://www.threads.com/@lojadpolice',
+    facebook: 'https://www.facebook.com/people/Loja-Dpolice/100087533027121/',
   },
 } as const
 

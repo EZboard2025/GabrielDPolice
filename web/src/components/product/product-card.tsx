@@ -75,7 +75,7 @@ export function ProductCard({ product, priority, className }: Props) {
         <p className="text-muted-foreground text-[11px] uppercase tracking-wider">
           {product.category.name}
         </p>
-        <h3 className="line-clamp-2 min-h-[2.5rem] text-sm font-medium leading-tight">
+        <h3 className="line-clamp-3 min-h-[2.5rem] text-sm font-medium leading-tight">
           {product.name}
         </h3>
 
