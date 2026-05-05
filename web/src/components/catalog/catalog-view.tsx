@@ -219,7 +219,7 @@ export function CatalogView({ products, groups, showCategoryFilter = true }: Pro
             icon={PackageOpen}
             title="Nenhum produto bate com esses filtros"
             description="Tente remover algum filtro ou redefinir a faixa de preço."
-            cta={{ label: 'Limpar filtros', href: '#' }}
+            cta={{ label: 'Limpar filtros', onClick: clearAll }}
           />
         )}
       </div>

@@ -32,7 +32,7 @@ export const siteConfig = {
     exchangeDays: 30,
   },
   social: {
-    instagram: 'https://instagram.com/dpolicebh',
+    instagram: 'https://www.instagram.com/lojadpolice/',
   },
 } as const
 

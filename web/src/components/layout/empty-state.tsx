@@ -2,13 +2,20 @@ import Link from 'next/link'
 import { type LucideIcon } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
+type CtaLink = { label: string; href: string }
+type CtaAction = { label: string; onClick: () => void }
+type Cta = CtaLink | CtaAction
+
 type Props = {
   icon: LucideIcon
   title: string
   description?: string
-  cta?: { label: string; href: string }
+  cta?: Cta
   className?: string
 }
+
+const ctaClasses =
+  'bg-brand text-brand-foreground hover:bg-brand/90 mt-2 inline-flex h-10 items-center rounded-md px-4 text-xs font-semibold uppercase tracking-wide transition-colors'
 
 export function EmptyState({ icon: Icon, title, description, cta, className }: Props) {
   return (
@@ -25,14 +32,15 @@ export function EmptyState({ icon: Icon, title, description, cta, className }: P
       {description && (
         <p className="text-muted-foreground max-w-sm text-sm leading-relaxed">{description}</p>
       )}
-      {cta && (
-        <Link
-          href={cta.href}
-          className="bg-brand text-brand-foreground hover:bg-brand/90 mt-2 inline-flex h-10 items-center rounded-md px-4 text-xs font-semibold uppercase tracking-wide transition-colors"
-        >
+      {cta && ('href' in cta ? (
+        <Link href={cta.href} className={ctaClasses}>
           {cta.label}
         </Link>
-      )}
+      ) : (
+        <button type="button" onClick={cta.onClick} className={ctaClasses}>
+          {cta.label}
+        </button>
+      ))}
     </div>
   )
 }
