@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import Image from 'next/image'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import {
@@ -11,6 +10,7 @@ import {
   ShoppingBag,
   Truck,
 } from 'lucide-react'
+import { ProductGallery } from '@/components/product/product-gallery'
 import { ProductGrid } from '@/components/product/product-grid'
 import { SectionHeading } from '@/components/marketing/section-heading'
 import { discountPercent, formatBRL, installments } from '@/lib/format'
@@ -39,8 +39,6 @@ export default async function ProductPage({ params }: Props) {
 
   const off = product.comparePrice ? discountPercent(product.price, product.comparePrice) : 0
   const related = getRelatedProducts(slug, 5)
-  const cover = product.images[0]
-  const gallery = product.images.slice(1)
 
   return (
     <>
@@ -55,41 +53,7 @@ export default async function ProductPage({ params }: Props) {
       </section>
 
       <section className="container-wide grid gap-10 pb-14 lg:grid-cols-[1.1fr_1fr]">
-        <div className="space-y-3">
-          <div className="bg-muted/40 border-border relative aspect-square overflow-hidden rounded-lg border">
-            <Image
-              src={cover.url}
-              alt={cover.alt}
-              fill
-              priority
-              sizes="(max-width: 1024px) 100vw, 50vw"
-              className="object-contain p-6"
-            />
-            {off > 0 && (
-              <span className="bg-destructive absolute right-4 top-4 inline-flex h-12 w-12 items-center justify-center rounded-full text-sm font-bold text-white shadow">
-                -{off}%
-              </span>
-            )}
-          </div>
-          {gallery.length > 0 && (
-            <div className="grid grid-cols-4 gap-2">
-              {gallery.map((img, i) => (
-                <div
-                  key={i}
-                  className="bg-muted/40 border-border relative aspect-square overflow-hidden rounded-md border"
-                >
-                  <Image
-                    src={img.url}
-                    alt={img.alt}
-                    fill
-                    sizes="120px"
-                    className="object-contain p-2"
-                  />
-                </div>
-              ))}
-            </div>
-          )}
-        </div>
+        <ProductGallery images={product.images} discount={off} />
 
         <div className="space-y-6">
           <div>

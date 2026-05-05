@@ -25,6 +25,11 @@ const slides: Slide[] = [
       'Tudo que você precisa pra começar o curso: gandola, calça operacional, coturno, boina e brevês — em um só lugar.',
     cta: { label: 'Montar meu kit', href: '/categoria/cfsd-2025-pmmg' },
     accent: 'brand',
+    image: {
+      src: '/banners/cfsd-soldado.png',
+      alt: 'Soldado com gandola operacional, calça tática, cinto e coturno',
+      position: 'cover',
+    },
   },
   {
     eyebrow: 'Linha Operacional',
@@ -46,6 +51,11 @@ const slides: Slide[] = [
       'Uniforme oficial, ed. física e acessórios validados pela escola — entrega em BH no mesmo dia.',
     cta: { label: 'Comprar agora', href: '/categoria/colegio-tiradentes' },
     accent: 'olive',
+    image: {
+      src: '/banners/colegio-tiradentes.png',
+      alt: 'Uniforme do Colégio Tiradentes — camisa e mochila',
+      position: 'cover',
+    },
   },
 ]
 

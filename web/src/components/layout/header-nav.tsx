@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Flame } from 'lucide-react'
+import { Flame, LayoutGrid } from 'lucide-react'
 import { categories } from '@/lib/categories'
 import { cn } from '@/lib/utils'
 
@@ -21,6 +21,16 @@ export function HeaderNav() {
     <nav className="bg-tactical-charcoal text-background/90 hidden border-y border-white/5 md:block">
       <div className="container-wide">
         <ul className="flex items-stretch gap-1">
+          <li>
+            <Link
+              href="/catalogo"
+              className="text-tactical-tan hover:bg-white/5 hover:text-background flex h-11 items-center gap-2 px-4 text-[13px] font-semibold uppercase tracking-wide transition-colors"
+            >
+              <LayoutGrid className="size-3.5" />
+              Catálogo
+            </Link>
+          </li>
+          <li className="bg-white/5 my-2 w-px" aria-hidden />
           {ordered.map((cat) => {
             const isHot = cat.slug === 'cfsd-2025-pmmg'
             return (

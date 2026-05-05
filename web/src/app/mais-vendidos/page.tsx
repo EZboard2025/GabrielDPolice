@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
+import { CatalogView } from '@/components/catalog/catalog-view'
 import { PageHeader } from '@/components/layout/page-header'
-import { ProductGrid } from '@/components/product/product-grid'
+import { buildCategoryGroups } from '@/lib/catalog-groups'
 import { getFeaturedProducts } from '@/lib/products'
 
 export const metadata: Metadata = {
@@ -9,7 +10,8 @@ export const metadata: Metadata = {
 }
 
 export default function MaisVendidosPage() {
-  const products = getFeaturedProducts(20)
+  const products = getFeaturedProducts(40)
+  const groups = buildCategoryGroups()
   return (
     <>
       <PageHeader
@@ -17,9 +19,7 @@ export default function MaisVendidosPage() {
         title="Mais vendidos"
         description="Selecionados pela equipe operacional e validados em campo. Frete grátis acima de R$ 300."
       />
-      <section className="container-wide py-10">
-        <ProductGrid products={products} priorityCount={5} />
-      </section>
+      <CatalogView products={products} groups={groups} />
     </>
   )
 }
