@@ -36,24 +36,24 @@ export function Footer() {
             desde 2014.
           </p>
           <div className="space-y-2 text-sm">
-            <p className="inline-flex items-start gap-2 opacity-90">
+            <p className="flex items-start gap-2 opacity-90">
               <MapPin className="mt-0.5 size-4 shrink-0" />
               <span>{siteConfig.store.address}</span>
             </p>
-            <p className="inline-flex items-center gap-2 opacity-90">
-              <Phone className="size-4" />
+            <p className="flex items-center gap-2 opacity-90">
+              <Phone className="size-4 shrink-0" />
               <a href={`tel:${siteConfig.store.phone.replace(/\D/g, '')}`} className="hover:underline">
                 {siteConfig.store.phone}
               </a>
             </p>
-            <p className="inline-flex items-center gap-2 opacity-90">
-              <MessageCircle className="size-4" />
+            <p className="flex items-center gap-2 opacity-90">
+              <MessageCircle className="size-4 shrink-0" />
               <a href={siteConfig.store.whatsappLink} target="_blank" rel="noopener" className="hover:underline">
                 {siteConfig.store.whatsapp}
               </a>
             </p>
-            <p className="inline-flex items-center gap-2 opacity-90">
-              <Clock className="size-4" />
+            <p className="flex items-center gap-2 opacity-90">
+              <Clock className="size-4 shrink-0" />
               {siteConfig.store.hours}
             </p>
           </div>

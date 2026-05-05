@@ -41,11 +41,15 @@ export function CategoryTabs() {
       </div>
 
       {tabs.map((t) => {
-        const items = getProductsByCategory(t.slug).slice(0, 5)
+        // 6 itens pra fechar pares no mobile (2 cols); o 6º fica oculto no desktop.
+        const items = getProductsByCategory(t.slug).slice(0, 6)
         return (
           <TabsContent key={t.slug} value={t.slug} className="mt-0">
             {items.length > 0 ? (
-              <ProductGrid products={items} />
+              <ProductGrid
+                products={items}
+                className="md:[&>*:nth-child(6)]:hidden"
+              />
             ) : (
               <p className="text-muted-foreground py-12 text-center text-sm">
                 Em breve novos produtos nesta categoria.

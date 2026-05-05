@@ -17,7 +17,7 @@ export const siteConfig = {
     whatsappTrocas: '(31) 99262-5581',
     whatsappTrocasLink:
       'https://wa.me/5531992625581?text=Ol%C3%A1%2C%20gostaria%20de%20iniciar%20uma%20troca%2Fdevolu%C3%A7%C3%A3o',
-    email: 'dpolice@dpolice.com.br',
+    email: 'contato@dpolice.com.br',
     hours: 'Seg a Sex 08:30–19:00 • Sáb 08:30–13:00',
   },
   payment: {
