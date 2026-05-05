@@ -81,7 +81,7 @@ export function HeroCarousel() {
 
   return (
     <section
-      className="relative overflow-hidden border-y border-white/5"
+      className="relative overflow-hidden"
       aria-roledescription="carousel"
     >
       <div className="overflow-hidden" ref={emblaRef}>

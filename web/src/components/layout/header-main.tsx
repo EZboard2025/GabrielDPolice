@@ -1,6 +1,7 @@
 import Link from 'next/link'
-import { Heart, ShoppingBag, User } from 'lucide-react'
+import { Heart, User } from 'lucide-react'
 import { DPoliceLogo } from './dpolice-logo'
+import { HeaderCartIcon } from './header-cart-icon'
 import { HeaderSearch } from './header-search'
 
 export function HeaderMain() {
@@ -33,16 +34,7 @@ export function HeaderMain() {
           >
             <Heart className="size-5" />
           </Link>
-          <Link
-            href="/carrinho"
-            aria-label="Carrinho"
-            className="hover:bg-muted text-foreground bg-secondary relative inline-flex size-11 items-center justify-center rounded-md transition-colors"
-          >
-            <ShoppingBag className="size-5" />
-            <span className="bg-brand text-brand-foreground absolute -right-1 -top-1 inline-flex size-5 items-center justify-center rounded-full text-[10px] font-bold">
-              0
-            </span>
-          </Link>
+          <HeaderCartIcon />
         </nav>
       </div>
 

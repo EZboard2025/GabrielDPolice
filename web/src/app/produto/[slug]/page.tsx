@@ -8,8 +8,8 @@ import {
   MessageCircle,
   RefreshCcw,
   ShieldCheck,
-  ShoppingBag,
 } from 'lucide-react'
+import { AddToCartButton } from '@/components/product/add-to-cart-button'
 import { ProductGallery } from '@/components/product/product-gallery'
 import { ProductGrid } from '@/components/product/product-grid'
 import { SectionHeading } from '@/components/marketing/section-heading'
@@ -80,13 +80,7 @@ export default async function ProductPage({ params }: Props) {
           </div>
 
           <div className="space-y-3">
-            <button
-              type="button"
-              className="bg-brand text-brand-foreground hover:bg-brand/90 inline-flex h-12 w-full items-center justify-center gap-2 rounded-md text-sm font-semibold uppercase tracking-wide transition-colors"
-            >
-              <ShoppingBag className="size-5" />
-              Adicionar ao carrinho
-            </button>
+            <AddToCartButton product={product} />
             <a
               href={`${siteConfig.store.whatsappLink.split('?')[0]}?text=${encodeURIComponent(`Olá! Quero saber mais sobre: ${product.name}`)}`}
               target="_blank"

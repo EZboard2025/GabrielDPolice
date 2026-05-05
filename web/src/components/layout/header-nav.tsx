@@ -18,7 +18,7 @@ export function HeaderNav() {
   )
 
   return (
-    <nav className="bg-tactical-charcoal text-background/90 hidden border-y border-white/5 md:block">
+    <nav className="bg-tactical-charcoal text-background/90 hidden border-t border-white/5 md:block">
       <div className="container-wide">
         <ul className="flex items-stretch gap-1">
           <li>
