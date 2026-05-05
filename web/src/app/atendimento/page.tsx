@@ -1,26 +1,26 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { Clock, MapPin, MessageCircle, Phone } from 'lucide-react'
+import { Clock, Mail, MapPin, MessageCircle, Phone } from 'lucide-react'
 import { PageHeader } from '@/components/layout/page-header'
 import { siteConfig } from '@/lib/site-config'
 
 export const metadata: Metadata = {
   title: 'Atendimento',
-  description: 'Fale com a D Police por WhatsApp, telefone ou na loja física.',
+  description: 'Fale com a D Police por WhatsApp, telefone, e-mail ou na loja física no Prado.',
 }
 
 const channels = [
   {
     icon: MessageCircle,
     title: 'WhatsApp',
-    description: 'Resposta na hora em horário comercial.',
+    description: 'Tire dúvidas e faça pedidos.',
     cta: { label: siteConfig.store.whatsapp, href: siteConfig.store.whatsappLink, external: true },
     accent: 'bg-[#25D366]/15 text-[#25D366]',
   },
   {
     icon: Phone,
     title: 'Telefone',
-    description: 'Ligue pra falar direto com a loja.',
+    description: 'Ligue direto para a loja.',
     cta: {
       label: siteConfig.store.phone,
       href: `tel:${siteConfig.store.phone.replace(/\D/g, '')}`,
@@ -28,34 +28,48 @@ const channels = [
     accent: 'bg-brand/15 text-brand',
   },
   {
+    icon: Mail,
+    title: 'E-mail',
+    description: 'Envie sua mensagem por e-mail.',
+    cta: {
+      label: siteConfig.store.email,
+      href: `mailto:${siteConfig.store.email}`,
+    },
+    accent: 'bg-tactical-olive/15 text-tactical-olive',
+  },
+  {
     icon: MapPin,
     title: 'Loja física',
-    description: 'Atendimento presencial e retirada de pedidos.',
+    description: 'Atendimento presencial e retirada.',
     cta: { label: 'Ver endereço e mapa', href: '/loja-fisica' },
-    accent: 'bg-tactical-olive/15 text-tactical-olive',
+    accent: 'bg-tactical-tan/20 text-tactical-tan',
   },
 ]
 
 const faqs = [
   {
-    q: 'Em quantos dias chega?',
-    a: 'Depende do CEP, do tipo de envio e do estoque. SEDEX leva em média 2-4 dias úteis pro Sudeste, PAC 4-7. Em BH e região metropolitana fazemos entrega mais rápida via transportadora própria.',
+    q: 'Como faço meu pedido?',
+    a: 'Você pode comprar diretamente pelo site ou nos chamar pelo WhatsApp. Para retirada na loja física, basta passar no Prado em horário comercial.',
   },
   {
-    q: 'Tem como retirar na loja?',
-    a: 'Sim. Após o pagamento aprovado, o pedido fica disponível pra retirada em até 2h em horário comercial. Você recebe um aviso por WhatsApp.',
+    q: 'Quais formas de pagamento?',
+    a: `Aceitamos cartão de crédito (Rede), com parcelamento ${siteConfig.payment.installmentsLabel.toLowerCase()}.`,
   },
   {
-    q: 'Posso trocar se não servir?',
-    a: 'Pode. O prazo é de 7 dias para arrependimento (CDC) e 30 dias para defeito de fabricação. O item deve estar sem uso, com etiqueta e na embalagem original.',
+    q: 'Posso trocar se o tamanho não servir?',
+    a: `Pode. A política de troca é de até ${siteConfig.exchange.exchangeDays} dias após o recebimento, por defeito de fabricação ou problema de tamanho. O produto deve estar sem indícios de uso, com etiqueta, NF e embalagem original. Para trocas, fale conosco no WhatsApp ${siteConfig.store.whatsappTrocas}.`,
   },
   {
-    q: 'Quais formas de pagamento aceitam?',
-    a: `${siteConfig.payment.methods.join(', ')}. ${siteConfig.payment.installmentsLabel} no cartão.`,
+    q: 'E se eu desistir da compra?',
+    a: `Você tem ${siteConfig.exchange.returnDays} dias úteis para arrependimento, conforme o Código de Defesa do Consumidor. O produto deve voltar intacto, com etiquetas, embalagem original e NF.`,
   },
   {
-    q: 'Como funciona com produtos restritos?',
-    a: 'Itens com restrição legal (uniformes oficiais, distintivos, algemas, etc.) exigem documentação válida no momento da entrega. Detalhes na página "Produtos restritos".',
+    q: 'Qual o prazo de entrega?',
+    a: 'O prazo varia conforme o CEP, o tipo de envio e a disponibilidade do produto. Antes de fechar a compra, fale conosco pelo WhatsApp para confirmar o prazo do seu endereço.',
+  },
+  {
+    q: 'Como funciona a entrega? O que verificar no recebimento?',
+    a: 'Recuse o pedido se a embalagem estiver aberta ou avariada, se o produto estiver danificado, se não for o que você comprou, ou se faltar algum acessório. Em qualquer dessas situações, entre em contato conosco.',
   },
 ]
 
@@ -65,11 +79,11 @@ export default function AtendimentoPage() {
       <PageHeader
         eyebrow="Estamos aqui"
         title="Central de atendimento"
-        description={`Resposta rápida em horário comercial. ${siteConfig.store.hours}.`}
+        description={`${siteConfig.store.hours}.`}
       />
 
       <section className="container-wide py-10">
-        <div className="grid gap-4 md:grid-cols-3">
+        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
           {channels.map((c) => {
             const cta = c.cta
             const isExternal = 'external' in cta && cta.external
@@ -87,14 +101,14 @@ export default function AtendimentoPage() {
                     href={cta.href}
                     target="_blank"
                     rel="noopener"
-                    className="text-brand mt-4 inline-flex items-center text-sm font-semibold uppercase tracking-wider hover:underline"
+                    className="text-brand mt-4 inline-flex items-center text-sm font-semibold hover:underline"
                   >
                     {cta.label} →
                   </a>
                 ) : (
                   <Link
                     href={cta.href}
-                    className="text-brand mt-4 inline-flex items-center text-sm font-semibold uppercase tracking-wider hover:underline"
+                    className="text-brand mt-4 inline-flex items-center text-sm font-semibold hover:underline"
                   >
                     {cta.label} →
                   </Link>

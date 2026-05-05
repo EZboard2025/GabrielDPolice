@@ -14,8 +14,8 @@ export function StoreLocator() {
             Visite a gente em Belo Horizonte
           </h2>
           <p className="text-muted-foreground max-w-md text-sm leading-relaxed">
-            Atendimento especializado, prova de uniformes, retirada de pedidos online em até 2h e
-            avaliação de produtos restritos com nossa equipe.
+            Atendimento presencial, prova de uniformes, retirada de pedidos online e avaliação de
+            produtos restritos com nossa equipe.
           </p>
           <ul className="space-y-3 text-sm">
             <li className="flex items-start gap-3">

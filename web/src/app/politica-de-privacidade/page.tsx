@@ -26,7 +26,7 @@ const sections = [
   },
   {
     title: '5. Compartilhamento',
-    body: 'Compartilhamos dados estritamente necessários com: gateway de pagamento (Mercado Pago), transportadoras (via Melhor Envio), provedores de e-mail transacional e serviços de hospedagem. Não vendemos seus dados.',
+    body: 'Compartilhamos dados estritamente necessários para a execução do contrato: com a empresa responsável pelo processamento de pagamentos e com a transportadora responsável pela entrega. Conforme nossa política, não vendemos seus dados a terceiros.',
   },
   {
     title: '6. Retenção',

@@ -3,12 +3,12 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import {
   ArrowLeft,
-  CheckCircle2,
   CreditCard,
+  MapPin,
   MessageCircle,
+  RefreshCcw,
   ShieldCheck,
   ShoppingBag,
-  Truck,
 } from 'lucide-react'
 import { ProductGallery } from '@/components/product/product-gallery'
 import { ProductGrid } from '@/components/product/product-grid'
@@ -77,10 +77,6 @@ export default async function ProductPage({ params }: Props) {
             <p className="text-muted-foreground text-sm">
               ou {installments(product.price, siteConfig.payment.installments)}
             </p>
-            <p className="text-success inline-flex items-center gap-1.5 pt-1 text-xs font-semibold">
-              <CheckCircle2 className="size-4" />
-              5% de desconto à vista no PIX
-            </p>
           </div>
 
           <div className="space-y-3">
@@ -104,24 +100,26 @@ export default async function ProductPage({ params }: Props) {
 
           <ul className="border-border divide-border divide-y rounded-lg border text-sm">
             <li className="flex items-center gap-3 p-3">
-              <Truck className="text-brand size-4 shrink-0" />
-              <span>
-                Frete grátis a partir de {formatBRL(siteConfig.shipping.freeAbove)} via{' '}
-                {siteConfig.shipping.provider}
-              </span>
-            </li>
-            <li className="flex items-center gap-3 p-3">
               <CreditCard className="text-brand size-4 shrink-0" />
               <span>{siteConfig.payment.installmentsLabel} no cartão de crédito</span>
             </li>
             <li className="flex items-center gap-3 p-3">
+              <RefreshCcw className="text-brand size-4 shrink-0" />
+              <span>
+                Troca em até {siteConfig.exchange.exchangeDays} dias por defeito ou tamanho
+              </span>
+            </li>
+            <li className="flex items-center gap-3 p-3">
               <ShieldCheck className="text-brand size-4 shrink-0" />
-              <span>Compra 100% segura — site protegido com SSL 256 bits</span>
+              <span>Site protegido com SSL 256 bits</span>
             </li>
           </ul>
 
           <div className="border-border bg-secondary/40 rounded-lg border p-4 text-sm">
-            <p className="font-semibold">Retirada na loja física</p>
+            <p className="inline-flex items-center gap-1.5 font-semibold">
+              <MapPin className="text-brand size-4" />
+              Retirada na loja física
+            </p>
             <p className="text-muted-foreground mt-1 text-xs leading-relaxed">
               {siteConfig.store.address}.<br />
               {siteConfig.store.hours}.

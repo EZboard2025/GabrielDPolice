@@ -1,25 +1,27 @@
-import { Award, MapPin, Truck, Users } from 'lucide-react'
+import { Award, Layers, MapPin, ShieldCheck } from 'lucide-react'
+import { siteConfig } from '@/lib/site-config'
+import { categoryCount, productCount } from '@/lib/products'
 
 const stats = [
   {
     icon: Award,
-    title: '10+ anos',
-    description: 'no mercado de equipamentos policiais e militares',
-  },
-  {
-    icon: Users,
-    title: '+15.000',
-    description: 'clientes atendidos em Minas Gerais',
+    title: `Desde ${siteConfig.store.foundedYear}`,
+    description: 'Em Belo Horizonte/MG',
   },
   {
     icon: MapPin,
-    title: 'Loja física BH',
-    description: 'no Prado, com retirada em até 2h',
+    title: 'Loja física no Prado',
+    description: 'Atendimento presencial e retirada de pedidos',
   },
   {
-    icon: Truck,
-    title: 'Frete em todo o BR',
-    description: 'via Melhor Envio (PAC, SEDEX, transportadora)',
+    icon: Layers,
+    title: `${productCount} produtos`,
+    description: `em ${categoryCount} categorias do catálogo`,
+  },
+  {
+    icon: ShieldCheck,
+    title: 'PMMG, PPMG, CBMMG, CT',
+    description: 'Uniformes oficiais por corporação',
   },
 ]
 
@@ -35,17 +37,14 @@ export function AboutSection() {
             Equipamento sério para quem leva a profissão a sério.
           </h2>
           <p className="text-muted-foreground max-w-xl text-sm leading-relaxed">
-            Somos referência em uniformes e equipamentos para PMMG, Polícia Penal, Bombeiro Militar,
-            alunos do Colégio Tiradentes e profissionais de segurança pública e privada. Cada item
-            que vendemos passa por curadoria técnica e atende às regulamentações vigentes.
+            Comércio de uniformes e artigos civis e militares em Belo Horizonte/MG. Atendemos
+            profissionais da PMMG, Polícia Penal MG, Bombeiros Militares e alunos do Colégio
+            Tiradentes.
           </p>
         </div>
         <div className="grid grid-cols-2 gap-4">
           {stats.map((s) => (
-            <div
-              key={s.title}
-              className="bg-card border-border rounded-lg border p-5"
-            >
+            <div key={s.title} className="bg-card border-border rounded-lg border p-5">
               <s.icon className="text-brand mb-3 size-5" />
               <p className="text-lg font-bold leading-tight">{s.title}</p>
               <p className="text-muted-foreground mt-1 text-xs leading-snug">{s.description}</p>

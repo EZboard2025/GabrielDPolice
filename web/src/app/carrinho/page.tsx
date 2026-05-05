@@ -44,8 +44,7 @@ export default function CarrinhoPage() {
             <span>R$ 0,00</span>
           </div>
           <p className="text-muted-foreground pt-2 text-xs">
-            {siteConfig.payment.installmentsLabel} no cartão.{' '}
-            {siteConfig.shipping.freeAboveLabel.toLowerCase()}.
+            {siteConfig.payment.installmentsLabel} no cartão.
           </p>
           <Link
             href="/"

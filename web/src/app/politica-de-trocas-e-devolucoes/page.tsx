@@ -1,45 +1,25 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { CheckCircle2, MessageCircle, RefreshCcw, Truck, XCircle } from 'lucide-react'
+import { CheckCircle2, MessageCircle, RefreshCcw, Undo2, XCircle } from 'lucide-react'
 import { PageHeader } from '@/components/layout/page-header'
 import { siteConfig } from '@/lib/site-config'
 
 export const metadata: Metadata = {
   title: 'Trocas e devoluções',
-  description: `Como funcionam trocas e devoluções na ${siteConfig.name}.`,
+  description: `Política de trocas e devoluções da ${siteConfig.name}.`,
 }
 
 const ok = [
-  'Item sem uso, com etiqueta original',
-  'Embalagem do fabricante preservada',
-  'Solicitação dentro do prazo (7 ou 30 dias)',
-  'Comprovante de compra (pedido ou nota)',
+  'Produto sem indícios de uso',
+  'Etiquetas e tags originais',
+  'Embalagem original preservada',
+  'Nota Fiscal',
 ]
 
 const not = [
-  'Itens íntimos (cuecas, meias) por questões sanitárias',
-  'Produtos personalizados (bordados, gravações)',
-  'Distintivos e insígnias após uso',
-  'Itens danificados por uso inadequado',
-]
-
-const steps = [
-  {
-    title: 'Abra o chamado',
-    body: `Fale com a gente pelo WhatsApp ${siteConfig.store.whatsapp} ou e-mail (em breve), informando o número do pedido.`,
-  },
-  {
-    title: 'Receba a etiqueta de retorno',
-    body: 'Te enviamos a etiqueta paga via Melhor Envio. Postagem em qualquer agência dos Correios.',
-  },
-  {
-    title: 'Inspeção',
-    body: 'Em até 5 dias úteis após o recebimento, conferimos o item e te avisamos.',
-  },
-  {
-    title: 'Reembolso ou troca',
-    body: 'Reembolso na mesma forma de pagamento em até 10 dias úteis. Troca: enviamos o item novo com frete por nossa conta.',
-  },
+  'Itens com sinais de uso',
+  'Produtos sem etiqueta ou embalagem original',
+  'Itens fora do prazo (30 dias troca / 7 dias úteis devolução)',
 ]
 
 export default function TrocasPage() {
@@ -47,34 +27,48 @@ export default function TrocasPage() {
     <>
       <PageHeader
         eyebrow="Pós-venda"
-        title="Política de trocas e devoluções"
-        description="A gente faz questão que você fique satisfeito. Confira como pedir troca ou devolução."
+        title="Trocas e devoluções"
+        description="Confira abaixo as condições e prazos para trocar ou devolver um produto."
       />
 
       <section className="container-wide max-w-4xl py-12">
         <div className="grid gap-4 md:grid-cols-2">
           <div className="border-border bg-card rounded-lg border p-6">
             <RefreshCcw className="text-brand mb-3 size-5" />
-            <h2 className="text-lg font-semibold">Arrependimento</h2>
+            <h2 className="text-lg font-semibold">Troca</h2>
             <p className="text-muted-foreground mt-1 text-sm leading-relaxed">
-              Você tem <span className="text-foreground font-bold">7 dias corridos</span> a partir
-              do recebimento pra desistir da compra (Art. 49 do CDC), sem precisar justificar.
+              Prazo de{' '}
+              <span className="text-foreground font-bold">
+                {siteConfig.exchange.exchangeDays} dias corridos
+              </span>{' '}
+              após o recebimento, por <span className="text-foreground">defeito de fabricação</span>{' '}
+              comprovado ou <span className="text-foreground">problema de tamanho</span>.
+            </p>
+            <p className="text-muted-foreground mt-3 text-sm leading-relaxed">
+              Você pode optar por: produto idêntico, produto de mesmo valor, produto de valor
+              superior (paga a diferença) ou voucher de desconto se o item estiver indisponível.
             </p>
           </div>
           <div className="border-border bg-card rounded-lg border p-6">
-            <Truck className="text-brand mb-3 size-5" />
-            <h2 className="text-lg font-semibold">Defeito de fabricação</h2>
+            <Undo2 className="text-brand mb-3 size-5" />
+            <h2 className="text-lg font-semibold">Devolução</h2>
             <p className="text-muted-foreground mt-1 text-sm leading-relaxed">
-              Prazo de <span className="text-foreground font-bold">30 dias</span> pra produtos
-              não-duráveis e <span className="text-foreground font-bold">90 dias</span> pra
-              duráveis (Art. 26 do CDC), contados da entrega.
+              Prazo de{' '}
+              <span className="text-foreground font-bold">
+                {siteConfig.exchange.returnDays} dias úteis
+              </span>{' '}
+              após o recebimento, conforme o Código de Defesa do Consumidor (direito de
+              arrependimento).
+            </p>
+            <p className="text-muted-foreground mt-3 text-sm leading-relaxed">
+              Aceito por arrependimento ou defeito de fabricação.
             </p>
           </div>
         </div>
 
         <div className="mt-10 grid gap-6 md:grid-cols-2">
           <div>
-            <h3 className="text-base font-semibold">O que aceitamos</h3>
+            <h3 className="text-base font-semibold">Condições aceitas</h3>
             <ul className="text-muted-foreground mt-3 space-y-2 text-sm">
               {ok.map((i) => (
                 <li key={i} className="flex items-start gap-2">
@@ -85,7 +79,7 @@ export default function TrocasPage() {
             </ul>
           </div>
           <div>
-            <h3 className="text-base font-semibold">O que não dá pra trocar</h3>
+            <h3 className="text-base font-semibold">Não aceitamos</h3>
             <ul className="text-muted-foreground mt-3 space-y-2 text-sm">
               {not.map((i) => (
                 <li key={i} className="flex items-start gap-2">
@@ -97,39 +91,22 @@ export default function TrocasPage() {
           </div>
         </div>
 
-        <div className="mt-12">
-          <h3 className="text-xl font-bold tracking-tight">Como solicitar</h3>
-          <ol className="border-border bg-card divide-border mt-4 divide-y rounded-lg border">
-            {steps.map((s, i) => (
-              <li key={s.title} className="flex gap-4 p-5">
-                <span className="bg-brand text-brand-foreground inline-flex size-8 shrink-0 items-center justify-center rounded-full text-sm font-bold">
-                  {i + 1}
-                </span>
-                <div>
-                  <p className="font-semibold">{s.title}</p>
-                  <p className="text-muted-foreground mt-1 text-sm leading-relaxed">{s.body}</p>
-                </div>
-              </li>
-            ))}
-          </ol>
-        </div>
-
         <div className="bg-tactical-charcoal text-background mt-10 flex flex-col gap-4 rounded-xl p-6 md:flex-row md:items-center md:justify-between">
           <div>
-            <p className="font-semibold">Precisa de ajuda agora?</p>
+            <p className="font-semibold">Como solicitar</p>
             <p className="text-background/70 text-sm">
-              Nossa equipe responde em horário comercial pelo WhatsApp.
+              Fale com a gente pelo WhatsApp dedicado a trocas: {siteConfig.store.whatsappTrocas}.
             </p>
           </div>
           <div className="flex gap-2">
             <a
-              href={siteConfig.store.whatsappLink}
+              href={siteConfig.store.whatsappTrocasLink}
               target="_blank"
               rel="noopener"
               className="bg-tactical-tan text-tactical-charcoal hover:bg-tactical-tan/90 inline-flex h-10 items-center gap-1.5 rounded-md px-4 text-xs font-semibold uppercase tracking-wide transition-colors"
             >
               <MessageCircle className="size-4" />
-              WhatsApp
+              WhatsApp Trocas
             </a>
             <Link
               href="/atendimento"

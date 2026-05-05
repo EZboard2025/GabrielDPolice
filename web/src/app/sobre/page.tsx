@@ -1,38 +1,36 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { Award, MapPin, ShieldCheck, Truck } from 'lucide-react'
+import { Award, MapPin, RefreshCcw, ShieldCheck } from 'lucide-react'
 import { PageHeader } from '@/components/layout/page-header'
+import { categoryCount, productCount } from '@/lib/products'
 import { siteConfig } from '@/lib/site-config'
 
 export const metadata: Metadata = {
   title: 'Sobre a D Police',
-  description: 'Quem somos, no que acreditamos e como atendemos a quem leva a profissão a sério.',
+  description: 'Comércio de uniformes e artigos civis e militares em Belo Horizonte/MG.',
 }
 
 const pillars = [
   {
     icon: ShieldCheck,
-    title: 'Curadoria técnica',
+    title: 'Foco em uniformes oficiais',
     description:
-      'Cada modelo passa por avaliação da nossa equipe operacional, com critérios de durabilidade, ergonomia e conformidade com regulamento.',
+      'Trabalhamos com PMMG, Polícia Penal MG, Bombeiros Militares, Colégio Tiradentes e linha CFSD.',
   },
   {
     icon: Award,
-    title: 'Marcas reconhecidas',
-    description:
-      'Trabalhamos só com fabricantes auditados, com NF, garantia e reposição de peças quando aplicável.',
+    title: 'Loja física consolidada',
+    description: `Atuamos desde ${siteConfig.store.foundedYear} no Prado, em Belo Horizonte/MG.`,
   },
   {
-    icon: Truck,
-    title: 'Entrega em todo o BR',
-    description:
-      'Enviamos via Melhor Envio (PAC, SEDEX, transportadora) com rastreio. Frete grátis a partir de R$ 300.',
+    icon: RefreshCcw,
+    title: 'Política de troca e devolução',
+    description: `Troca em ${siteConfig.exchange.exchangeDays} dias por defeito ou tamanho. Devolução em ${siteConfig.exchange.returnDays} dias úteis (CDC).`,
   },
   {
     icon: MapPin,
-    title: 'Loja física no Prado',
-    description:
-      'Atendimento presencial pra prova de uniformes, retirada em até 2h e demonstração de equipamentos táticos.',
+    title: 'Atendimento em BH e online',
+    description: 'Loja física no Prado e venda online com pedido e dúvida pelo WhatsApp.',
   },
 ]
 
@@ -41,32 +39,30 @@ export default function SobrePage() {
     <>
       <PageHeader
         eyebrow="Quem somos"
-        title="Equipamento sério para quem leva a profissão a sério."
-        description="A D Police nasceu em Belo Horizonte com a missão de dar acesso a uniformes e equipamentos confiáveis pra forças de segurança, alunos do Colégio Tiradentes e profissionais do setor privado."
+        title="D Police — uniformes e artigos civis e militares."
+        description="Comércio especializado de fardamento, calçado e equipamentos para forças de segurança e alunos do Colégio Tiradentes, com loja física em Belo Horizonte/MG."
       />
 
       <section className="container-wide grid gap-10 py-12 lg:grid-cols-2">
         <div className="space-y-4 text-sm leading-relaxed md:text-base">
           <p>
-            Somos especialistas em fardamento e equipamentos táticos para PMMG, Polícia Penal MG,
-            Corpo de Bombeiros Militar, alunos do Colégio Tiradentes e profissionais de segurança
-            pública e privada em todo o Brasil.
+            A {siteConfig.name} ({siteConfig.legalName}) atua no comércio de uniformes e artigos
+            civis e militares, com loja física em Belo Horizonte/MG desde{' '}
+            {siteConfig.store.foundedYear}.
           </p>
           <p>
-            Mais do que vender, nosso compromisso é entregar peças que tenham uso real em campo —
-            por isso testamos os modelos com nossos próprios consultores, em condições de operação,
-            antes de oferecer pra você.
+            Nosso catálogo inclui itens para profissionais da PMMG, Polícia Penal MG, Bombeiros
+            Militares, alunos do Colégio Tiradentes e candidatos do CFSD, além de calçados,
+            coldres, mochilas e acessórios táticos.
           </p>
-          <p>
-            Atuamos dentro das regulamentações vigentes para produtos restritos. Itens
-            controlados pelo Exército, distintivos e uniformes oficiais exigem documentação
-            válida no momento da entrega — isso protege a corporação e o profissional.
+          <p className="text-muted-foreground text-sm">
+            CNPJ {siteConfig.store.cnpj}.
           </p>
           <Link
             href="/loja-fisica"
             className="text-brand inline-flex items-center gap-1 text-sm font-semibold uppercase tracking-wider hover:underline"
           >
-            Conheça nossa loja física →
+            Ver endereço e horário →
           </Link>
         </div>
 
@@ -76,19 +72,19 @@ export default function SobrePage() {
           </p>
           <div className="grid gap-6 sm:grid-cols-2">
             <div>
-              <p className="text-3xl font-bold">10+</p>
+              <p className="text-3xl font-bold">{new Date().getFullYear() - siteConfig.store.foundedYear}+</p>
               <p className="text-background/70 text-xs uppercase tracking-wider">anos de mercado</p>
             </div>
             <div>
-              <p className="text-3xl font-bold">15.000+</p>
+              <p className="text-3xl font-bold">{productCount}</p>
               <p className="text-background/70 text-xs uppercase tracking-wider">
-                clientes em MG e BR
+                produtos no catálogo
               </p>
             </div>
             <div>
-              <p className="text-3xl font-bold">112</p>
+              <p className="text-3xl font-bold">{categoryCount}</p>
               <p className="text-background/70 text-xs uppercase tracking-wider">
-                produtos no catálogo
+                categorias de produto
               </p>
             </div>
             <div>

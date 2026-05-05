@@ -23,15 +23,7 @@ const institutionalLinks = [
   { href: '/atendimento', label: 'Central de atendimento' },
 ]
 
-const paymentMethods = [
-  'PIX',
-  'Crédito Visa',
-  'Crédito Master',
-  'Crédito Elo',
-  'Crédito Hiper',
-  'Crédito Amex',
-  'Boleto',
-]
+const paymentMethods = ['Cartão de Crédito (Rede)']
 
 export function Footer() {
   return (
@@ -115,7 +107,7 @@ export function Footer() {
           <h3 className="text-background mb-4 text-xs font-semibold uppercase tracking-widest">
             Formas de pagamento
           </h3>
-          <ul className="grid grid-cols-2 gap-2 text-xs">
+          <ul className="grid gap-2 text-xs">
             {paymentMethods.map((method) => (
               <li
                 key={method}
@@ -127,7 +119,6 @@ export function Footer() {
           </ul>
           <div className="mt-5 space-y-2 text-xs opacity-75">
             <p>{siteConfig.payment.installmentsLabel}.</p>
-            <p>Frete via {siteConfig.shipping.provider} (PAC, SEDEX, transportadoras).</p>
             <p>Site protegido com certificado SSL 256 bits.</p>
           </div>
         </div>

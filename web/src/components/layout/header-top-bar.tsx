@@ -1,4 +1,4 @@
-import { MapPin, MessageCircle, Phone, Truck } from 'lucide-react'
+import { Clock, MapPin, MessageCircle, Phone } from 'lucide-react'
 import { siteConfig } from '@/lib/site-config'
 
 export function HeaderTopBar() {
@@ -6,13 +6,13 @@ export function HeaderTopBar() {
     <div className="bg-tactical-charcoal text-background/90 hidden border-b border-white/5 text-xs md:block">
       <div className="container-wide flex h-9 items-center justify-between">
         <div className="flex items-center gap-5">
-          <span className="inline-flex items-center gap-1.5">
-            <Truck className="size-3.5" />
-            {siteConfig.shipping.freeAboveLabel}
-          </span>
           <span className="inline-flex items-center gap-1.5 opacity-80">
             <MapPin className="size-3.5" />
             Loja física no Prado, BH
+          </span>
+          <span className="hidden items-center gap-1.5 opacity-80 lg:inline-flex">
+            <Clock className="size-3.5" />
+            {siteConfig.store.hours}
           </span>
         </div>
         <div className="flex items-center gap-5">
@@ -32,7 +32,6 @@ export function HeaderTopBar() {
             <Phone className="size-3.5" />
             {siteConfig.store.phone}
           </a>
-          <span className="hidden opacity-70 lg:inline">{siteConfig.store.hours}</span>
         </div>
       </div>
     </div>

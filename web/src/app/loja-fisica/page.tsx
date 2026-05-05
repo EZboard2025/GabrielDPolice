@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Car, Clock, MapPin, MessageCircle, Phone } from 'lucide-react'
+import { Clock, Mail, MapPin, MessageCircle, Phone } from 'lucide-react'
 import { PageHeader } from '@/components/layout/page-header'
 import { siteConfig } from '@/lib/site-config'
 
@@ -14,7 +14,7 @@ export default function LojaFisicaPage() {
       <PageHeader
         eyebrow="Atendimento presencial"
         title="Loja física no Prado, BH"
-        description="Atendimento especializado, prova de uniformes, retirada de pedidos online em até 2h e demonstração de produtos táticos."
+        description="Atendimento presencial, prova de uniformes, retirada de pedidos online e venda direta."
       />
 
       <section className="container-wide grid gap-8 py-12 lg:grid-cols-[1fr_1.4fr]">
@@ -63,12 +63,15 @@ export default function LojaFisicaPage() {
               </div>
             </li>
             <li className="flex items-start gap-3 p-4">
-              <Car className="text-brand mt-0.5 size-4 shrink-0" />
+              <Mail className="text-brand mt-0.5 size-4 shrink-0" />
               <div>
-                <p className="text-muted-foreground text-xs uppercase tracking-wider">
-                  Estacionamento
-                </p>
-                <p className="font-medium leading-snug">Gratuito na frente da loja.</p>
+                <p className="text-muted-foreground text-xs uppercase tracking-wider">E-mail</p>
+                <a
+                  href={`mailto:${siteConfig.store.email}`}
+                  className="font-medium leading-snug hover:underline"
+                >
+                  {siteConfig.store.email}
+                </a>
               </div>
             </li>
           </ul>

@@ -20,22 +20,20 @@ type Slide = {
 const slides: Slide[] = [
   {
     eyebrow: 'CFSD 2025 PMMG',
-    title: 'Kit completo do Soldado',
-    description:
-      'Tudo que você precisa pra começar o curso: gandola, calça operacional, coturno, boina e brevês — em um só lugar.',
-    cta: { label: 'Montar meu kit', href: '/categoria/cfsd-2025-pmmg' },
+    title: 'Kit do Soldado',
+    description: 'Itens para o Curso de Formação de Soldados da PMMG.',
+    cta: { label: 'Ver itens', href: '/categoria/cfsd-2025-pmmg' },
     accent: 'brand',
     image: {
       src: '/banners/cfsd-soldado.png',
-      alt: 'Soldado com gandola operacional, calça tática, cinto e coturno',
+      alt: 'Soldado uniformizado',
       position: 'cover',
     },
   },
   {
-    eyebrow: 'Linha Operacional',
+    eyebrow: 'Calçados',
     title: 'Coturnos táticos',
-    description:
-      'Modelos selecionados de couro legítimo com solado anti-derrapante. Em até 6x sem juros.',
+    description: 'Coturnos para uso operacional.',
     cta: { label: 'Ver coturnos', href: '/categoria/calcados/coturnos' },
     accent: 'destructive',
     image: {
@@ -46,10 +44,9 @@ const slides: Slide[] = [
   },
   {
     eyebrow: 'Colégio Tiradentes',
-    title: 'Volta às aulas pronta',
-    description:
-      'Uniforme oficial, ed. física e acessórios validados pela escola — entrega em BH no mesmo dia.',
-    cta: { label: 'Comprar agora', href: '/categoria/colegio-tiradentes' },
+    title: 'Uniforme escolar',
+    description: 'Uniformes, educação física e acessórios do Colégio Tiradentes.',
+    cta: { label: 'Ver uniformes', href: '/categoria/colegio-tiradentes' },
     accent: 'olive',
     image: {
       src: '/banners/colegio-tiradentes.png',
